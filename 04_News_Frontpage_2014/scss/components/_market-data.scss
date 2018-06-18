@@ -1,0 +1,393 @@
+@import "foundation/components/global";
+ .market-data {
+    overflow: hidden;
+    @extend %element-secondary;
+    display: inline-block;
+     .market-data__difference{@extend %brevier; }
+      .index-value{@extend %brevier; color: $iron;}
+     .index-name{@extend %brevier;}
+    tr: hover {
+        background-color: rgba(237, 237, 237, 0.5);
+        cursor: pointer;
+    }
+        caption {
+        text-align: left;
+        padding-top: 16px;
+        padding-left: 16px;
+        background: $smoke;
+        .subheader {
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+    }
+     
+    .markets-subheader {
+        width: 100%;
+        background-color: $iron;
+    }
+     
+    @include respond-to(B) { 
+          margin-left: -16px;
+          margin-right: -16px;
+       
+        tbody {        
+            tr{
+            &:nth-child(2){
+                border-right: 0px;
+            }
+            }
+        }
+    }
+    @include respond-to(C) {   
+        
+            }
+    @include respond-to(D) {
+    
+        }
+     @include respond-to(B-Small) {
+          margin-left: -8px;
+          margin-right: -8px;
+            caption{
+                padding-left: 8px;
+            }
+        }
+     
+     @include respond-to(B-Medium) {
+          tbody {        
+                tr{
+                 &:nth-child(3){
+                     border-bottom: 0px;
+                 }
+                 &:nth-child(4){
+                     border-bottom: 0px;
+                 }
+                }
+        }
+        }
+     
+    
+     
+     
+    @media #{
+        $xxlarge-only
+    }
+    {
+        .icon-arrow-up, .icon-arrow-bottom {
+            padding-right: 4px;
+        }
+        .xxlarge-block-grid-1 {
+            .market-block {
+                height: 100%;
+                padding: 12px 12px 6px 12px;
+                .index-value, .market-data__difference, .index-name, .color-flag, .index-value-icon {
+                    display: inline-block;
+                }
+                .market-data__status {
+                    position: initial;
+                    display: inline-block;
+                    float: right;
+                }
+                .color-flag {
+                    float: right;
+                }
+                .index-value-icon {
+                    padding: 0px 0 0 6px;
+                }
+                .index-value {
+                    min-width: 74px;
+                    text-align: right;
+                }
+            }
+        }
+    }
+    clear:both;
+    .index-name {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .index-value-icon {
+        display: inline-block;
+    }
+    .market-data__difference {
+        display: inline-block;
+        font-weight: 400;
+    }
+    .market-block {
+        background-color: $iron;
+        display: block;
+        height: auto;
+        float: left;
+        padding: 12px 12px 12px 12px;
+        width: 100%;
+        height: 114px;
+        position: relative;
+        .market-data__status {
+            position: absolute;
+            bottom: 8px;
+            left: 12px;
+        }
+        .index-value {
+            color: #404040;
+        }
+    }
+    .maket-data__container {
+        margin: 0 8px;
+        li {
+            padding: 0 1px 1px 0;
+        }
+    }
+
+   
+    .timestamp {
+        li {
+            border-right: 0px;
+        }
+        padding:10px 4px 8px 12px;
+        margin-bottom:0px;
+        width: 100%;
+        border-top:1px solid darken($keyline-color,
+        2);
+        border-bottom:1px solid darken($keyline-color,
+        2);
+        .mini-info-list__item {
+            color: #767676;
+        }
+        li:last-child {
+            vertical-align: top;
+            float: right;
+        }
+    }
+    tr {
+        padding: 12px 16px 8px 16px
+    }
+  
+    table {
+        border-spacing: 0px;
+        width: 100%;
+        tbody {
+            tr: last-child {
+                padding-bottom: 8px;
+            }
+            td:last-child {}
+        }
+    }
+    .green {
+        color: #0f7432;
+    }
+    .red {
+        color: $brand-color;
+    }
+    th {
+        font-weight: 400;
+    }
+}
+@media #{
+    $small-up
+}
+ {}@media #{
+    $small-only
+}
+{
+   
+    td.index-name {
+        width: 47%;
+    }
+    tr {
+        border-bottom: 1px dotted transparentize($keyline-color, 1);
+    }
+    tr:last-child {
+        border-bottom: 0px;
+    }
+    td.market-data__difference {
+        width: 19.8%;
+        text-align: right;
+    }
+    td.index-value {
+        width: 30%;
+        text-align: right;
+        color: #404040;
+    }
+    td.index-value-icon {
+        width: 9%;
+        text-align: center;
+    }
+}
+// GROUP B
+@media #{
+    $medium-up
+}
+ {}@media #{
+    $medium-only
+}
+{
+   
+     tr {
+        border-right: 1px solid transparentize($keyline-color, 0.8);
+        border-bottom: 1px solid transparentize($keyline-color, 0.8);
+    }
+
+    .market-data{   
+    td.index-name {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    
+    tr:last-child {
+        border-right: 0px;
+    }
+  
+   
+    td.market-data__difference {
+        display: inline-block;
+        width: auto;
+        text-align: left;
+        float: left;
+        padding-right: 8px;
+    }
+    td.index-value {
+        display: inline-block;
+        width: auto;
+        text-align: left;
+        color: #404040;
+    
+    }
+    td.index-value-icon {
+        display: block;
+        width: 8%;
+        text-align: left;
+    }
+      td.brilliant.market-data__difference {
+        font-size: 18px;
+        line-height:22px;
+        
+    }
+    
+}
+    }
+// GROUP C
+@media #{
+    $large-only
+}
+{
+    .market-data { 
+    margin-left: -16px;
+        margin-right: -16px;
+    }
+    td.index-name {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    tr {
+        border-right: 1px solid transparentize($keyline-color, 0.4);
+    }
+    td.market-data__difference {
+        display: block;
+        width: auto;
+        text-align: left;
+        float: left;
+        padding-right: 5px;
+    }
+    tr:last-child {
+        border-right: 0px;
+    }
+    td.index-value {
+        display: inline-block;
+        width: auto;
+        text-align: left;
+        color: #404040;
+       
+        
+    }
+    td.index-value-icon {
+        display: block;
+        width: 8%;
+        text-align: left;
+    }
+      .gel-off td.brilliant.market-data__difference {
+        font-size: 18px;  
+      
+          line-height: 22px;
+    }
+    
+}
+// GROUP C
+@media #{
+    $xlarge-up
+}
+ {}@media #{
+    $xlarge-only
+}
+{
+     .market-data { 
+    margin-left: -16px;
+        margin-right: -16px;
+    }
+    td.index-name {
+        width: 100%;
+        padding: 0 0 8px 0;
+    }
+    tr {
+        border-right: 1px solid transparentize($keyline-color, 0.4);
+    }
+    tr:last-child {
+        border-right: 0px;
+    }
+    td.market-data__difference {
+        display: inline-block;
+        width: auto;
+        text-align: left; 
+        float: left;
+    }
+    
+    .gel-off td.brilliant.market-data__difference {
+        font-size: 18px; 
+        line-height: 22px;
+         padding-right: 8px;
+    }
+    
+    
+    td.index-value {
+        display: inline-block;
+        width: auto;
+        text-align: left;
+        color: #404040;
+     
+    }
+    td.index-value-icon {
+        display: block;
+        width: 8%;
+        text-align: left;
+    }
+}
+// GROUP D
+@media #{
+    $xxlarge-up
+}
+ {}@media #{
+    $xxlarge-only
+}
+{
+    td.index-name {
+        width: 47%;
+    }
+    tr {
+        border-bottom: 1px solid transparentize($keyline-color, 0.4);
+    }
+    tr:last-child {
+        border-bottom: 0px;
+    }
+    td.market-data__difference {
+        width: 19.8%;
+        text-align: right;
+    }
+    td.index-value {
+        width: 30%;
+        text-align: right;
+        color: #404040;
+    }
+    td.index-value-icon {
+        width: 9%;
+        text-align: center;
+    }
+}

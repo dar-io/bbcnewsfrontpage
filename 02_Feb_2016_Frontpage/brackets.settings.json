@@ -1,0 +1,5 @@
+{
+ // Automatically indent when creating a new block
+	"smartIndent": false
+
+}

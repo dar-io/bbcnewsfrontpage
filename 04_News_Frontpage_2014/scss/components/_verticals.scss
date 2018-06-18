@@ -1,0 +1,19 @@
+@import "foundation/components/global";
+.digest-inator{
+&.verticals{
+      background-color: #fff;
+    padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+       > .row .row{
+       @extend %element;
+        }
+        .block{
+            background-color: $secondary-color;
+        }
+    
+}
+
+
+}

@@ -1,0 +1,389 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+.article{
+    .secondary{
+      
+        @include respond-to(D) {
+        &.withBorder{
+            padding: 8px 8px 0 24px;
+            &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            border-left: 1px solid #ededed;
+            height: 43%;
+            left: 8px;
+        }
+        }
+        
+        }
+    }
+    
+}
+.story-body{ 
+    .story-body__inner{
+    margin-left: auto;
+       
+      @include respond-to(D) {   
+         margin-right: calc(100% / 12); 
+      }
+    @include respond-to(C) { 
+         margin-left: calc(100% / 12);
+        margin-right: calc(100% / 12);
+     }
+    }
+    .story-body__h1{
+        @extend %trafalgar;
+        font-weight: 700;
+    }
+  
+    .byline{
+        @extend %byline;
+        @extend %molecule;
+        .byline__name{
+            display: block;
+        }
+    }
+    .story-body__mini-info-list-and-share{
+        border-bottom: 1px solid $keyline-color;
+        overflow: auto;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    p {
+        @extend %pica-gel;
+        color: $text-color;
+        margin-top: 18px;
+        }
+    .media-caption__text {
+        @extend %brevier;
+        color: #ECECEC;
+        display: block;
+        
+    }
+    .story-body__introduction {
+        &+p{
+             margin-top: 23px;
+        }
+        margin-top: 24px;
+        color: #404040;
+        font-weight: bold;
+    }
+    figure {  
+        margin-top: 24px;
+        img {
+            display: block;
+            width: 100%;
+            }
+    }
+    .full-width{
+        @include respond-to(DC-Only) { 
+         margin-right: calc(-100% / 21);
+        }
+        &.lead {
+        margin-top: 16px;
+        margin-left: 0;
+            
+             @include respond-to(D) { 
+                 
+             }
+        margin-right: calc(-100% / 11);
+             @include respond-to(B) { 
+        margin-right:0;
+        }
+        @include respond-to(C) { 
+            margin-top: 32px;
+            margin-left: -10%;
+            margin-right: -10%;
+     }
+        }
+    }
+    .media-caption {
+        padding: 16px;
+        }
+    
+    .has-caption {
+        background-color: #111;
+        }
+    
+    aside {
+        display: block;
+        
+        @include respond-to(B) {
+            display: none;
+        }
+        }
+    .quote{
+        .icon-quote {
+            font-size: 32px;
+            }
+         blockquote {
+            @extend %agate;
+            font-weight: 700;
+            padding-top: 1px;
+            padding-bottom: 3px;
+    }
+        footer {
+            @extend %brevier;
+            font-weight: 300;
+            padding-top: 1px;
+            padding-top: 0.1rem;
+            padding-bottom: 3px;
+            padding-bottom: 0.3rem;
+            color: #808080;
+            display: block;
+            background: none;
+            height: auto;
+        }
+    }
+   
+     aside.quote,
+    .pullout {
+        width: calc(100% / 3);
+        
+         @include respond-to(D) { 
+        left: 24px;
+         position: relative;
+         }
+        
+         @extend %agate;      
+        padding-top: 1px;
+        padding-top: 0.1rem;
+        padding-bottom: 3px;
+        padding-bottom: 0.3rem;
+        font-weight: 300;
+        background-color: #FFF;
+        margin-bottom: 24px;
+        margin-top: 18px;
+        margin-left: 16px;
+        float: right;
+        clear: both;
+         .heading {
+            border-bottom: 1px solid $keyline-color;
+            @extend %double-pica;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding-bottom: 16px;
+            }
+        .pullout-inner,
+        .quote-inner{
+            padding: 8px 0 0;
+            border-top: 8px solid $keyline-color;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+    
+   .story-body__crosshead {
+            margin-top: 18px;
+            @extend %double-pica;
+       letter-spacing: normal !important;
+            }
+    
+    .mini-hyper{
+        .unit__meta {
+            display: none;
+        }
+        
+    }
+   
+  
+    .related-items {
+        margin-top: 18px;
+        overflow: hidden;
+        padding: 0;
+        
+         li.unit {
+            margin-bottom: 16px;
+            margin-left: 0;
+            padding-left: 0;
+         }
+        }
+}
+ a .cta {
+        @extend %agate;
+        color: #000;
+        font-weight: 700;
+        }
+.ghost-column{
+    
+    &.share{
+        margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: calc(100% / 12);
+        @include respond-to(C) {margin-right: calc(100% / 12); margin-left: calc(100% / 12); }
+    }
+}
+
+
+
+.share {
+    clear: both;
+    margin-top: 32px;
+    overflow: hidden;
+    padding-bottom: 0;
+    zoom: 1;
+    .share__title {
+        @extend %double-pica;
+        letter-spacing: -0.0425em;
+        font-weight: 700;
+        padding-top: 4px;
+        padding-top: 0.4rem;
+        padding-bottom: 4px;
+        a {
+            font-size: 0.5em;
+            font-weight: normal;
+            letter-spacing: normal;
+    }
+    }
+
+    .share__tools {
+        margin-left: -8px;
+        margin-right: -8px;
+        overflow: hidden;
+        box-sizing: border-box;
+        float: left;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        zoom: 1;
+        width: 100%;
+        .share__tool {
+            padding-left: 8px;
+            padding-right: 8px;
+            width: calc(100% / 3);
+            box-sizing: border-box;
+            float: left;
+            margin-bottom: 0px;
+        }
+        .share__tool--email a {
+            height: 28px;
+            line-height: 1;
+
+        }
+        .share__tool a {
+            background-color: #615F5D;
+            color: #FFF;
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .share__tool--facebook a {
+            background-color: #3C5A98;
+            background-position: center -6px;
+            }
+        .share__tool--twitter a {
+            background-color: #47C7FA;
+            background-position: center -46px;
+            }
+    }
+}
+
+.group__title {
+     @extend %double-pica;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.0425em;
+    font-weight: 700;
+    margin-bottom: .5em;
+    a .cta{
+         @extend %double-pica;
+    }
+}
+.group__header {
+border-bottom: 1px solid #DCDCDC;
+margin-bottom: 24px;
+}
+
+.story-more{
+    .story-alsos{
+        margin-top: 40px;
+        padding-bottom: 8px;
+    }
+    .group {
+        border-top: 8px solid #DCDCDC;
+        padding-top: 8px;
+        &:after {
+            clear: both;
+            content: '\0020';
+            display: block;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+            }
+    }
+    
+    .unit {
+        margin-bottom: 18px;
+        }
+     
+.hyperpuff .unit:nth-child(2n+1) {
+
+}
+    .hyperpuff{
+        &.fetched{
+            .group:first-child {
+            padding-top: 0;
+            border-top: 0;
+            
+                @include respond-to(B) { 
+                .unit+.unit+.unit+.unit+.unit {
+                    display: none;  
+                }
+            }
+            }
+                  
+        }
+    
+        .group{
+           
+            padding-bottom: 8px;
+            
+        }
+        .unit {
+            @include respond-to(DC-Only) {
+             clear: none;
+            float: left;
+            width: 50%;
+            }
+            
+           
+        
+            &:nth-child(2n+1){
+                clear: left;
+            }
+            
+            &:after {
+                clear: both;
+                }
+            &:before,
+            &:after {
+                content: '';
+                display: block;
+                height: 0;
+                overflow: hidden;
+                }
+            &>a {
+                margin-right: 16px;
+                }
+            .unit__link-wrapper {
+                display: block;
+                }
+            .unit__body {
+                display: table-cell;
+                }
+            .unit__header {
+                padding-bottom: 0;
+                }
+            .unit__title {
+                @extend %pica-gel;
+            }
+        }
+
+    }
+}

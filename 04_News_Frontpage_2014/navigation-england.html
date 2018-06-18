@@ -1,0 +1,369 @@
+<html>
+  <head>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+   <script>
+ $(document).ready(function($) {
+    $('#accordion').find('.navigation-group-title').click(function(){
+$(this).toggleClass('open close');
+      
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".navigation-group").not($(this).next()).slideUp('fast');
+  
+    });
+  });
+  </script>
+   <style>
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, input, textarea, button, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+    body{
+font-family: Helmet,Freesans,Helvetica,Arial,sans-serif !important;
+}
+ol, ul {
+  list-style: none; 
+}
+.navigation{
+background: #000;
+}
+.menu_container{
+  margin: 0 8px;
+}
+.navigation-group-title {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 9px 8px;
+    position: relative;
+    cursor: pointer;
+}
+.region{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 32px 8px 16px 8px;
+    color: #404040;
+}
+.level-2:first-child .region{
+  padding: 24px 8px 16px 8px;  
+}
+.item{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 12px 0px 11px 8px;
+    border-top: 1px solid #444444;
+    color: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+.item:hover{
+    text-decoration: underline;
+}
+.navigation-group-title{
+clear: both;
+font-size: 16px;
+line-height: 20px;
+}
+.open.arrow:after{
+transform: rotate(-90deg);
+}
+.close.arrow:after{
+transform: rotate(90deg);
+}
+ .navigation-group.close {
+display: none;
+}
+
+.arrow:after{
+content: '';
+background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 23 32'><path d='M0 26.651l15.588-10.536-15.588-10.778v-5.337l23.41 16.102-23.41 15.898z' fill='#ffffff'></path></svg>");
+    height:13px;
+    width:13px;
+    background-size: 12px 12px;
+    color: #000;
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+      
+}    
+     [class^="icon-svg-"], [class*=" icon-svg-"]{
+        vertical-align: top;
+    height:18px;
+    width:18px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: inline-block;
+     margin-right: 8px;
+     }
+    .icon-svg-video-audio{
+     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' enable-background='new 0 0 32 32' fill='#ffffff'><path d='M3 32l26-16-26-16z'></path></svg>");
+    background-size: 14px 14px;
+    margin-left: 2px;
+        margin-right: 6px;
+    }
+       .icon-svg-in-pictures{
+     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 32 32'><path d='M9 5v-2h-5v2h-4v24h32v-24h-23zm-2.5 8c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zm13.5 13c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9zM20 11.5c-3.03 0-5.5 2.47-5.5 5.5s2.47 5.5 5.5 5.5 5.5-2.47 5.5-5.5-2.47-5.5-5.5-5.5z' fill='#ffffff'></path></svg>");
+    }
+       
+      .icon-svg-magazine{
+     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 32 32'><path d='M9 5v-2h-5v2h-4v24h32v-24h-23zm-2.5 8c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zm13.5 13c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9zM20 11.5c-3.03 0-5.5 2.47-5.5 5.5s2.47 5.5 5.5 5.5 5.5-2.47 5.5-5.5-2.47-5.5-5.5-5.5z' fill='#ffffff'></path></svg>");
+    }
+       
+   .icon-svg-most-popular{
+     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' enable-background='new 0 0 32 32'><path d='M0 4.57c.53 0 1.05-.04 1.55-.13s.96-.24 1.37-.44c.41-.21.75-.47 1.04-.8.29-.33.47-.73.56-1.2h1.53v14.93h-2.24v-10.36h-3.81v-2zM18.89 23.27h-10.6c.01-1.29.32-2.41.93-3.37.61-.96 1.43-1.8 2.48-2.51.5-.37 1.03-.73 1.57-1.08.55-.35 1.05-.72 1.51-1.12.46-.4.83-.83 1.13-1.3.3-.47.45-1 .47-1.61 0-.28-.03-.58-.1-.9-.07-.32-.19-.61-.39-.89-.19-.27-.46-.5-.8-.69-.34-.18-.78-.28-1.33-.28-.5 0-.92.1-1.25.3-.33.2-.6.47-.8.82-.2.35-.35.76-.44 1.23-.1.47-.15.98-.17 1.53h-2.52c0-.86.11-1.65.34-2.38.23-.73.57-1.36 1.03-1.9.46-.53 1.02-.95 1.67-1.25.66-.3 1.42-.45 2.3-.45.94 0 1.74.15 2.37.47.63.31 1.15.7 1.54 1.17.39.47.67.99.83 1.54.16.55.24 1.08.24 1.59 0 .62-.1 1.18-.29 1.68-.19.5-.45.96-.78 1.39-.32.42-.69.81-1.11 1.16-.41.36-.84.69-1.29 1-.44.31-.89.61-1.33.89-.44.28-.85.56-1.23.84-.38.28-.71.57-.99.88-.28.3-.47.62-.58.96h7.56v2.28zM24.8 20.55c.41.01.83-.01 1.24-.09.41-.07.78-.2 1.11-.39.32-.18.59-.44.79-.77.2-.32.3-.72.3-1.2 0-.67-.23-1.2-.68-1.6-.45-.4-1.03-.6-1.74-.6-.44 0-.83.09-1.15.27-.32.18-.6.42-.81.72-.21.3-.37.64-.48 1.02-.1.38-.15.77-.13 1.16h-2.53c.03-.75.17-1.45.42-2.09s.6-1.2 1.03-1.67c.44-.47.96-.84 1.59-1.11.62-.27 1.32-.4 2.11-.4.61 0 1.2.09 1.79.27.58.18 1.11.44 1.57.78.47.34.84.77 1.12 1.3.28.52.42 1.13.42 1.81 0 .78-.18 1.47-.53 2.05-.36.58-.91 1.01-1.66 1.27v.04c.89.18 1.58.62 2.07 1.32.5.7.74 1.56.74 2.56 0 .74-.15 1.4-.44 1.98-.3.58-.7 1.08-1.2 1.49-.5.41-1.09.72-1.75.94-.67.22-1.37.33-2.11.33-.9 0-1.69-.13-2.36-.39-.67-.26-1.23-.62-1.68-1.1-.45-.47-.79-1.04-1.03-1.71-.24-.67-.36-1.4-.38-2.22h2.53c-.03.95.2 1.73.7 2.36.5.63 1.24.94 2.23.94.84 0 1.55-.24 2.12-.72.57-.48.85-1.16.85-2.05 0-.61-.12-1.09-.35-1.44-.24-.35-.55-.62-.93-.81-.39-.18-.82-.3-1.3-.34-.48-.04-.97-.06-1.47-.04v-1.87z' fill='#ffffff'></path></svg>");  
+    background-size: 18px 18px;
+    }
+       
+    .icon-svg-local-news{
+     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 32 32'><path d='M25.12 17.16c1.19-1.76 1.88-3.88 1.88-6.16 0-6.08-4.92-11-11-11s-11 4.92-11 11c0 2.28.69 4.4 1.88 6.16l9.12 14.84 9.12-14.84zm-9.12-10.16c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4z' fill='#ffffff'></path></svg>");
+    }
+          
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+       
+.level-2.nations {
+  margin-left: 16px;
+
+}
+.nations .navigation-group{
+    margin-left: -24px;
+    }
+.navigation-group{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    }
+       
+.nations .item{padding-left: 0px;margin-left: 0}
+.uk.item{border-bottom: 1px solid #444444; }
+ .navigation-group-expanded,.navigation-group {
+border-right: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+background-color: #231F20;
+margin-left: -16px;
+margin-right: -8px;
+padding-left:24px;
+       
+         
+}
+        ul.navigation-group-expanded li, ul.navigation-group li {
+           padding-right: 8px;
+           display: inline-block;
+}
+.navigation-group-expanded .item, .navigation-group .item{
+border-top: 0;
+padding-left: 8px;
+padding-right: 8px;
+    margin-left: -8px;
+    flex-grow: 1;
+    width: 50%;
+    box-sizing: border-box;
+}
+.nations_container .level-2:first-child .item{
+border-top: 0px;
+}
+.nav-footer .navigation-group-title{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #1B1B1B;
+    margin-left: -8px;
+    margin-right: -8px;
+        padding-left: 16px;
+    color: #B0B0B0;
+  -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 18px;
+    border-top: 0;
+}
+  .nav-footer .navigation-group-title{
+      border-top: 1px solid #2c2c2c;
+      border-bottom:1px solid #000;
+  }     
+</style>
+</head>
+<body>
+ 
+
+ <div id='accordion' class="navigation">
+ <ul class="menu_container ">
+   <li class="level-2 ">   
+                <h2 class="navigation-group-title item">Home > England </h2>
+            <ul class="navigation-group-expanded">
+                <li class="level-3 item"><a href="">England Home</a></li>
+                <li class="level-3 item"><a href="">Local Regions</a></li>
+                </ul>
+            </li>
+             
+            
+  <li class="level-2 ">   
+                <h2 class="navigation-group-title item"><span class="icon-svg-local-news"></span>Find local News</h2>
+            </li>
+  <li class="level-1">
+     <h2 class="nation uk item">UK</h2>
+       <ul class="nations_container">
+            <li class="level-2 nations">   
+                <h3 class="navigation-group-title close arrow item " >England</h3>
+              
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">England Home</a></li>
+                <li class="level-3 item"><a href="">Local Regions</a></li>
+                </ul>
+                
+            </li>
+             <li class="level-2 nations accordion-section-title">   
+                <h2 class="navigation-group-title arrow item close">Northern Ireland</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Northern Ireland Home</a></li>
+                <li class="level-3 item"><a href="">Northern Ireland Politics</a></li>
+                </ul>
+            </li>
+             <li class="level-2 nations ">   
+                <h2 class="navigation-group-title arrow close item">Scotland</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Scotland Home</a></li>
+                <li class="level-3 item"><a href="">Scotland Politics</a></li>
+                <li class="level-3 item"><a href="">Scotland Business</a></li>
+                <li class="level-3 item"><a href="">Edinburgh, Fife & East</a></li>
+                <li class="level-3 item"><a href="">Glasgow & West</a></li>
+                <li class="level-3 item"><a href="">Highlands & Islands</a></li>
+                <li class="level-3 item"><a href="">NE, Orkney & Shetland</a></li>
+                <li class="level-3 item"><a href="">South</a></li>
+                <li class="level-3 item"><a href="">Tayside & Central</a></li>
+                <li class="level-3 item"><a href="">Alba</a></li>
+                </ul>
+            </li>
+            
+              <li class="level-2 nations">   
+                <h2 class="navigation-group-title arrow close item">Wales</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Wales Home</a></li>
+                <li class="level-3 item"><a href="">Wales Politics</a></li>
+                <li class="level-3 item"><a href="">North West</a></li>
+                <li class="level-3 item"><a href="">North East</a></li>
+                <li class="level-3 item"><a href="">Mid</a></li>
+                <li class="level-3 item"><a href="">South West</a></li>
+                <li class="level-3 item"><a href="">South East</a></li>
+                <li class="level-3 item"><a href="">Cymru</a></li>
+                </ul>
+            </li>
+        </ul>
+            <ul>    
+             <li class="level-2">   
+                <h2 class="navigation-group-title arrow close item">World</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">World Home</a></li>
+                <li class="level-3 item"><a href="">Africa</a></li>
+                <li class="level-3 item"><a href="">Asia</a></li>
+                <li class="level-3 item"><a href="">Australia</a></li>
+                <li class="level-3 item"><a href="">Europe</a></li>
+                <li class="level-3 item"><a href="">Latin Amaerica</a></li>
+                <li class="level-3 item"><a href="">Middle East</a></li>
+                <li class="level-3 item"><a href="">US & Canada</a></li>
+                </ul>
+            </li>
+           
+            <li class="level-2">   
+                <h2 class="navigation-group-title arrow close item">Business</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Business Home</a></li>
+                <li class="level-3 item"><a href="">Your Money</a></li>
+                <li class="level-3 item"><a href="">Market Data</a></li>
+                <li class="level-3 item"><a href="">Markets</a></li>
+                <li class="level-3 item"><a href="">Companies</a></li>
+                <li class="level-3 item"><a href="">Economy</a></li>
+                </ul>
+            </li>
+             <li class="level-2 ">   
+                <h2 class="navigation-group-title arrow close item">Politics</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Politics Home</a></li>
+                <li class="level-3 item"><a href="">Election 2015</a></li>
+                <li class="level-3 item"><a href="">Scotland Decides</a></li>
+                <li class="level-3 item"><a href="">Vote 2014</a></li>
+                </ul>
+            </li>
+            <li class="level-2">   
+                <h2 class="navigation-group-title item">Technology</h2>
+            </li>
+            <li class="level-2">   
+                <h2 class="navigation-group-title item">Science</h2>
+            </li>
+             <li class="level-2">   
+                <h2 class="navigation-group-title item">Health</h2>
+            </li>
+              <li class="level-2">   
+                <h2 class="navigation-group-title arrow close item">Education</h2>
+                 <ul class="navigation-group close">
+                <li class="level-3 item"><a href="">Education Home</a></li>
+                <li class="level-3 item"><a href="">School Report</a></li>
+                </ul>
+            </li>
+          
+            <li class="level-2">   
+                <h2 class="navigation-group-title item">Entertainment & Arts</h2>
+            </li>
+              <li class="level-2">   
+                <h2 class="navigation-group-title item">Also in the News</h2>
+            </li>
+               <li class="level-2">   
+                <h2 class="navigation-group-title item "><span class="icon-svg-most-popular"></span>Most Popular</h2>
+            </li>
+              <li class="level-2">   
+                <h2 class="navigation-group-title item"><span class="icon-svg-magazine"></span>Magazine</h2>
+            </li>
+              <li class="level-2">   
+                <h2 class="navigation-group-title item"><span class="icon-svg-in-pictures"></span>In Pictures</h2>
+            </li>
+            <li class="level-2">   
+                <h2 class="navigation-group-title item "><span class="icon-svg-video-audio"></span>Video & Audio</h2>
+            </li>
+           
+        </ul>
+        <ul class="nav-footer">
+             <li class="level-2 open">   
+                <h2 class="navigation-group-title item">In Depth</h2>
+                 <ul class="navigation-group-expanded">
+                <li class="level-3 item"><a href="">Special Reports</a></li>
+                <li class="level-3 item"><a href="">Explainers</a></li>
+                <li class="level-3 item"><a href="">Topics</a></li>
+                <li class="level-3 item"><a href="">Future of News</a></li>
+                </ul>
+            </li>
+             <li class="level-2 open">   
+                <h2 class="navigation-group-title item">Comment & Analysis</h2>
+                 <ul class="navigation-group-expanded">
+                <li class="level-3 item"><a href="">Correspondents</a></li>
+                <li class="level-3 item"><a href="">The Reporters</a></li>
+                <li class="level-3 item"><a href="">Media</a></li>
+                <li class="level-3 item"><a href="">UGC</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+</div>
+
+
+
+</body>
+</html>

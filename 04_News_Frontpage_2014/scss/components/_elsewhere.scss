@@ -1,0 +1,67 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+
+.elsewhere {
+    background-color: $secondary-color;
+     padding-left: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-top: 16px;
+    display: inline-block;
+    @extend %element-secondary;
+    border-top: 0px;
+    h2{
+        @extend %agate;
+        font-weight: 700;
+    }
+    .subheader{margin-left: 8px;margin-bottom: 12px;}
+    .elsewhere_group{
+    background-color: #EBEBEC;
+      display: inline-block;
+      padding-bottom: 16px;
+      padding: 16px 8px 16px 8px ;
+        margin-bottom: -4px;
+          width: 100%;
+    }
+    p{
+        @extend %long-primer;
+        color: $summary-color; 
+        @extend %proton;
+ 
+        &:before {
+            content: "";
+            display: block;
+            border-bottom: 1px solid transparent;
+            min-width: 194px;
+        }
+    }
+    .responsive-image{
+        @extend %image-margin-right;
+             @include respond-to(B) { 
+            margin-bottom: 8px;
+                }  
+        
+         @include respond-to(D) { 
+            margin-right: 4px;
+             padding-right: 8px;
+             margin-bottom: 16px;
+                }  
+            } 
+    @include respond-to(B) { 
+        padding-left: 8px;
+          padding-right: 8px;
+         padding-bottom: 0px;
+        padding-top: 8px;
+            }  
+    @include respond-to(C) {   
+        
+        
+            }
+    @include respond-to(D) {
+            margin-left: 0px;
+        }
+}

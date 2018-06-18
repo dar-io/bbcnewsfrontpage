@@ -1,0 +1,138 @@
+@import "foundation/components/global";
+.mostpopular {
+    
+    @extend %element-secondary;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    .tabs-content{
+        margin-bottom: 0;
+    }
+    dl dd {
+        &:first-child a{
+        padding-left: 14px;
+        } 
+        a{
+        background-color: #ddd;
+            margin-right: 4px;
+            @extend %long-primer;
+            font-weight: 700;
+        }
+        
+    }
+    
+    .most-popular-list-item{
+     a{
+         @extend %agate;
+     }
+    }
+    
+    .most-popular-list-item__rank{
+        color: $brand-color;
+        @extend %ruby;
+        font-weight: 700;
+    }
+    
+     .subheader {
+        margin-bottom: 0;
+        padding-left: 16px;
+        background: $secondary-color;
+        padding-bottom: 12px;
+        padding-top: 16px;
+    }
+    
+    .tabs{
+        background: $secondary-color; 
+        border-left: 0px solid #F2F2F2;
+    }
+    
+    .most-popular-list-item__headline {
+        display: block;
+        width: 82%;
+    }
+    
+     .most-popular-list-item__rank {
+        position: absolute;
+        top: 10px;
+        right: 8px;
+    }
+    
+    ul li{   
+        border: 0;
+        color: inherit;
+        font: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        line-height: inherit;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        vertical-align: baseline;
+            &:first-child .most-popular-list-item__link{
+            border-top: 0;
+        }
+        
+    }
+    
+     .most-popular-list-item__link {
+        padding-top: 12px;
+        border-top: 1px solid $keyline-color;
+        display: block;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    
+     @include respond-to(B) {
+            border-top:0px;
+         .tabs {
+                margin: 0 -16px;
+                }
+         .subheader{
+             margin: 0 -16px;
+         }
+        }  
+     @include respond-to(C) {
+                border-top:0px;       
+         ul li:nth-child(2) .most-popular-list-item__link{
+                border-top: 0;
+                }
+         .tabs {
+                margin: 0 -16px;
+                }
+         .subheader{
+             margin: 0 -16px;
+         }
+         
+            }
+     @include respond-to(D) {                 
+             .tabs-content {
+                    padding-left: 16px;
+                    padding-right: 16px;
+                        border-left: 0px solid #F2F2F2;
+      border-right: 0px solid #F2F2F2;
+      border-bottom: 0px solid #F2F2F2;
+                }
+            }
+     @include respond-to(B-Small) {     
+                   .tabs {
+                margin: 0 -8px;
+                }
+         .subheader{
+             margin: 0 -8px;
+             padding-left: 8px;
+         }   
+         .tabs-content{
+             padding: 0 8px;
+         }
+         
+         dl dd:first-child a {
+            padding-left: 8px;
+            }
+            }   
+}
+    
+
+
+
+

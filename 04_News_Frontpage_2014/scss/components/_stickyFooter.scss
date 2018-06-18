@@ -1,0 +1,100 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+
+#footer { height: 50px; z-index: 9999; padding-bottom: 16px;
+    #ticker{
+//        .ticker_container{
+//            width: 100%;
+//            margin: 0 auto;
+//            display: inline-block;    
+//            background-color: #0C0C0C;
+//            height: 40px;
+//            line-height: 2.5;
+//            position: absolute;
+//            bottom: 0px;
+//            left: 0px;
+//            right: 0px;
+//            padding-left: 8px;
+//         .renderer_output{
+//       
+//             display: inline-block;
+//            }
+//        
+//            
+//        .title_container{
+//                display: inline-block;
+//            .ticker_title{      
+//                @extend %agate;
+//                font-weight: 700;
+//                color: #fff;
+//            }
+//        }
+//        .ticker_content{
+//            display: inline;
+//            @extend %agate;
+//            font-weight: 400;
+//            color: #fff;
+//        }
+//        
+//        
+//         
+//        .ticker_controls{
+//            .ticker_controls_inner{
+//                position: relative;
+//                vertical-align: middle;
+//                margin-right: 20px;
+//                padding: 12px;
+//                background: #000;  
+//            }
+//            ;
+//                color: #FAFAFA;
+//                height: 40px;
+//                padding: 0px 35px 0px 10px;
+//                position: absolute;
+//                bottom: 0px;
+//                right: 0px;          
+//                display: inline-block;
+//                vertical-align: middle;
+//            li{
+//                padding: 0 4px;
+//                display: inline-block;      
+//                vertical-align: middle;
+//            }
+//            .icon-next-light{color: #fff;}
+//            .icon-play{color: #fff;}
+//            .icon-previous-light{color: #fff;     }
+//        }
+//            
+//            .close{
+//                background-color: #C00;
+//                .icon-no {
+//                    position: absolute;
+//                    right: 16px;
+//                    top: 14px;
+//                    }
+//            }
+//            
+//          } 
+    }
+
+}
+
+.HYPE_scene{
+    
+    .ticker-text{
+        p{
+        color: #ffffff;
+            @extend %long-primer;
+
+          width: 90%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+
+        }
+    }
+}

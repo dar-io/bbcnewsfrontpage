@@ -1,0 +1,108 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+
+
+.timestamp,
+.unit__meta,
+.mini-info-list{
+    @extend %brevier;
+    @extend %proton;
+    line-height: 18px;
+	list-style: none;
+	list-style-position: outside;
+    display: inline-block;
+	
+	
+	li{
+		display: inline;
+		border-right: 1px solid $keyline-color;
+		display: inline-block;
+		margin-right: .5em;
+		padding-right: .5em;
+	
+		white-space: nowrap;
+        &:last-child{
+        margin-right: 0;
+		padding-right: 0;
+        }
+	}
+	
+	.date{
+		color: $iron;
+		padding-left: 28px;
+		margin-left: -10px;
+		background-image: url("../images/sprites/news--icons-sprite.png");
+		background-repeat: no-repeat;
+		background-position: left -4012px;
+	}
+	.section-tag,
+    .mini-info-list__section{
+		color: $brand-color;
+	}
+	li:last-child{
+		border-right: none;
+	}
+}
+
+
+.rolling-news{
+    .timestamp{
+    color: $brand-color;
+        .duration{
+        color: $brand-color;
+            .icon-duration{
+            font-size: 18px;
+            vertical-align: sub;
+            position: relative;
+            bottom: -0.5px;
+                
+            }
+        }
+    }
+
+}
+
+
+
+.HYPE_scene{
+.timestamp,
+.unit__meta,
+.mini-info-list{
+    @extend %brevier;
+    @extend %proton;
+    line-height: 18px;
+	list-style: none;
+	list-style-position: outside;
+    display: inline-block;
+	padding-left: 0;
+	
+	li{
+		display: inline;
+		border-right: 1px solid $keyline-color;
+		display: inline-block;
+		margin-right: .5em;
+		padding-right: .5em;
+		white-space: nowrap;
+	}
+	
+	.date{
+		color: $iron;
+		padding-left: 28px;
+		margin-left: -10px;
+		background-image: url("../images/sprites/news--icons-sprite.png");
+		background-repeat: no-repeat;
+		background-position: left -4012px;
+	}
+	.section-tag,
+    .mini-info-list__section{
+		color: $brand-color;
+	}
+	li:last-child{
+		border-right: none;
+	}
+}
+}

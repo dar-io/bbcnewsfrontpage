@@ -1,0 +1,115 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+.live_event-promo{
+    display: block;
+     @extend %molecule;
+
+}
+#mainnav_hype_container{
+    overflow: visible !important;
+    height: 129px !important;
+    .HYPE_scene{
+        overflow: visible !important;
+        background-color: transparent !important;
+    }
+
+}
+.HYPE_scene{
+    
+    .live_block{
+    
+    h2{
+         @extend %great-primer;
+        margin: 0;
+    a{
+       color: $black;
+        text-decoration: none;
+    }
+    }
+    p{
+        .source{
+              color: $black;
+        }
+        margin-bottom: 0;
+        @extend %atom;
+    &.summary{
+        @extend %long-primer;
+        @extend .summary;
+    }
+    }
+    }
+}
+
+.cluster{
+    &.midpage{
+        @extend %element;
+         h2{
+       @extend %agate;
+       font-weight: 700;
+       display: inline-block;
+             &.section-tag{
+            color: $brand-color;
+                 font-weight: 400;
+                 letter-spacing: normal;
+        }
+   } 
+        
+        
+    }
+}
+.cluster{
+    display: inline-block;
+ @extend %molecule;
+   h2{
+       @extend %brilliant;
+       @extend %atom;
+       font-weight: 400;
+       display: inline-block;
+   } 
+    
+    
+        @include respond-to(B) { 
+            .explainers__stories{
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+             [class*="block-grid-"] > li{
+                 &:last-child{
+                 padding-bottom: 0px;
+                 }
+                   padding: 0 4px 16px 4px;
+                 .responsive-image {  
+                padding-right: 0px;
+                margin-right: 0px;
+                padding-left: 0px;
+             }
+               
+           }
+            h2{margin-top: 8px;display: inline-block;}
+           
+        }
+    
+           @include respond-to(C) { 
+           [class*="block-grid-"] > li{
+               padding: 0 8px 0px;
+           }
+       
+       }
+    @include respond-to(D) { 
+           [class*="block-grid-"] > li{
+               padding: 0 8px 0px;
+           }
+       
+       }
+    
+         @include respond-to(B-Small) { 
+           .timestamp, .unit__meta, .mini-info-list{
+        display: block;
+    }
+        }
+    }
+   
+

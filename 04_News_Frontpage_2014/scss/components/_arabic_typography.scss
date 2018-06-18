@@ -1,0 +1,345 @@
+html .arabic{
+      font-family: "BBCNassim",Arial,Verdana,Geneva,Helvetica,sans-serif;
+}
+$arabic_double-trafalgar-font-size-A: 30px;
+$arabic_double-trafalgar-line-height-A: 32px;
+$arabic_double-trafalgar-letter-spacing-A: -1px;
+$arabic_double-trafalgar-font-size-B: 32px;
+$arabic_double-trafalgar-line-height-B: 36px;
+$arabic_double-trafalgar-letter-spacing-B: -1px;
+$arabic_double-trafalgar-font-size-C: 48px;
+$arabic_double-trafalgar-line-height-C: 52px;
+$arabic_double-trafalgar-letter-spacing-C: -1px;
+$arabic_double-trafalgar-font-size-D: 48px;
+$arabic_double-trafalgar-line-height-D: 52px;
+$arabic_double-trafalgar-letter-spacing-D: -1px;
+
+$arabic_trafalgar-font-size-A: 20px;
+$arabic_trafalgar-line-height-A: 24px;
+$arabic_trafalgar-letter-spacing-A: -1px;
+$arabic_trafalgar-font-size-B: 24px;
+$arabic_trafalgar-line-height-B: 28px;
+$arabic_trafalgar-letter-spacing-B: -1px;
+$arabic_trafalgar-font-size-C: 36px;
+$arabic_trafalgar-line-height-C: 40px;
+$arabic_trafalgar-letter-spacing-C: -1px;
+$arabic_trafalgar-font-size-D: 32px;
+$arabic_trafalgar-line-height-D: 36px;
+$arabic_trafalgar-letter-spacing-D: -1px;
+$arabic_double-pica-font-size-A: 20px;
+$arabic_double-pica-line-height-A: 24px;
+$arabic_double-pica-letter-spacing-A: -1px;
+$arabic_double-pica-font-size-B: 20px;
+$arabic_double-pica-line-height-B: 24px;
+$arabic_double-pica-letter-spacing-B: -1px;
+$arabic_double-pica-font-size-C: 24px;
+$arabic_double-pica-line-height-C: 28px;
+$arabic_double-pica-letter-spacing-C: -1px;
+$arabic_double-pica-font-size-D: 24px;
+$arabic_double-pica-line-height-D: 28px;
+$arabic_double-pica-letter-spacing-D: -1px;
+$arabic_great-primer-font-size-A: 18px;
+$arabic_great-primer-line-height-A: 20px;
+$arabic_great-primer-letter-spacing-A: -0.4px;
+$arabic_great-primer-font-size-B: 18px;
+$arabic_great-primer-line-height-B: 20px;
+$arabic_great-primer-letter-spacing-B: -0.4px;
+$arabic_great-primer-font-size-C: 20px;
+$arabic_great-primer-line-height-C: 24px;
+$arabic_great-primer-letter-spacing-C: -1px;
+$arabic_great-primer-font-size-D: 20px;
+$arabic_great-primer-line-height-D: 24px;
+$arabic_great-primer-letter-spacing-D: -1px;
+$arabic_pica-gel-font-size-A: 15px;
+$arabic_pica-gel-line-height-A: 20px;
+$arabic_pica-gel-letter-spacing-A: inherit;
+$arabic_pica-gel-font-size-B: 16px;
+$arabic_pica-gel-line-height-B: 22px;
+$arabic_pica-gel-letter-spacing-B: inherit;
+$arabic_pica-gel-font-size-C: 18px;
+$arabic_pica-gel-line-height-C: 24px;
+$arabic_pica-gel-letter-spacing-C: inherit;
+$arabic_pica-gel-font-size-D: 16px;
+$arabic_pica-gel-line-height-D: 22px;
+$arabic_pica-gel-letter-spacing-D: inherit;
+$arabic_pica-font-size-A: 16px;
+$arabic_pica-line-height-A: 20px;
+$arabic_pica-letter-spacing-A: inherit;
+$arabic_pica-font-size-B: 16px;
+$arabic_pica-line-height-B: 20px;
+$arabic_pica-letter-spacing-B: inherit;
+$arabic_pica-font-size-C: 18px;
+$arabic_pica-line-height-C: 22px;
+$arabic_pica-letter-spacing-C: -0.5px;
+$arabic_pica-font-size-D: 16px;
+$arabic_pica-line-height-D: 20px;
+$arabic_pica-letter-spacing-D: inherit;
+$arabic_long-primer-font-size-A: 15px;
+$arabic_long-primer-line-height-A: 18px;
+$arabic_long-primer-letter-spacing-A: inherit;
+$arabic_long-primer-font-size-B: 15px;
+$arabic_long-primer-line-height-B: 18px;
+$arabic_long-primer-letter-spacing-B: inherit;
+$arabic_long-primer-font-size-C: 15px;
+$arabic_long-primer-line-height-C: 19px;
+$arabic_long-primer-letter-spacing-C: inherit;
+$arabic_long-primer-font-size-D: 14px;
+$arabic_long-primer-line-height-D: 18px;
+$arabic_long-primer-letter-spacing-D: inherit;
+$arabic_brevier-font-size-A: 14px;
+$arabic_brevier-line-height-A: 16px;
+$arabic_brevier-letter-spacing-A: inherit;
+$arabic_brevier-font-size-B: 14px;
+$arabic_brevier-line-height-B: 18px;
+$arabic_brevier-letter-spacing-B: inherit;
+$arabic_brevier-font-size-C: 14px;
+$arabic_brevier-line-height-C: 18px;
+$arabic_brevier-letter-spacing-C: inherit;
+$arabic_brevier-font-size-D: 13px;
+$arabic_brevier-line-height-D: 16px;
+$arabic_brevier-letter-spacing-D: inherit;
+$arabic_english-font-size-A: 16px;
+$arabic_english-line-height-A: 20px;
+$arabic_english-letter-spacing-A: inherit;
+$arabic_english-font-size-B: 16px;
+$arabic_english-line-height-B: 20px;
+$arabic_english-letter-spacing-B: inherit;
+$arabic_english-font-size-C: 16px;
+$arabic_english-line-height-C: 20px;
+$arabic_english-letter-spacing-C: inherit;
+$arabic_english-font-size-D: 16px;
+$arabic_english-line-height-D: 20px;
+$arabic_english-letter-spacing-D: inherit;
+$arabic_brilliant-font-size: 14px;
+$arabic_brilliant-line-height: 18px;
+$arabic_brilliant-letter-spacing: inherit;
+$arabic_paragon-font-size: 18px;
+$arabic_paragon-line-height: 22px;
+$arabic_paragon-letter-spacing: -0.5px;
+
+
+%double-trafalgar {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_double-trafalgar-font-size-B, $arabic_double-trafalgar-line-height-B, $arabic_double-trafalgar-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings( $arabic_double-trafalgar-font-size-C, $arabic_double-trafalgar-line-height-C, $arabic_double-trafalgar-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings( $arabic_double-trafalgar-font-size-D, $arabic_double-trafalgar-line-height-D, $arabic_double-trafalgar-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%trafalgar {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_trafalgar-font-size-B, $arabic_trafalgar-line-height-B, $arabic_trafalgar-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_trafalgar-font-size-C, $arabic_trafalgar-line-height-C, $arabic_trafalgar-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_trafalgar-font-size-D, $arabic_trafalgar-line-height-D, $arabic_trafalgar-letter-spacing-D);
+            }
+        }
+    
+}
+
+%double-pica {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_double-pica-font-size-B, $arabic_double-pica-line-height-B, $arabic_double-pica-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_double-pica-font-size-C, $arabic_double-pica-line-height-C, $arabic_double-pica-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_double-pica-font-size-D, $arabic_double-pica-line-height-D, $arabic_double-pica-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%great-primer {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_great-primer-font-size-B, $arabic_great-primer-line-height-B, $arabic_great-primer-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_great-primer-font-size-C, $arabic_great-primer-line-height-C, $arabic_great-primer-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_great-primer-font-size-D, $arabic_great-primer-line-height-D, $arabic_great-primer-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%pica-gel {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_pica-gel-font-size-B, $arabic_pica-gel-line-height-B, $arabic_pica-gel-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_pica-gel-font-size-C, $arabic_pica-gel-line-height-C, $arabic_pica-gel-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_pica-gel-font-size-D, $arabic_pica-gel-line-height-D, $arabic_pica-gel-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%pica {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_pica-font-size-B, $arabic_pica-line-height-B, $arabic_pica-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_pica-font-size-C, $arabic_pica-line-height-C, $arabic_pica-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_pica-font-size-D, $arabic_pica-line-height-D, $arabic_pica-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%long-primer {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_long-primer-font-size-B, $arabic_long-primer-line-height-B, $arabic_long-primer-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_long-primer-font-size-C, $arabic_long-primer-line-height-C, $arabic_long-primer-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_long-primer-font-size-D, $arabic_long-primer-line-height-D, $arabic_long-primer-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%brevier {
+    @at-root {
+        .arabic & {
+            // @include respond-to(A) {
+            //     @include font-settings(
+            //         get-script-value((latin 14px, arabic 16px, arabic-pashto 16px)),
+            //         get-script-value((latin 16px, tamil 20px, arabic 18px, latin-diacritics 18px, hindi 20px, arabic-pashto 22px, bengali 20px, burmese 22px))
+            //     );
+            // }
+            @include respond-to(B) {
+                @include font-settings( $arabic_brevier-font-size-B, $arabic_brevier-line-height-B, $arabic_brevier-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings( $arabic_brevier-font-size-C, $arabic_brevier-line-height-C, $arabic_brevier-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings( $arabic_brevier-font-size-D, $arabic_brevier-line-height-D, $arabic_brevier-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%minion {
+    @at-root {
+        .arabic & {
+            // @if $arabic_core {
+            //     text-transform: uppercase;
+            // }
+            // @include respond-to(A) {
+            //     @include font-settings(12px, 16px);
+            // }
+            // @include respond-to(B) {
+            //     @include font-settings(12px, 16px);
+            // }
+            // @include respond-to(C) {
+            //     @include font-settings(13px, 16px);
+            // }
+            // @include respond-to(D) {
+            //     @include font-settings(
+            //         get-script-value((latin 12px, arabic 15px, hindi 14px, arabic-pashto 14px, bengali 15px, burmese 14px, tamil 14px)),
+            //         get-script-value((latin 16px, arabic 19px, hindi 18px, bengali 18px, burmese 22px, tamil 18px))
+            //     );
+            // }
+            font-size: 12px;
+            line-height: 16px;
+            @include respond-to(C) {}
+            @include respond-to(D) {}
+        }
+    }
+}
+
+%paragon {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_paragon-font-size, $arabic_paragon-line-height, $arabic_paragon-letter-spacing);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_paragon-font-size, $arabic_paragon-line-height, $arabic_paragon-letter-spacing);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_paragon-font-size, $arabic_paragon-line-height, $arabic_paragon-letter-spacing);
+            }
+        }
+    }
+}
+
+%english {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings($arabic_english-font-size-B, $arabic_english-line-height-B, $arabic_english-letter-spacing-B);
+            }
+            @include respond-to(C) {
+                @include font-settings($arabic_english-font-size-C, $arabic_english-line-height-C, $arabic_english-letter-spacing-C);
+            }
+            @include respond-to(D) {
+                @include font-settings($arabic_english-font-size-D, $arabic_english-line-height-D, $arabic_english-letter-spacing-D);
+            }
+        }
+    }
+}
+
+%agate {
+    @at-root {
+        .arabic & {
+            @include font-settings(16px, 20px, inherit);
+        }
+    }
+}
+
+%english {
+    @at-root {
+        .arabic & {
+            @include respond-to(B) {
+                @include font-settings(15px, 19px, inherit);
+            }
+            @include respond-to(C) {
+                @include font-settings(15px, 19px, inherit);
+            }
+            @include respond-to(D) {
+                @include font-settings(15px, 19px, inherit);
+            }
+        }
+    }
+}
+
+%brilliant {
+    @at-root {
+        .arabic & {
+            @include font-settings($arabic_brilliant-font-size, $arabic_brilliant-line-height, $arabic_brilliant-letter-spacing);
+        }
+    }
+}

@@ -1,0 +1,206 @@
+$atom-medium-top:8px;
+$atom-small-top:8px;
+$atom-margin-top:8px;
+$headlines-padding-top: 12px;
+$headlines-padding-bottom: 12px;
+.off{display: none !important;}
+
+%atom-bottom-space{
+@include respond-to(B) {
+         margin-bottom: $atom-margin-top;
+     }
+
+     @include respond-to(C) {
+         margin-bottom: $atom-margin-top;
+     }
+
+     @include respond-to(D) {
+        margin-bottom: $atom-margin-top;
+     }
+} 
+
+%element-bottom-space{
+@include respond-to(B) {
+         margin-bottom: 8px;
+     }
+
+     @include respond-to(C) {
+         margin-bottom: 16px;
+     }
+
+     @include respond-to(D) {
+        margin-bottom: 16px;
+     }
+} 
+
+
+%subheader{
+@include respond-to(B) {
+         margin-bottom: 12px;
+     }
+
+     @include respond-to(C) {
+         margin-bottom: 16px;
+     }
+
+     @include respond-to(D) {
+        margin-bottom: 16px;
+     }
+} 
+
+%proton {
+     @include respond-to(B) {
+         margin-top: 4px;
+     }
+
+     @include respond-to(C) {
+         margin-top: 6px;
+     }
+
+     @include respond-to(D) {
+        margin-top: 4px;
+     }
+}
+
+%atom {
+     @include respond-to(B) {
+         margin-top: 8px;
+     }
+
+     @include respond-to(C) {
+         margin-top: 8px;
+     }
+
+     @include respond-to(D) {
+        margin-top: 8px;
+     }
+}
+
+%molecule {
+
+     @include respond-to(B) {
+         margin-top: 16px;
+     }
+
+     @include respond-to(C) {
+         margin-top: 16px;
+     }
+
+     @include respond-to(D) {
+        margin-top: 16px;
+     }
+   
+}
+
+ %element-secondary{
+    @include respond-to(B) {
+         margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(C) {
+       margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(D) {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 0px solid $keyline-color;
+     }
+    }
+
+%element {
+
+     @include respond-to(B) {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(C) {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(D) {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid $keyline-color;
+     }
+   
+}
+
+ 
+%element-no-border {
+
+     @include respond-to(B) {
+        margin-top: 24px;
+        padding-top: 16px;
+     }
+
+     @include respond-to(C) {
+        margin-top: 24px;
+        padding-top: 16px;
+     }
+
+     @include respond-to(D) {
+        margin-top: 32px;
+        padding-top: 20px;
+     }
+   
+}
+
+%element-with-top-border-no-header {
+
+     @include respond-to(B) {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(C) {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid $keyline-color;
+     }
+
+     @include respond-to(D) {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid $keyline-color;
+     }
+   
+}
+
+.secondary{
+    .watch-listen {
+            &.element{
+            @extend %element;
+        }
+    }
+}
+//
+//h1{ background: green;}
+//.idx-alsos{
+//    background: red;
+//}
+//
+//.timestamp{
+//    background: blue;
+//}
+//
+//.pigeon h2{
+//    background: violet;
+//}
+//
+//.pigeon{
+//    background: #eaeaea;
+//}
+//
+//.summary {
+//    background: grey;
+//}

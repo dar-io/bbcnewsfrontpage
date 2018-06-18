@@ -1,0 +1,273 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+ 
+
+         @include respond-to(B) {
+              .icon-next-light {
+                    font-size: 13px;
+                    color: $brand-color;
+              }
+            }  
+            @include respond-to(C) {
+               .icon-next-light {
+                    font-size: 14px;
+                    color: #CB0000;
+               }
+            }
+           @include respond-to(D) {     
+                  .icon-next-light {
+                    font-size: 14px;
+                    color: $brand-color;
+                  }
+
+            }
+ 
+
+
+
+.index-value-icon span.down:before {
+    content: "";
+    display: block;
+border-color: #CC1417 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+border-width: 10px 7px 0;
+    border-style: solid;
+content: '';
+display: inline-block;
+height: 0;
+width: 0;
+
+}
+
+.index-value-icon span.up:before {
+    content: "";
+    display: block;
+border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #00782C;
+border-width: 0 7px 10px;
+    border-style: solid;
+content: '';
+display: inline-block;
+height: 0;
+width: 0;
+
+}
+
+
+.icon-next-light {
+	width: 23px;
+	height: 32px;
+}
+.icon-previous-light {
+	width: 23px;
+	height: 32px;
+}
+
+
+.idx-alsos, .digest-inator{
+	.icon-play{
+		background-color: $brand-color;
+		color: #FFF;
+		padding: 1px 3.5px 0px 5px;
+		display: inline;
+		text-align: center;
+		margin-right: 2px;
+		font-size: 11px;
+	}
+}
+.carousel-outer-outer{
+.overlay-icon{
+box-sizing: border-box;
+	left: 0;
+	background-color: $brand-color;
+	bottom: 0;
+	color: #fff;
+	display: block;
+	height: 40px;
+    width: 48px;
+    text-align: center;
+	position: absolute;
+
+	.icon-photo {
+		vertical-align: middle;
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+}
+}
+
+.video-duration{
+box-sizing: border-box;
+left: 29px;
+background-color: rgba(29, 29, 29, 0.8);
+bottom: 0;
+color: #FFF;
+display: block;
+padding: 6px 8px 3px 6px;
+position: absolute;
+    .duration{
+        color: #ededed;
+    }
+}
+
+.overlay-icon  {
+	box-sizing: border-box;
+	left: 0;
+	background-color: #FFF;
+	bottom: 0px;
+	color: #000;
+	display: block;
+	padding: 2px 8px 1px 10px;
+	position: absolute;
+
+	.icon-play {
+		vertical-align: middle;
+		font-size: 20px;
+		line-height: 1.1;
+	}
+	.duration {
+		vertical-align: middle;
+	}
+
+}
+
+.sparrow{
+	.overlay-icon{
+		padding: 0px 8px 0px 10px;
+	}
+}
+
+
+[class^="live-icon-"], [class*=" live-icon-"]{
+    background-color: $brand-color;
+    color: #fff;
+    font-weight: 700;
+     line-height: 1;
+}
+
+.HYPE_scene{
+[class^="live-icon-"], [class*=" live-icon-"]{
+    background-color: $brand-color;
+    color: #fff;
+    font-weight: 700;
+     line-height: 1;
+}
+    .live-icon-great-primer{
+padding: 4px 4px 1px 4px;
+font-size: 11px;
+position: relative;
+top: -2px;
+margin-right: 2px;
+
+}
+}
+
+.live-icon-brevier{
+    padding: 0px 3px 1px 3px ;
+    font-size: 11px;
+}
+
+.live-icon-great-primer{
+padding: 4px 4px 1px 4px;
+font-size: 11px;
+position: relative;
+top: -2px;
+margin-right: 2px;
+
+}
+
+.live-icon-pica{
+padding: 4px 3px 1px 3px;
+font-size: 12px;
+vertical-align: middle;
+    }
+
+
+
+    .sparrow__live-block  {
+
+    
+
+      ul li{
+        padding-bottom: 1px !important;
+      }
+
+    .live-icon-pica{
+      padding: 8px 8px 4px 8px;
+      font-size: 12px;
+      vertical-align: middle;
+      margin-right: 4px;
+
+
+      .icon-play{
+        font-size: 20px;
+        position: relative;
+        padding-right:4px;
+        top: 4px;
+        line-height: 16px;
+      }
+      .icon-listen{
+        font-size: 22px;
+        line-height: 16px;
+        position: relative;
+        top: 5px;
+        padding-right: 1px;
+        left: -2px;
+
+      }
+    }
+
+  }
+.live-event-promo{
+    .refresh-btn{
+        .icon-refresh{
+            font-size: 18px;
+            color: $brand-color;
+            vertical-align: middle;
+        }
+    }
+}
+
+.icon-comment{
+    color: $brand-color;
+    vertical-align: middle;
+}
+
+span.crosshair {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  margin-top: -13px;
+  background: url(../images/locator_sprite_1x.png) no-repeat -148px 0;
+    margin-bottom: -4px;
+}
+
+.share-icon:after{
+content: '';
+background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' enable-background='new 0 0 32 32'><path d='M6.8 22.2c1.6 0 3-.7 4-1.8l9 4.8c-.1.4-.2.8-.2 1.3 0 3 2.5 5.5 5.5 5.5s5.5-2.4 5.5-5.5c0-3-2.5-5.5-5.5-5.5-1.6 0-3 .7-4 1.8l-9.5-5.2-.1-2.8 9.7-5.5c1 1 2.3 1.5 3.8 1.5 3 0 5.5-2.5 5.5-5.5s-2.5-5.5-5.5-5.5-5.5 2.5-5.5 5.5c0 .6.1 1.1.2 1.6l-9.3 5.7c-1-.9-2.3-1.5-3.8-1.5-3 0-5.5 2.4-5.5 5.5.3 3.1 2.7 5.6 5.7 5.6' fill='#fff'/></svg>");
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+} 
+
+
+@include respond-to(DC-Only) {
+.splash-meta:before {
+	  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 14px solid rgb(255, 255, 255);
+  content: "";
+  display: block;
+  position: absolute;
+  top: -14px;
+  z-index: 999;
+}
+ }

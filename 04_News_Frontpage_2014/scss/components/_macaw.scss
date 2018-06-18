@@ -1,0 +1,96 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+.macaw {
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+    position: relative;
+     @include respond-to(B) {
+         margin-top: 0px;
+         border-top: 0px;
+         padding-top:0px;
+            }
+@extend %element-with-top-border-no-header;
+    margin-top: 16px;
+    padding-top: 24px;
+    h2{
+        @extend %english;
+        font-weight: 700;
+    }
+    .responsive-image {
+        padding-left: 0px;
+        padding-left: 0px;
+      padding-right: 5px;
+      margin-right: 3px;
+        @include respond-to(B) {
+        
+        }
+    
+    }
+    
+  
+     div:nth-child(3){
+         .macaw-item__body{
+         @include respond-to(B) {
+            }  
+            @include respond-to(C) {
+               
+            }
+           @include respond-to(D) {     
+                padding-top: 0px;
+                margin-top: 0px;
+                border-top: 0px;            
+               }
+        }
+    }
+    
+    
+     div:nth-child(2) {
+         .macaw-item__body{
+         @include respond-to(B) {
+            }  
+            @include respond-to(C) {
+                padding-top: 0px;
+                margin-top: 0px;
+                border-top: 0px;
+            }
+           @include respond-to(D) {     
+                padding-top: 0px;
+                margin-top: 0px;
+                border-top: 0px;            
+               }
+        }
+    }
+
+    .alb__item{
+        .macaw-item__body {
+         @include respond-to(B) {
+               border-top: 1px solid $keyline-color;
+               margin-top: $headlines-padding-top;
+               padding-top: $headlines-padding-top;
+            }  
+            @include respond-to(C) {
+               border-top: 1px solid $keyline-color;
+               margin-top: 12px;
+               padding-top: 12px;
+            }
+           @include respond-to(D) {     
+               border-top: 1px solid $keyline-color;
+               margin-top: 12px;
+               padding-top: 12px;
+               
+               
+            }
+        
+    }
+    
+      
+    
+    
+
+}
+     
+}

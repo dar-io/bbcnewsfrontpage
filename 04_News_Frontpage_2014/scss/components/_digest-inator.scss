@@ -1,0 +1,137 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+.section-tag.branch:after {
+       content: '';
+       border-top: 1px solid $brand-color;
+        position: relative;
+        top: 4px;
+        left: 0;
+        display: block;
+        width: 44px;
+        padding: 0px 0px 4px 0px;
+        margin-top: 0px;
+        }    
+
+.digest-inator{
+     padding-right: 8px;
+    padding-left: 8px;
+    background: $secondary-color;
+    @extend %element-no-border;
+	.digest-inner{
+       
+    }
+ 
+
+          h2{   
+            @extend %great-primer;
+            @extend %atom;
+            color: $brand-color;     
+          }
+            h3{
+                @extend %agate;
+            }
+       
+    [class*="block-grid-"] > li {
+           
+            @include respond-to(B-Small) { 
+             padding: 0 4px 8px;
+            }  
+            @include respond-to(C) {
+                padding-bottom: 16px;
+            }
+           @include respond-to(D) {
+               padding-bottom: 16px;
+              
+            }
+            @include respond-to(B-Medium) { 
+             padding: 0 4px 16px;
+            }  
+        }
+    
+    
+    h2{@extend %english;}
+    
+    @include respond-to(B) {
+            
+            }  
+            @include respond-to(C) {
+
+            }
+           @include respond-to(D) {                 
+             
+            }
+    @include respond-to(B-Medium) {                 
+             padding-left: 12px;
+            padding-right: 12px;
+            }
+}
+
+
+
+
+
+@media #{
+    $small-only
+}
+ {    html .digest-inator{
+     padding-left: 4px;
+     padding-right: 4px;
+ }
+ }
+.digest-inator {
+
+    
+     .digest-inator__item-body{
+         padding: 0px 8px 16px 8px;
+     }
+ 
+    
+    
+    
+	.block {
+        background: white;
+       
+        
+        ul{
+            
+		list-style-type: none;
+		list-style-position: inside;
+		margin-left: 0;
+           
+            a{
+                font-weight: 700;
+            }
+	   }	
+	}
+	.responsive-image{
+		margin-bottom: 8px;
+	}
+	.section-tag{
+		margin-bottom: 8px;
+       .icon-next-light{
+           font-size: 12px;
+       }
+	}
+}
+
+
+@media #{
+    $small-up
+}
+ {}@media #{
+    $small-only
+}
+ {
+
+ 
+ }// GROUP B
+@media #{
+    $medium-only
+}
+ {
+
+ }

@@ -1,0 +1,229 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+.row.scroll{
+overflow-x: scroll;
+overflow-y: hidden;
+    
+    
+    
+}
+
+.type-scale * {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition:    all 0.5s ease;
+  -ms-transition:     all 0.5s ease;
+  -o-transition:      all 0.5s ease;
+}
+
+.switch{
+    label{ color: #000;}
+    display: inline-block;
+    .toggle-label {
+      margin-top: 10px;
+      font-size: 12px;
+      padding-bottom: 4px;
+      color: #008000;
+        .bold-on{
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+    }
+}
+
+.bookmarklet {
+  display: -webkit-inline-box;
+  position: relative;
+  bottom: 16px;
+
+        a.button{
+        margin-bottom: 0;
+        padding: 12px 12px;
+        }
+  
+}
+
+span.type-name {
+margin-left: 0px;
+
+}
+.minion{
+.type-name{text-transform: uppercase;}
+}
+
+.type-scale .subheader.double-pica {
+font-size: 20px;
+line-height: 2;
+}
+
+
+
+.font-settings {
+   line-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    .masterSwitch-off{
+        display: none !important;
+    }
+}
+
+span{
+    &.type-name{
+    &:before{
+        content: "";
+        line-height: 58px;
+    }
+    }
+}
+
+
+.letter-spacing {
+    color: #fff;
+  display: block;
+  letter-spacing: normal;
+  padding: 12px 0px 0px 0px !important;
+  position: absolute;
+  right: 8px;
+  top: 12px;
+  border-radius: 50% !important;
+  font-size: 13px !important;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+  word-break: break-all;
+    background: #00929E !important;
+    
+    &.off{
+        opacity: 0;
+        display: block !important;
+    }
+}
+
+.font-size{
+margin-right: 8px;    
+    margin-left: 8px;
+background-color: #000;
+padding: 4px 4px 3px 4px;
+color: #FFF;
+/* border-radius: 8px; */
+/* display: inline-block; */
+/* text-align: right; */
+width: 90px;
+font-size: 14px;
+vertical-align: middle;
+    font-weight: 400;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+   
+    letter-spacing: normal;
+    text-align: center;
+    display: block;
+    
+}
+
+
+.row.scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+   cursor: pointer;
+}
+ 
+.row.scroll::-webkit-scrollbar-track {
+      background-color: #ededed;
+    cursor: pointer;
+}
+ 
+.row.scroll::-webkit-scrollbar-thumb {
+  background-color: #cb0101;
+ height: 8px;
+     cursor: pointer;
+}
+
+ .fixed-width {
+   @include respond-to(D) {width: 2500px;}
+  
+overflow-x: hidden;
+border-bottom: 0px solid;
+margin-bottom: 0px;
+margin-top: 0px;
+     padding-bottom: 16px;
+
+      @include respond-to(B) {margin-left: 0px;}
+     li{
+      position: relative;
+           
+         border-top: 1px solid #E4E4E4;
+     }
+    
+     li.new-style{
+background: rgba(255, 255, 255, 0.47);
+         .font-size{
+             background: #006EFF;
+
+}
+   
+}
+  
+       
+    
+    .group-a, .group-b, .group-c, .group-d {
+         @include respond-to(C) {  margin-top: 24px;}
+         @include respond-to(B) {  margin-top: 24px;}
+        ul {
+            list-style: none;
+            list-style-position: inside;
+            margin-left: 0;
+            margin-right: 16px;
+             @include respond-to(B) {margin-right: 0px;}
+        }
+        
+        
+        
+        li {
+            
+           
+        }
+        
+     .canon,.bourgeois, .english, .brilliant, .emerald, .agate,.long-primer-new, .brevier-all-groups, .paragon, .double-trafalgar,.trafalgar,.double-pica,.great-primer,.great-primer-small,.pica,.long-primer,.rolling-news,.long-primer,.brevier,.minion{
+      margin: 1px 0;
+       
+           
+        } 
+}
+    }
+
+
+.typography-heading {
+    &.visualJournal{
+        border-top: 4px solid #000;
+    }
+    &.gel{
+        border-top: 4px solid #000;
+       
+    }
+    &.news{
+        border-top: 4px solid #000;
+      
+    }
+    
+ 
+  color: #404040;
+  padding: 12px 8px 8px 8px;
+    font-weight: 400;
+}
+
+
+
+span.hex-color {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: #404040;
+  color: #FFF;
+  padding: 4px 8px 2px 8px;
+  font-size: 13px;
+  letter-spacing: normal;
+  font-weight: 400;
+}

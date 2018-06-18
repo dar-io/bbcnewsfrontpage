@@ -1,0 +1,57 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+
+
+
+.container{
+    clear: both;
+    &.wrap{margin-top:0px;}
+    margin-top:24px;
+   @include respond-to(C) {
+        margin-left: 8px;
+       margin-right: 8px;
+    }  
+    
+   
+    @include respond-to(B-Medium) {
+           margin-left: 8px;
+       margin-right: 8px;
+    }
+    
+    @include respond-to(B) {
+        margin-top:16px;
+    }
+}
+
+.gnl.uk.edition.only{
+
+display: none !important;
+}
+
+.gnl.only{
+
+display: none !important;
+}
+
+.optional.remove.optional{
+display: none !important;
+}
+.uk.edition.gnl.only{
+display: none !important;
+}
+
+.ad-hidden{
+display: none !important;
+}
+
+.ad-hidden.skyscraper{
+display: block !important;
+}
+
+.MPU.skyscraper{
+display: none !important;
+}

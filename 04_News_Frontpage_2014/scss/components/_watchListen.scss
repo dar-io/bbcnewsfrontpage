@@ -1,0 +1,155 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+.article{
+    .secondary{
+     .watch-listen{
+         
+         ul > li:last-child{
+             padding-bottom: 0px;
+         }
+         width: 100%;
+         @extend %element-secondary;
+        
+         @include respond-to(D) { 
+             &.first{
+                 border-top: 0;
+                 margin-top: 0;
+                padding-top:0;
+             }
+             &:first-child{
+         padding-top: 0;
+        margin-bottom: 0;
+              margin-top: 0;
+             border-top: 0;
+         }
+            }
+     
+            display: inline-block;
+            border-left: 0px solid $keyline-color;
+            padding-left: 0px;
+        
+    }
+    }
+}
+.secondary{
+    
+    
+    .watch-listen{
+        margin-top: 8px;
+    display: inline-block;
+    border-left: 1px solid $keyline-color;
+    padding-left: 16px;
+    }
+}
+
+.video-duration{
+    @extend %minion;
+}
+.watch-listen {
+    &.hotspot{
+         @extend %element;
+    }
+    h2{
+        @extend %agate;
+        font-weight: 700;
+        @include respond-to(C) { 
+             margin-top: $atom-medium-top;
+            display: inline-block;
+        }
+        @include respond-to(B) { 
+             margin-top: $atom-small-top;
+            display: inline-block;
+        }
+    }
+    .responsive-image {      
+        @include respond-to(B) { 
+            padding-right: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+        }
+      @include respond-to(C) { 
+            padding-right: 0px;
+            margin-left: 0px;
+        }
+        @include respond-to(D) { 
+            padding-right: 12px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+         @include respond-to(B-Small) { 
+            padding-right: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+        }
+    }
+    
+    
+             @include respond-to(B-Medium) {
+                 .watch-listen__list{
+                     padding-left: 4px;
+                     margin-right: -12px;
+                 }
+                 [class*="block-grid-"] > li {
+                     padding-left: 4px;
+                     padding-right: 4px;
+                 }
+               }
+                
+                @include respond-to(B-Small) {
+                 .watch-listen__list{
+                    
+                 }
+                 [class*="block-grid-"] > li {
+                     padding-left: 4px;
+                     padding-right: 4px;
+                 }
+               }
+
+            @include respond-to(C) {
+             [class*="block-grid-"]{
+                    margin: 0px;
+                }
+                 .watch-listen__list{
+                 margin-right: -8px;
+                margin-left: -8px;
+                display: inline-block;
+           
+             }
+         }
+     @include respond-to(D) {
+                 
+                 [class*="block-grid-"] > li {
+                      padding:0 0px 16px 0px;
+                     &:last-child{
+                     padding:0 0px 0px 0px;
+                     }
+                 }
+                 [class*="block-grid-"]{
+                     margin: 0 0px 0px 0px;
+                 }
+               }
+        
+     @include respond-to(C) {
+                 
+                 [class*="block-grid-"] > li {
+                      padding:0 8px 24px;
+                    
+                
+               }
+     }
+        @include respond-to(B-Small) {
+                [class*="block-grid-"]{
+                    margin: 0px;
+                }
+             .watch-listen__list{
+                margin-left: -4px;
+            display: inline-block;
+            margin-right: -4px;
+             }
+         }
+
+    
+}

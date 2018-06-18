@@ -1,0 +1,65 @@
+@import "foundation/components/global";
+
+.local-news{
+ @extend %element;
+
+    .location{
+        position: relative;
+        padding-bottom: 16px;
+    }
+   h2{
+   @extend %agate;
+       @extend %atom;
+       font-weight: 700;
+       display: inline-block;
+   }
+
+    .local-news__stories{
+
+         @media #{$medium-only}{
+             .responsive-image{
+               margin-right: 4px;
+               padding-right: 4px;
+        }
+            }
+
+
+
+}
+
+ @include respond-to(B) { 
+     h2{
+     display: block;
+     }
+     .link{
+         margin-bottom: 16px;
+         &:last-child{
+              margin-bottom: 0px;
+         }
+     }
+     .responsive-image{
+     margin-right: 4px;
+     padding-right: 4px;
+   }
+
+   padding-bottom:16px;
+   [class*="block-grid-"] > li{
+
+     padding-bottom:0px;
+   }
+
+
+            }  
+    @include respond-to(C) {   
+        
+            }
+    @include respond-to(D) {
+    
+        }
+
+  @include respond-to(B-Small) {
+     
+        }
+}
+
+

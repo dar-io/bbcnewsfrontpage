@@ -1,0 +1,152 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+
+
+$ads-background-color : #ededed;
+.leaderboard{
+
+    @media #{$xlarge-up} {
+
+    .advertisement-label{
+    text-align: right;
+   font-size: 10px;
+    max-width: 728px;
+        padding-top: 2px;
+        margin: 0 auto;
+}
+		}
+
+     .advertisement-label{
+    text-align: right;
+   font-size: 10px;
+
+        margin: 0 auto;
+}
+	display: block;
+	margin-bottom: 0px;
+	padding: 8px 0;
+	background: $ads-background-color;
+
+	img{
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+}
+
+
+
+.advert{
+    .MPU{
+    float: right;
+    height: 300px;
+    }
+}
+
+
+.article{
+    .secondary{
+        .MPU{
+              @extend %element-secondary;
+             padding-top: 4px;
+            margin-top: 20px;
+            @include respond-to(D){margin-bottom: 0px;}
+        }
+    }
+}
+.MPU{
+    
+    &.middle{
+        margin-bottom: 0;
+        @extend %element;
+        padding-top: 0px;
+    }
+	display: block;
+    margin: 20px auto 8px auto;
+	@include respond-to(C) {margin-top: 0;}
+	padding: 0 0 8px 0;
+      background: $ads-background-color;
+    width: 100%;
+//    width:308px;
+    .advertisement-label{
+   font-size: 10px;
+    color: #404040;
+    width: 300px;
+    margin: 0 auto;
+    text-align: right;
+      
+        span{
+            padding: 4px 0 2px 0;
+            display: block;
+        }
+}
+    .reflow{
+
+    }
+
+	img{
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+        width:300px;
+        height:auto;
+        max-width: none;
+	}
+
+	.hype{
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+
+      @include respond-to(B) {margin-bottom: 16px; margin-top: 24px; }
+}
+
+
+.bbccom_adsense_slot{
+    @extend %element-secondary;
+    display: inline-block;
+     @include respond-to(D) {margin-right: -8px; margin-left:-8px;}
+     @include respond-to(C) {border-top: 0;padding-top: 0px; margin-right: -8px; margin-left:8px;}
+   
+    h3{
+        @extend %double-pica;
+        background-color: #EDEDED;
+          color: #404040;
+          padding: 16px 16px;
+          margin: 0;
+    }
+     ul {
+      padding: 0 12px 0 16px;
+         li {
+          font-weight: normal;
+          color: #5F5F5F;
+          padding: 20px 0 0 0;
+          width: 100%;
+          line-height: 1.5em;
+          display: inline-block;
+             
+             h4 {
+                @extend %agate; 
+              font-weight: bold;
+              padding: 0 12px 0 0;
+              margin: 0;
+            }
+             p {
+                 @extend %long-primer; 
+              padding: 0 12px 0 0;
+              margin: 4px 0 0 0;
+              font-weight: normal;
+            }
+              a {
+              text-decoration: none;
+              color: #1D1D1D;
+            }
+        }
+    }
+}
+

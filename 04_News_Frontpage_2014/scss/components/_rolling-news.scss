@@ -1,0 +1,74 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+$timestamp-top-margin:0px;
+$timestamp-bottom-margin:10px;
+.main{
+    .rolling-news { @extend %element-no-border;}
+}
+.rolling-news{
+     margin-bottom: 24px;
+   
+    
+    dd.rolling-news__story{
+        h3{ @extend %long-primer;padding-top: 4px;font-weight: 700;}
+        &:last-child a{
+        padding-bottom: 16px;
+        }
+        
+    }
+  
+  .subheader.double-pica{
+  background: $silver;
+      margin-bottom: 0px;
+      padding-bottom: 16px;
+      padding-top: 12px;
+      padding-left: 16px;
+  }   
+   
+    .timestamp{
+        width: 100%;
+    position: relative;
+    border-top: 1px solid #CBCBC7;
+    margin-top: 0;
+        margin-bottom: 2px;
+        padding-top: 8px;
+    }
+    .timestamp:after {
+        font-family: 'gelIconsFontCSS';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+        content: '\e608';
+        display: block;
+        height: 12px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 12px;
+}
+    
+    
+    .accordion .accordion-navigation > a, .accordion dd > a{  
+        padding: 0 16px 16px 16px;
+    
+    }
+    
+    .accordion .accordion-navigation.active > a, .accordion dd.active > a{
+    background: $silver;
+    }
+
+}
+
+
+
+

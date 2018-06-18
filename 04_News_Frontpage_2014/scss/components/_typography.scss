@@ -1,0 +1,432 @@
+
+html {
+    -webkit-text-size-adjust: 100%;
+    /* Prevent font scaling in landscape while allowing user zoom */
+    
+   
+}
+
+$base-font-size: 19px;
+$base-line-height: 27px;
+$measure: 760px;
+$h1-font-size: 80px;
+$h1-line: 27px;
+$h1-lines: 3;
+$h1-line-height: $h1-line * $h1-lines;
+$h1-margin-top: 2 * $h1-line;
+$h1-margin-bottom: 1 * $h1-line;
+$h2-font-size: 50px;
+$h2-line: 27px;
+$h2-lines: 2;
+$h2-line-height: $h2-line * $h2-lines;
+$h2-margin-top: 2 * $h2-line;
+$h2-margin-bottom: 1 * $h2-line;
+$h3-font-size: 31px;
+$h3-line: 27px;
+$h3-lines: 2;
+$h3-line-height: $h3-line * $h3-lines;
+$h3-margin-top: 1 * $h3-line;
+$h3-margin-bottom: 1 * $h3-line;
+$h4-font-size: 19px;
+$h4-line: 27px;
+$h4-lines: 1;
+$h4-line-height: $h4-line * $h4-lines;
+$h4-margin-top: 1 * $h4-line;
+$h4-margin-bottom: 1 * $h4-line;
+// Variables are rounded to pixels
+// It's safe to multiply with integers
+// eg. h1 {margin: 2*$h1-line 0;}
+// The grid will stay aligned
+/* Sanitation */
+
+hr {
+    border: 1px solid;
+    margin: -1px 0;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+b,
+strong,
+em,
+small,
+code {
+    line-height: 1;
+}
+
+sup,
+sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+sub {
+    top: 0.4em;
+    font-weight: 700
+}
+
+// GEL
+// GEL
+$double-trafalgar-font-size-A: 30px;
+$double-trafalgar-line-height-A: 32px;
+$double-trafalgar-letter-spacing-A: -1px;
+$double-trafalgar-font-size-B: 32px;
+$double-trafalgar-line-height-B: 36px;
+$double-trafalgar-letter-spacing-B: -1px;
+$double-trafalgar-font-size-C: 48px;
+$double-trafalgar-line-height-C: 52px;
+$double-trafalgar-letter-spacing-C: -1px;
+$double-trafalgar-font-size-D: 48px;
+$double-trafalgar-line-height-D: 52px;
+$double-trafalgar-letter-spacing-D: -1px;
+$trafalgar-font-size-A: 20px;
+$trafalgar-line-height-A: 24px;
+$trafalgar-letter-spacing-A: -1px;
+$trafalgar-font-size-B: 24px;
+$trafalgar-line-height-B: 28px;
+$trafalgar-letter-spacing-B: -1px;
+$trafalgar-font-size-C: 36px;
+$trafalgar-line-height-C: 40px;
+$trafalgar-letter-spacing-C: -1px;
+$trafalgar-font-size-D: 32px;
+$trafalgar-line-height-D: 36px;
+$trafalgar-letter-spacing-D: -1px;
+$double-pica-font-size-A: 20px;
+$double-pica-line-height-A: 24px;
+$double-pica-letter-spacing-A: -1px;
+$double-pica-font-size-B: 20px;
+$double-pica-line-height-B: 24px;
+$double-pica-letter-spacing-B: -1px;
+$double-pica-font-size-C: 24px;
+$double-pica-line-height-C: 28px;
+$double-pica-letter-spacing-C: -1px;
+$double-pica-font-size-D: 24px;
+$double-pica-line-height-D: 28px;
+$double-pica-letter-spacing-D: -1px;
+$great-primer-font-size-A: 18px;
+$great-primer-line-height-A: 20px;
+$great-primer-letter-spacing-A: -0.4px;
+$great-primer-font-size-B: 18px;
+$great-primer-line-height-B: 22px;
+$great-primer-letter-spacing-B: -0.4px;
+$great-primer-font-size-C: 20px;
+$great-primer-line-height-C: 24px;
+$great-primer-letter-spacing-C: -1px;
+$great-primer-font-size-D: 20px;
+$great-primer-line-height-D: 24px;
+$great-primer-letter-spacing-D: -1px;
+$pica-gel-font-size-A: 15px;
+$pica-gel-line-height-A: 20px;
+$pica-gel-letter-spacing-A: inherit;
+$pica-gel-font-size-B: 16px;
+$pica-gel-line-height-B: 22px;
+$pica-gel-letter-spacing-B: inherit;
+$pica-gel-font-size-C: 18px;
+$pica-gel-line-height-C: 24px;
+$pica-gel-letter-spacing-C: inherit;
+$pica-gel-font-size-D: 16px;
+$pica-gel-line-height-D: 22px;
+$pica-gel-letter-spacing-D: inherit;
+$agate-font-size-A: 15px;
+$agate-line-height-A: 20px;
+$agate-letter-spacing-A: inherit;
+$agate-font-size-B: 16px;
+$agate-line-height-B: 20px;
+$agate-letter-spacing-B: inherit;
+$agate-font-size-C: 18px;
+$agate-line-height-C: 22px;
+$agate-letter-spacing-C: -0.5px;
+$agate-font-size-D: 16px;
+$agate-line-height-D: 20px;
+$agate-letter-spacing-D: inherit;
+$long-primer-font-size-A: 15px;
+$long-primer-line-height-A: 18px;
+$long-primer-letter-spacing-A: inherit;
+$long-primer-font-size-B: 15px;
+$long-primer-line-height-B: 18px;
+$long-primer-letter-spacing-B: inherit;
+$long-primer-font-size-C: 15px;
+$long-primer-line-height-C: 20px;
+$long-primer-letter-spacing-C: inherit;
+$long-primer-font-size-D: 14px;
+$long-primer-line-height-D: 18px;
+$long-primer-letter-spacing-D: inherit;
+$brevier-font-size-A: 14px;
+$brevier-line-height-A: 16px;
+$brevier-letter-spacing-A: inherit;
+$brevier-font-size-B: 14px;
+$brevier-line-height-B: 18px;
+$brevier-letter-spacing-B: inherit;
+$brevier-font-size-C: 14px;
+$brevier-line-height-C: 18px;
+$brevier-letter-spacing-C: inherit;
+$brevier-font-size-D: 13px;
+$brevier-line-height-D: 16px;
+$brevier-letter-spacing-D: inherit;
+$english-font-size-A: 16px;
+$english-line-height-A: 20px;
+$english-letter-spacing-A: inherit;
+$english-font-size-B: 16px;
+$english-line-height-B: 20px;
+$english-letter-spacing-B: inherit;
+$english-font-size-C: 16px;
+$english-line-height-C: 20px;
+$english-letter-spacing-C: inherit;
+$english-font-size-D: 16px;
+$english-line-height-D: 20px;
+$english-letter-spacing-D: inherit;
+$brilliant-font-size: 14px;
+$brilliant-line-height: 18px;
+$brilliant-letter-spacing: inherit;
+$paragon-font-size: 18px;
+$paragon-line-height: 22px;
+$paragon-letter-spacing: -0.5px;
+
+
+%double-trafalgar {
+    @include respond-to(B) {
+        @include font-settings($double-trafalgar-font-size-B, $double-trafalgar-line-height-B, $double-trafalgar-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings( $double-trafalgar-font-size-C, $double-trafalgar-line-height-C, $double-trafalgar-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings( $double-trafalgar-font-size-D, $double-trafalgar-line-height-D, $double-trafalgar-letter-spacing-D);
+    }
+}
+
+
+
+%trafalgar {
+    @include respond-to(B) {
+        @include font-settings($trafalgar-font-size-B, $trafalgar-line-height-B, $trafalgar-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($trafalgar-font-size-C, $trafalgar-line-height-C, $trafalgar-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($trafalgar-font-size-D, $trafalgar-line-height-D, $trafalgar-letter-spacing-D);
+    }
+}
+
+%double-pica {
+    @include respond-to(B) {
+        @include font-settings($double-pica-font-size-B, $double-pica-line-height-B, $double-pica-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($double-pica-font-size-C, $double-pica-line-height-C, $double-pica-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($double-pica-font-size-D, $double-pica-line-height-D, $double-pica-letter-spacing-D);
+    }
+}
+
+%great-primer {
+    @include respond-to(B) {
+        @include font-settings($great-primer-font-size-B, $great-primer-line-height-B, $great-primer-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($great-primer-font-size-C, $great-primer-line-height-C, $great-primer-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($great-primer-font-size-D, $great-primer-line-height-D, $great-primer-letter-spacing-D);
+    }
+}
+
+%pica-gel {
+    @include respond-to(B) {
+        @include font-settings($pica-gel-font-size-B, $pica-gel-line-height-B, $pica-gel-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($pica-gel-font-size-C, $pica-gel-line-height-C, $pica-gel-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($pica-gel-font-size-D, $pica-gel-line-height-D, $pica-gel-letter-spacing-D);
+    }
+}
+
+%pica {
+    @include respond-to(B) {
+        @include font-settings($agate-font-size-B, $agate-line-height-B, $agate-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($agate-font-size-C, $agate-line-height-C, $agate-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($agate-font-size-D, $agate-line-height-D, $agate-letter-spacing-D);
+    }
+}
+
+%long-primer {
+    @include respond-to(B) {
+        @include font-settings($long-primer-font-size-B, $long-primer-line-height-B, $long-primer-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($long-primer-font-size-C, $long-primer-line-height-C, $long-primer-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($long-primer-font-size-D, $long-primer-line-height-D, $long-primer-letter-spacing-D);
+    }
+}
+
+%brevier {
+    // @include respond-to(A) {
+    //     @include font-settings(
+    //         get-script-value((latin 14px, arabic 16px, arabic-pashto 16px)),
+    //         get-script-value((latin 16px, tamil 20px, arabic 18px, latin-diacritics 18px, hindi 20px, arabic-pashto 22px, bengali 20px, burmese 22px))
+    //     );
+    // }
+    @include respond-to(B) {
+        @include font-settings( $brevier-font-size-B, $brevier-line-height-B, $brevier-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings( $brevier-font-size-C, $brevier-line-height-C, $brevier-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings( $brevier-font-size-D, $brevier-line-height-D, $brevier-letter-spacing-D);
+    }
+}
+
+%minion {
+    // @if $core {
+    //     text-transform: uppercase;
+    // }
+    // @include respond-to(A) {
+    //     @include font-settings(12px, 16px);
+    // }
+    // @include respond-to(B) {
+    //     @include font-settings(12px, 16px);
+    // }
+    // @include respond-to(C) {
+    //     @include font-settings(13px, 16px);
+    // }
+    // @include respond-to(D) {
+    //     @include font-settings(
+    //         get-script-value((latin 12px, arabic 15px, hindi 14px, arabic-pashto 14px, bengali 15px, burmese 14px, tamil 14px)),
+    //         get-script-value((latin 16px, arabic 19px, hindi 18px, bengali 18px, burmese 22px, tamil 18px))
+    //     );
+    // }
+    font-size: 12px;
+    line-height: 16px;
+    @include respond-to(C) {}
+    @include respond-to(D) {}
+}
+
+// New Front Page font classes
+//////////////////////////////|
+
+
+
+%paragon {
+    @include respond-to(B) {
+        @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    }
+    @include respond-to(C) {
+        @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    }
+    @include respond-to(D) {
+        @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    }
+}
+
+%english {
+    @include respond-to(B) {
+        @include font-settings($english-font-size-B, $english-line-height-B, $english-letter-spacing-B);
+    }
+    @include respond-to(C) {
+        @include font-settings($english-font-size-C, $english-line-height-C, $english-letter-spacing-C);
+    }
+    @include respond-to(D) {
+        @include font-settings($english-font-size-D, $english-line-height-D, $english-letter-spacing-D);
+    }
+}
+
+%agate {
+    @include font-settings(16px, 20px, inherit);
+}
+
+
+
+%brilliant {
+    @include font-settings($brilliant-font-size, $brilliant-line-height, $brilliant-letter-spacing);
+}
+
+%ruby {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+%byline {
+    @extend %brilliant;
+    @extend %atom;
+    .byline__name-link, .byline__name {
+        color: $brand-color;
+    }
+    .byline__title {
+        color: $iron;
+    }
+}
+
+.subheader {
+    @extend %double-pica;
+    @extend %subheader;
+    letter-spacing: normal !important;
+}
+
+
+
+
+
+.double-trafalgar{ 
+        @extend %double-trafalgar;
+    }
+    .trafalgar{ 
+        @extend %trafalgar;      
+    }
+    .double-pica{ 
+        @extend %double-pica;
+    }
+    .great-primer{ 
+        @extend %great-primer;
+    }
+    .long-primer{ 
+        @extend %long-primer;
+    }
+    .pica{ 
+        @extend %pica;
+    }
+    .pica-gel{ 
+        @extend %pica-gel;
+    }
+    .brevier{ 
+        @extend %brevier;
+    }
+    .minion{ 
+        @extend %minion;
+    }
+    
+    ////NEW STYLES
+    .paragon{ 
+        @extend %paragon;
+    }
+    .english{ 
+        @extend %english;@extend %type-name;
+    }
+    .agate{ 
+        @extend %agate;@extend %type-name;
+    }
+    .brilliant{ 
+    @extend %brilliant-D;@extend %type-name;
+    }
+
+.bold{
+font-weight: 700;
+}

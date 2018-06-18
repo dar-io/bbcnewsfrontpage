@@ -1,0 +1,149 @@
+.idx-alsos{
+    @extend %brilliant;
+    
+        ul{
+            @extend %brilliant;
+        }
+    
+    &:before {
+        content: '';
+        border-top: 1px solid $brand-color;
+        position: relative;
+        top: -3px;
+        left: 0;
+        display: block;
+        width: 44px;
+        padding: 0px 0px 0px 0px;
+        @extend %molecule;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {}
+
+%index-alsos {
+           width: 100%;
+             ul{
+                 display: inline-block;
+             }
+            li {
+                margin-right: 4.5%;
+                width: 100%;
+                a {
+                    padding: 4.5px 0px;
+                    display: block;
+                }
+            }        
+
+}
+
+%index-alsos-top-story {
+     @include respond-to(B) {
+           width: 100%;
+             ul{
+                 display: inline-block;
+             }
+            li {
+                margin-right: 4.5%;
+                width: 100%;
+                a {
+                    padding: 4.5px 0px;
+                    display: block;
+                }
+            }
+            li:nth-child(2) {
+                border-top: 1;
+            }
+            li:nth-child(1) {
+                border-top: 0;
+            }
+            li:nth-child(even) {
+                margin-right: 0px;
+            }
+         
+         
+     }
+
+     @include respond-to(C) {
+          width: 32.4%;
+          ul{
+                 display: inline-block;
+             }
+            li {
+                margin-right: 4.5%;
+                vertical-align: top;
+                width: 100%;
+                border-top: 0px solid #ededed;
+                a {
+                    padding: 4.5px 0px;
+                    display: block;
+                }
+            }
+            li:nth-child(2) {
+                border-top: 1;
+            }
+            li:nth-child(1) {
+                border-top: 0;
+            }
+            li:nth-child(even) {
+                margin-right: 0px;
+            }       
+     }
+
+     @include respond-to(D) {
+            width: 35.9%;
+             ul{
+                 display: inline-block;
+             }
+            li {
+                margin-right: 4.5%;
+                width: 100%;
+                a {
+                    padding: 4.5px 0px;
+                    display: block;
+                }
+            }
+            li:nth-child(2) {
+                border-top: 1;
+            }
+            li:nth-child(1) {
+                border-top: 0;
+            }
+            li:nth-child(even) {
+                margin-right: 0px;
+            }
+     }
+    
+
+    @include respond-to(E) {
+
+    }
+
+    @include respond-to(F) {
+            width: 100%;
+            display: inline-block;
+            li {
+                display: inline-block;
+                margin-right: 4.5%;
+                width: 47.2%;
+                a {
+                    padding: 4.5px 0px;
+                    display: block;
+                }
+            }
+            li:nth-child(2) {
+                border-top: 1;
+            }
+            li:nth-child(1) {
+                border-top: 0;
+            }
+            li:nth-child(even) {
+                margin-right: 0px;
+            }
+    }
+}
+
+
+       
+    

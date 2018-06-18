@@ -1,0 +1,338 @@
+@import "foundation/components/global";
+
+%splash-type-style {
+    @include respond-to(B) {
+        @include font-settings(24px, 28px, -1px);
+    }
+ @include respond-to(I) {
+        @include font-settings( 34px, 38px, -1px); 
+ }
+    @include respond-to(C) {
+        @include font-settings( 42px, 46px, -1px);
+    }
+    @include respond-to(D) {
+        @include font-settings( 52px, 60px, -1px);
+    }
+}
+
+%double-trafalgar-splash {
+   
+    @include respond-to(B) {
+        @include font-settings(32px, 37px, -1px);
+    }
+    @include respond-to(C) {
+        @include font-settings( 48px, 55px, -1px);
+    }
+    @include respond-to(D) {
+        @include font-settings( 48px, 55px, -1px);
+    }
+     @include respond-to(A) {
+        @include font-settings(30px, 35px, -1px);
+    }
+    
+}
+
+%canon {
+   
+    @include respond-to(B) {
+        @include font-settings(32px, 37px, -1px);
+    }
+    @include respond-to(C) {
+        @include font-settings( 48px, 55px, -1px);
+    }
+    @include respond-to(D) {
+        @include font-settings( 40px, 46px, -1px);
+    }
+     @include respond-to(A) {
+        @include font-settings(28px, 32px, -1px);
+    }
+}
+
+
+     
+.splash-body{
+    
+   .container {
+  margin-top: 16px;
+}    
+.splash * {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition:    all 0.5s ease;
+  -ms-transition:     all 0.5s ease;
+  -o-transition:      all 0.5s ease;
+}
+.share-container{
+max-width: 976px;
+margin: 0 auto;
+position: relative;
+}
+.share-icon{
+    z-index: 999;
+height: 32px;    
+background:rgba(0, 0, 0, 0.7);
+position: absolute;
+right: 16px;
+top: 16px;    
+    &:after{
+    height: 32px;
+    width: 32px;
+    background-size: 16px 16px;
+    color: #000;
+    left: 6px;
+    top: 8px;
+    }
+    .share-label{
+    display: block;
+    margin-left: 24px;
+    width: 57px;
+    color: #fff;
+    padding: 10px 8px 6px 8px;
+    line-height: 1;  
+    @extend %brilliant;
+}
+@include respond-to(C) { 
+    width: 32px;
+    .share-label{ display:none;}  
+    }  
+  @include respond-to(B) {
+    display: none;
+    }    
+}
+
+.pigeon {
+  margin-top: 0px !important;
+  padding-top: 0px;
+  border-top: 0;
+}
+
+.secondary .watch-listen{
+@include respond-to(D) {margin-top: 0px;} 
+}    
+ 
+.breaking-news {
+background-color: #cb0101;
+display: table;
+line-height: 1;
+padding: 4px 8px 1px 8px;
+font-size: 16px;
+font-weight: 700;
+color: #fff;
+margin-left: -8px;    
+@include respond-to(B) {font-size: 14px;padding: 3px 8px 1px 8px;}
+}
+
+.splash {
+       
+    .component-wrap{
+    max-height: 35px;
+    }
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+-webkit-font-smoothing: antialiased;
+position: relative;
+max-height: 350px;
+overflow: hidden;
+display: block;    
+@include respond-to(G) {max-height: 500px;}
+   
+.hard-news-unit__image {
+
+
+@include respond-to(G) {margin-top: -12%}
+@include respond-to(H) {margin-top: -8%;} 
+@include respond-to(B) {   margin-top: 0%;}   
+}
+.responsive-image{margin-bottom: 0px;}    
+
+.hard-news-unit__headline-container {
+        position: absolute;
+        z-index: 999;
+        right: 16px;
+        left: 34px;
+        top:58px;
+        max-width: 976px;
+        margin: 0 auto;
+        @include respond-to(C) {top: 36px;left: 24px;}
+        @include respond-to(B) {top: 16px;left: 16px;}
+        @include respond-to(B-Medium) {top: 16px;left: 24px;}
+          .icon-photo{
+                vertical-align: text-bottom;
+  font-size: 29px;
+              @include respond-to(B) {
+                   font-size: 24px;
+              }
+            } 
+    }
+.title_description__wrap {
+    .padded-multiline { 
+        max-width: 50%; // Headline max width
+        @include respond-to(B) {max-width: 50%;}
+        &.splash-type{
+                @extend %splash-type-style;
+            }
+            &.canon{
+                @extend %canon;
+            }
+             &.double-trafalgar{
+                @extend %double-trafalgar-splash;
+            }
+        a{
+           
+            color: #fff;
+            font-weight: 700;      
+            display: inline;
+            background: rgba(26, 23, 24, 0.85);
+            -webkit-box-shadow: -8px 0 0 rgba(26, 23, 24, 0.85), 8px 0 0 rgba(26, 23, 24, 0.85);
+            -moz-box-shadow: -8px 0 0 rgba(26, 23, 24, 0.85), 8px 0 0 rgba(26, 23, 24, 0.85);
+            box-shadow: -8px 0 0 rgba(26, 23, 24, 0.85), 8px 0 0 rgba(26, 23, 24, 0.85);
+            -webkit-box-decoration-break: clone;
+            -ms-box-decoration-break: clone;
+            -o-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0;
+            span{
+                color: #fff;
+            }
+        }
+    }
+}
+}
+    
+ @-moz-document url-prefix() { 
+  .h1 {
+     line-height: 1.1;
+  }
+}
+    
+    h1 { 
+         color:#fff; 
+        font-weight: 700;
+        max-width: 50%; // Headline max width
+@include respond-to(C) {max-width: 50%;}
+        @include respond-to(B) {max-width: 50%;}
+            &.splash-type{
+                @extend %splash-type-style;
+            }
+            &.canon{
+                @extend %canon;
+            }
+             &.double-trafalgar{
+                @extend %double-trafalgar-splash;
+            }
+        
+        .wrap {
+	box-shadow: -8px 0 0 0px rgba(26, 23, 24, 0.85), 8px 0 0 0px rgba(26, 23, 24, 0.85);
+             box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            
+}
+.inner {
+	background:  rgba(26, 23, 24, 0.85);
+	position:relative;
+}
+    }
+
+
+.splash-container {
+display: block;
+
+overflow: hidden;
+ 
+}
+
+.ng-splash-group{
+border-bottom: 1px solid $keyline-color;
+}
+.container-splash-meta {
+  margin-top: 0px;
+  max-width: 992px;
+  margin: 0 auto;
+    @include respond-to(B-Medium) {padding-left: 8px;padding-right: 8px;}
+     &:after {
+  content: "";
+  display: block;
+  bottom: 0;
+  clear: both;
+
+}
+}
+.splash-meta{
+padding-top: 16px;
+padding-bottom: 12px;
+    @include respond-to(B) {padding-top: 12px;}  
+    @include respond-to(B-Small) {margin-left: 0px;}
+    @include respond-to(C-Large) {padding-top: 12px;}  
+    @include respond-to(C) {margin-left: 8px;padding-top: 12px;}
+    
+    .summary{
+        color: $summary-color;
+       
+         @include respond-to(D) {padding-top: 6px;}
+        @include respond-to(C) {max-width: 530px;padding-right: 8px;padding-top: 0px;}
+    }    
+.idx-alsos{
+@include respond-to(C) {margin-top: 16px;}
+@include respond-to(B) {margin-top: 16px;}
+        &:before{
+            content: '';
+            margin-top: 0px;
+            left: 0px;
+        }
+        ul{
+            display: inline-block;
+            @include respond-to(B) { margin-left: -8px; margin-right: -8px;}
+             @include respond-to(C) { margin-left: -8px; margin-right: -8px;}
+             @include respond-to(D) { margin-left: -8px; margin-right: -8px;}
+             li {
+                vertical-align: text-top;
+                display: inline-block;
+                margin-right: 8px;
+                margin-left: 8px;
+                width: 46%;
+                @include respond-to(B-Medium) {width: 46%;}
+                @include respond-to(B-Small) { width: 100%;}
+            }
+                a {
+                    padding: 3px 0px;
+                    display: block;
+                }
+            }
+            li:nth-child(2) {
+                border-top: 1;
+            }
+            li:nth-child(1) {
+                border-top: 0;
+            }
+            li:nth-child(even) {
+                margin-right: 0px;
+            }
+        }
+           
+      
+        
+       
+     }
+    
+
+   
+}
+
+
+
+
+//@include respond-to(D) {
+//         &:before {
+//          content: "";
+//          display: block;
+//          border-left: 1px solid #e4e4e4;
+//          position: absolute;
+//          min-height: 66px;
+//          left: -8px;
+//          border-top: 0px;
+//          top: 4px;
+//        }
+//       }

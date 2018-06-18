@@ -1,0 +1,44 @@
+// _mixins.scss
+
+$groups: (
+    
+ 
+ 
+  B-Medium:($medium-only),
+  C-Large: ($large-only),
+  B:       ($small-only, $medium-only),
+  B-Small: ($small-only),
+  C:       ($large-only, $xlarge-only),
+  D:       ($xxlarge-up),
+  DC-Only: ($large-up),
+  E:      "(max-width: 479px)",
+  F:      "(min-width: 400px) and (max-width: 700px)",
+  H:      "(min-width: 650px) and (max-width: 1579px)",
+    I:      "(min-width: 460px) and (max-width: 599px)",
+   G:      "(min-width: 1580px)",
+     A:      "(min-width: 0px) and (max-width: 319px)"
+  
+  
+);
+
+@mixin respond-to($group) {
+  $breakpoint: map-get($groups, $group);
+
+  @if $breakpoint == null {
+
+    @warn "Group not found."
+
+  } @else {
+
+    @media #{$breakpoint} {
+      @content;
+    }
+
+  }
+}
+
+@mixin font-settings($font-size, $line-height, $letter-spacing){
+font-size: $font-size;
+line-height: $line-height;
+letter-spacing: $letter-spacing;
+}

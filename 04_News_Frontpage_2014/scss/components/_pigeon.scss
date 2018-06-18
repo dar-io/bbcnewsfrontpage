@@ -1,0 +1,173 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+.pigeon {
+    .timestamp, .unit__meta, .mini-info-list{
+        display: inline-block;
+    }
+    @extend %element-with-top-border-no-header;
+    
+       [class*="block-grid-"] > li {
+          
+            @include respond-to(B) {
+                padding: 0;
+                margin: auto 0px;
+            }  
+            @include respond-to(C) {
+               padding-bottom: 0;
+               
+            }
+           @include respond-to(D) {
+               padding-bottom: 0;
+        
+            }
+        }
+    .idx-alsos{
+      @extend %index-alsos;
+    }
+    p {
+        @extend %long-primer;
+        color: $summary-color;
+        @extend %proton;
+    }
+    .pigeon__block{
+        h2{ display: inline-block;
+            @extend %great-primer;
+            @extend %atom;
+            font-weight: 700;
+        }
+    }
+    
+    .pigeon__headlines > li {
+        @extend %atom;
+    }
+    .pigeon__headlines{
+        li:first-child h2{margin-top: 0px;}
+        h2{
+            @extend %paragon;
+           
+            font-weight: 700;
+        }
+    }
+    
+    
+    .responsive-image {
+        
+        @include respond-to(B) { 
+            padding-right: 5px;
+            margin-right: 3px;
+            padding-left: 0px;
+        }
+      @include respond-to(C) { 
+            padding-right: 0px;
+            margin-left: 0px;
+        }
+        @include respond-to(D) { 
+            padding-right: 0px;
+            margin-left: 0px;
+        }
+         @include respond-to(B-Small) { 
+            padding-right: 5px;
+            margin-right: 3px;
+            padding-left: 0px;
+        }
+    }
+    
+    .pigeon__block:before {
+        content: "";
+        position: absolute;
+        /* display: block; */
+        min-height: 100%;      
+    }
+   
+    @include respond-to(B-Small) {
+         .timestamp, .unit__meta, .mini-info-list{
+        display: block;
+    }
+        .story-2{   
+            .pigeon__block{ 
+                   margin-top: 16px;
+                    padding-top: 16px;
+                    border-top: 1px solid $keyline-color;
+               }
+        }
+         .pigeon__block{ 
+            h2{display: inline;} 
+    }
+    }
+    @include respond-to(B) {
+       
+        .pigeon__headlines > li {
+          margin-top: $headlines-padding-top;
+          padding-top: $headlines-padding-top;
+          border-top: 1px solid #EDEDED;
+          
+        }
+        
+        .link{display: inline-block; width: 100%;}
+                  .pigeon__headlines{  
+                      border-top: 0px solid $keyline-color;
+                      margin: 0;
+                  }
+                 
+                li:first-child {
+                    
+                   
+                }
+                .pigeon__block{ padding-right: 0px; 
+                                 
+                     &:before{ 
+                         border-right: 1px solid $keyline-color; 
+                         right: 0px; }
+                }             
+                .story-2 {
+                    .pigeon__block:before{display: none;}
+                }
+            }  
+            @include respond-to(C) {
+                .pigeon__headlines-block{
+                   padding: 0;
+                   min-height: 114px;
+                   border-bottom: 1px solid $keyline-color;
+                }
+                li:last-child{
+                    .pigeon__headlines-block{
+                        border-bottom: 0px;
+                    }
+                }
+               
+                .pigeon__block{ 
+                    padding-right: 16px;    
+                    &:before{ 
+                        border-right: 1px solid $keyline-color; 
+                        right: 8px; 
+                    }
+                }
+                
+            }
+           @include respond-to(D) {
+                .pigeon__headlines-block{
+                   padding: 0;
+                   min-height: 118px;
+                   border-bottom: 1px solid $keyline-color;
+                }
+               
+                li:last-child{
+                    .pigeon__headlines-block{
+                        border-bottom: 0px;
+                    }
+                }
+               
+               .pigeon__block{ 
+                   padding-right: 16px;
+                   &:before{ 
+                       border-right: 1px solid $keyline-color; 
+                       right: 8px;
+                   }
+               }
+            }
+    
+}

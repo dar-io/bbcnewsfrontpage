@@ -1,0 +1,132 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+
+.explainers{
+ @extend %element;
+    
+    .explainers_item{
+    background-color: $secondary-color;
+        padding: 0 0px 8px 0px;
+        display: inline-block;
+         .explainers-meta-group {
+     padding-left: 8px;
+         padding-right: 8px;
+             &.reporters-item{
+                   position: relative;
+ 
+              @include respond-to(D) { 
+           min-height: 256px;
+         }
+       @include respond-to(C) { 
+           min-height: 268px;
+         }
+        @include respond-to(C-Large) { 
+           min-height: 240px;
+         }
+             }
+     }
+    }
+    
+    .overlay-icon{
+         background-color: $secondary-color;
+    }
+   h2{
+       @extend %agate;
+       @extend %atom;
+       font-weight: 700;
+       display: inline-block;
+   } 
+    
+   .byline{
+        @extend %molecule;
+         position: relative;
+          padding-bottom: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
+        margin-top: 0px;
+    
+     @include respond-to(D) { 
+           width: 92%;
+          bottom: 0px;
+         position: absolute;
+         }
+       @include respond-to(C) { 
+            bottom: 0px;
+         position: absolute;
+            width: 92%;
+         }
+          @include respond-to(B) { 
+           display: table;
+         }
+       
+    }
+     .byline__name-and-title{
+         
+        display: block;
+        @extend %byline;
+        .byline__name-link{
+            display: block;
+        }
+    }
+    
+    [class^="circle-"] img, [class*=" circle-"] img{
+        background: #fff;
+    }
+    
+    .circle-48 {
+      position: relative;
+    padding-top: 8px;
+        float: right;
+        margin-left: 8px;
+        margin-right: 0;
+    }
+    
+        @include respond-to(B) { 
+             [class*="block-grid-"] > li{
+                  padding-bottom: 8px;
+                 &:last-child{
+                 padding-bottom: 0px;
+                 }
+               
+           }
+             .explainers_item{
+        padding: 4px;
+            .explainers-meta-group{
+     padding: 4px  8px 0px 8px;
+     }
+    }
+            h2{margin-top: 0px;display: block;}
+             .responsive-image {  
+                padding-right: 5px;
+                margin-right: 4px;
+                padding-left: 0px;
+             }
+        }
+    
+           @include respond-to(C) { 
+           [class*="block-grid-"] > li{
+               padding: 0 8px 0px;
+           }
+       
+       }
+    @include respond-to(D) { 
+           [class*="block-grid-"] > li{
+               padding: 0 8px 0px;
+           }
+       
+       }
+    
+         @include respond-to(B-Small) { 
+           .timestamp, .unit__meta, .mini-info-list{
+        display: block;
+               
+    }
+       
+        }
+    }
+   
+

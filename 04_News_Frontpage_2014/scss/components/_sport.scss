@@ -1,0 +1,167 @@
+@import "foundation/components/global";
+
+.sport{
+      .hard-news-unit__image{
+            margin-left: 8px;
+        }
+    @extend %element;
+    h2{
+        @extend %double-pica;
+        font-weight: 700;
+    }
+    
+    
+    [class^="live-icon-"], [class*=" live-icon-"]{
+        background-color: $sport-live;
+    }
+    .sport__other-stories{
+            h2{
+            @extend %agate;
+            @extend %atom;
+            font-weight: 700;
+            display: inline-block;
+        }
+    }
+    
+    p{
+       @extend %long-primer;
+       color: $summary-color;
+        @extend %atom;
+        
+    }
+    
+    @include respond-to(B) { 
+        h2{margin-top: 8px;display: inline-block;}
+        .sport__top-story{
+            .responsive-image{
+             margin-right: 0;
+            }
+            .hard-news-unit__image{
+                margin-right: 0;
+            }
+        }
+         .responsive-image{
+            margin-right: 8px;
+        }
+         .sport__other-stories{
+            h2{
+           margin-top: 0px;
+            display: block;
+        }
+             
+             .link{
+             margin-bottom: 16px;
+                 &:last-child{
+                     margin-bottom: 0;
+                 }
+             }
+    }
+        
+    }
+    @include respond-to(C) { }
+    @include respond-to(D) { }
+
+  [class*="block-grid-"] > li{
+    padding-bottom:0px;
+
+  }
+
+
+
+
+    
+
+    .sport__other-stories{
+       
+
+ 
+     @media #{$medium-only} {
+       
+     .responsive-image{
+       margin-right: 4px;
+       padding-right: 4px;
+        }
+}
+
+
+
+    }
+    .sport__top-story{
+        .responsive-image__image{
+            padding-left: 8px;
+        }
+
+        @media #{$medium-only} {
+            .hard-news-unit__headline-container{
+        border-bottom: 1px solid #E7E7E7;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+     }
+            .responsive-image{
+            margin-bottom: 0px;
+            }
+       .responsive-image__image{
+            padding-left: 0px;
+
+
+        }
+
+}
+
+ @media #{$small-only} {
+     
+     .hard-news-unit__headline-container{
+        border-bottom: 1px solid #E7E7E7;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+     }
+     .responsive-image__image{
+            padding-left: 0px;
+    
+
+        }
+
+}
+
+
+      
+
+    }
+
+
+}
+
+@media #{$small-only} {
+.sport__top-story{
+               margin-bottom: 8px;
+           }
+}
+
+
+
+// GROUP B
+@media #{$medium-only} {
+ .sport__top-story{
+               margin-bottom: 8px;
+           }
+}
+
+
+
+
+
+// GROUP C
+
+@media #{$large-up} {
+
+  .sport__top-story{
+    .responsive-image{
+      margin-bottom: 16px;
+    }
+
+
+  }
+}
+
+
+

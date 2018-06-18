@@ -1,0 +1,344 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+.OUTBRAIN{
+    @extend %element-secondary;
+}
+
+.ob-recIdx-0, 
+.ob-recIdx-1{
+       @include respond-to(C) {
+            .ob-unit.ob-rec-text{
+               
+            }
+       }
+}
+
+/* dynamic basic css */
+
+.AR_9.ob-widget .ob-widget-items-container {
+    margin: 0;
+    padding: 0;
+}
+.AR_9.ob-widget .ob-widget-items-container .ob-clearfix {
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+.AR_9.ob-widget .ob-widget-items-container.ob-multi-row {
+    padding-top: 2%;
+}
+.AR_9.ob-widget .ob-dynamic-rec-container {
+    position: relative;
+    margin: 0;
+}
+.AR_9.ob-widget .ob-dynamic-rec-link,
+.AR_9.ob-widget .ob-dynamic-rec-link:hover {
+    text-decoration: none;
+}
+.AR_9.ob-widget .ob-rec-image-container .ob-video-icon-container {
+    position: absolute;
+}
+[data-browser=safari] .AR_9.ob-widget .ob-rec-image-container .ob-video-icon-container {
+    display: none;
+}
+/*hide video icon on safari. bug in safari. Ronen.*/
+
+.AR_9.ob-widget .ob-rec-image-container .ob-video-icon {
+    display: inline-block;
+    height: 100%;
+    opacity: 0.7;
+    transition: opacity 500ms;
+}
+.AR_9.ob-widget .ob-rec-image-container .ob-video-icon:hover {
+    opacity: 1;
+}
+.AR_9.ob-widget .ob_what {
+    direction: ltr;
+    clear: both;
+    padding: 5px 10px 0px;
+}
+.AR_9.ob-widget .ob_what a {
+    color: #999;
+    font-size: 11px;
+    font-family: arial;
+    text-decoration: none;
+}
+.AR_9.ob-widget .ob_what.ob-hover:hover a {
+    text-decoration: underline;
+}
+.AR_9.ob-widget .ob_amelia,
+.AR_9.ob-widget .ob_logo,
+.AR_9.ob-widget .ob_text_logo {
+    vertical-align: baseline !important;
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 0px 5px;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.AR_9.ob-widget .ob_amelia {
+    background: url('http://widgets.outbrain.com/images/widgetIcons/ob_logo_16x16.png') no-repeat center top;
+    width: 16px;
+    height: 16px;
+    margin-bottom: -2px;
+}
+.AR_9.ob-widget .ob_logo {
+    background: url('http://widgets.outbrain.com/images/widgetIcons/ob_logo_67x12.png') no-repeat center top;
+    width: 67px;
+    height: 12px;
+}
+.AR_9.ob-widget .ob_text_logo {
+    background: url('http://widgets.outbrain.com/images/widgetIcons/ob_text_logo_66x23.png') no-repeat center top;
+    width: 66px;
+    height: 23px;
+}
+.AR_9.ob-widget:hover .ob_amelia,
+.AR_9.ob-widget:hover .ob_logo,
+.AR_9.ob-widget:hover .ob_text_logo {
+    background-position: center bottom;
+}
+.AR_9.ob-widget .ob_what {
+    text-align: right;
+}
+.AR_9.ob-widget .ob-rec-image-container .ob-rec-image {
+    display: block;
+}
+/* dynamic classic css */
+
+.AR_9.ob-classic-layout {
+    width: auto;
+}
+.AR_9.ob-classic-layout:after {
+    content: "";
+    display: block;
+    height: 0px;
+    float: none;
+    clear: both;
+}
+.AR_9.ob-classic-layout .ob-widget-section {
+    width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.AR_9.ob-classic-layout .ob-widget-section > * {
+    @include respond-to(D) {
+    margin: 0px 10px;
+    }
+}
+.AR_9.ob-classic-layout .ob-widget-section {
+    float: left;
+}
+.AR_9.ob-classic-layout .ob-widget-header,
+.AR_9.ob-classic-layout .ob-dynamic-rec-container,
+.AR_9.ob-classic-layout .ob-dynamic-rec-container .ob-unit {
+    direction: ltr;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-container {
+    display: block;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-container:hover {
+    text-decoration: underline;
+}
+.AR_9.ob-classic-layout .ob-unit {
+    display: inline;
+}
+
+span.ob-unit.ob-rec-source {
+    display: inline;
+    @extend %element-bottom-space;
+    @extend %proton;
+}
+
+.AR_9.ob-classic-layout .ob-widget-header {} .AR_9.ob-classic-layout .ob-unit.ob-rec-text {
+    font-weight: bold;
+}
+.AR_9.ob-classic-layout .ob-unit.ob-rec-source {} .AR_9.ob-classic-layout .ob-unit.ob-rec-date {
+    font-weight: bold;
+}
+/* dynamic customized css */
+
+.ob-widget-header {
+    @extend %subheader;
+    @extend %double-pica;
+    font-family: inherit;
+    color: black;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.AR_9.ob-classic-layout .ob-widget-items-container {
+    padding: 0px 0px 0px 10px;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-container {
+    color: black;
+    margin-bottom: 0px;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-container:hover {
+    color: #1167a8;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-link {
+    color: black;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-link:hover {
+    color: #1167a8;
+}
+.AR_9.ob-classic-layout .ob-rec-text {
+    color: black;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.AR_9.ob-classic-layout .ob-rec-date {
+    font-family: inherit;
+    font-size: 12px;
+    color: black;
+}
+.AR_9 .ob-last .ob-widget-header {
+    display: none;
+}
+.AR_9.ob-dynamic-rec-container {
+    max-width: none !important;
+}
+.AR_9 .ob-rec-text {
+    @extend %element-bottom-space;
+}
+.AR_9.ob-classic-layout .ob-widget-section {
+    width: 100%;
+}
+.AR_9 .ob-widget-header {
+    margin-bottom: 12px !important;
+    text-align: left;
+}
+.AR_9.ob-classic-layout .ob-widget-items-container {
+    padding: 0 !important;
+}
+.AR_9.ob-widget .ob_what {
+    padding: 0 0 0 16px ;
+    text-align: left;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-container:hover {
+    text-decoration: none !important;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-link:hover {
+    color: #1167a8 !important;
+    text-decoration: none !important;
+}
+.AR_9.ob-classic-layout .ob-dynamic-rec-link:hover .ob-unit.ob-rec-text {
+    color: #1167a8 !important;
+    text-decoration: none !important;
+}
+.AR_9 li {
+    background-image: url("http://static.bbci.co.uk/news/1.55.2536/img/news--icons-sprite.png");
+    background-position: -4px -4405px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+/* GROUP 4 more than 1008px */
+
+.ob-widget-header {
+    color: #000000;
+    @extend %subheader;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.AR_9.ob-classic-layout .ob-unit.ob-rec-text {
+    display: block;
+    @extend %agate;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.AR_9.ob-classic-layout .ob-rec-source {
+    color: #000000;
+    display: block;
+    @extend %brevier;
+   
+}
+/* TABLET */
+
+/* GROUP 3 600 to 1007px */
+
+@media screen and (min-width: 1px) and (max-width: 1007px) {
+    #bbccom_outbrain_ar_3 {
+        display: block;
+    }
+    .AR_9.ob-classic-layout .ob-dynamic-rec-container {
+        display: inline-block !important;
+        float: none;
+        padding-right: 2% !important;
+        vertical-align: top;
+        width: 49% !important;
+    }
+    
+    .AR_9.ob-classic-layout .ob-unit.ob-rec-source {
+        display: block;
+        font-weight: normal;
+        padding-top: 0px;
+    }
+    .AR_9.ob-classic-layout .ob-widget-header {
+        color: #000000;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+  
+   
+}
+/* MOBILE */
+
+@media screen and (min-width: 1px) and (max-width: 599px) {
+    .AR_7.ob-classic-layout {
+        float: none !important;
+        width: auto;
+    }
+    .AR_7.ob-classic-layout .ob-widget-section {
+        float: none;
+    }
+    #bbccom_outbrain_ar_2 {
+        display: block !important;
+        float: none;
+        margin-bottom: 20px !important;
+    }
+    .OUTBRAIN .AR_9.ob-classic-layout .ob-dynamic-rec-container {
+        display: list-item;
+        float: none;
+
+        padding-bottom: 1px;
+        padding-right: 0 !important;
+        vertical-align: top;
+        width: 100% !important;
+    }
+    .OUTBRAIN .AR_9 .ob-dynamic-rec-container.ob-recIdx-5 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+   
+    .AR_9.ob-classic-layout .ob-widget-header {
+        color: #000000;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    .AR_9 .ob-widget-header {
+        margin-left: 0 !important;
+    }
+    .OUTBRAIN .AR_9.ob-classic-layout .ob-dynamic-rec-container {
+        width: 92% !important;
+    }
+}
+@media screen and (min-width: 1px) and (max-width: 399px) {
+    
+    .AR_9 .ob-widget-header {
+        margin-left: 0 !important;
+    }
+    .OUTBRAIN .AR_9.ob-classic-layout .ob-dynamic-rec-container {
+        width: 92% !important;
+    }
+}

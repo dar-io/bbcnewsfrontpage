@@ -1,0 +1,22 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import "foundation/components/global";
+
+
+footer{
+    &.article{
+        margin-top: 24px;
+    }
+    
+	background-color: #4C4C4C;
+	display:block;
+	position:relative;
+	bottom:0px;
+
+}
+
+#orb-banner, #orb-footer, .b-g-p, .b-g-m {
+  box-sizing: content-box;
+}

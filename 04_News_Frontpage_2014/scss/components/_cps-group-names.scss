@@ -1,0 +1,387 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+$cps-groups-color:rgba(255, 255, 255, 1);
+$missing-modules-color:#C2C6CA;
+$no-group-color:rgba(218, 112, 113, 1);
+$ads-color:rgba(195, 195, 176, 0.84);
+
+.grey-background{
+    background-color: #424D59;  
+     -webkit-transition: all 2s ease;
+  -moz-transition:    all 1s ease;
+  -ms-transition:     all 1s ease;
+  -o-transition:      all 1s ease;
+}
+.overlay-block, .overlay-block-off, .overlay-block-off .notes,.overlay-block:hover:before {
+    
+    -webkit-transition: all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -moz-transition:    all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -ms-transition:     all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -o-transition:      all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+    &:before{
+  -webkit-transition: all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -moz-transition:    all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -ms-transition:     all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+  -o-transition:      all .5s cubic-bezier(1, -0.27, 0.26, 1.46);
+    }
+}
+
+.notes {
+  position: absolute;
+  z-index: 9999;
+  top: 16px;
+    color: #c94e50;
+    padding: 8px 0px 0 8px;
+  text-align: center;
+width: 100%;
+    opacity: 1;
+    h2{ color: #c94e50;}
+    .notes-bullets{padding-top: 8px;}
+}
+
+.overlay-block-off{
+      position: relative;
+       display:block; 
+   .notes{
+         height: 0;
+     opacity: 0;
+       top: -50px;
+        }
+    &:before {
+        content: '';
+          opacity: 0;
+        background: rgba(255, 255, 255, 0.61);
+        
+    }
+}
+.weather_uk, .specials_promo, .correspondent_promo, .live-event-2,.live-event-3{
+    &.overlay-block-off {
+      height: 0;
+     opacity: 0;
+       
+    }
+}
+.overlay-block{
+&:hover:before{
+          opacity: 0.8;
+         }
+   .market-data caption{
+       padding-top: 0;
+       margin-top: 16px;
+   }
+    &.mostpopular .subheader{
+     padding-top: 0;
+       margin-top: 16px;
+    }
+        position: relative;
+       display:block; 
+    overflow: hidden;
+     &:before {
+          opacity: 1;
+          line-height: 1.2;
+      position: absolute;
+      content: '';
+      background: $cps-groups-color;
+      height: 100%;
+      width: 100%;
+      pointer-events: none;
+      z-index: 1000;
+      font-size: 32px;
+      text-align: center;
+      vertical-align: middle;
+      color: #000;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.61);
+      font-weight: 700;
+           padding-top: 24px;
+         
+    }    
+    
+   
+&.top-story{
+        &:before {
+      content: 'Top story';
+     
+
+    }
+}
+
+&.live_event-promo{
+     display: flex;
+    &:before {
+      content: 'Live event 1';
+      
+
+    }
+}
+&.cluster-1{
+ &:before {
+      content: '';
+    margin-top: 16px;
+    }
+}
+&.cluster-2{
+ &:before {
+      content: 'Cluster 2';
+     margin-top: 16px;
+    }
+    .cluster{
+       margin-top: 0px;
+    }
+}
+    
+&.other-top-stories{
+ &:before {
+      content: 'Other top stories';
+    margin-top: 16px;
+    }
+}
+&.the-papers{
+ &:before {
+      content: 'The Papers';
+    margin-top: 16px;
+     left: 0;
+    }
+}
+&.also_in_the_news{
+ &:before {
+    content: 'Also in the News'; 
+    margin-top: 16px;
+    }
+}
+    
+    
+    
+&.the_reporters{
+ &:before {
+      content: 'The Reporters';
+      
+    margin-top: 16px;
+    }
+}
+&.features_group{
+ &:before {
+      content: 'Features';
+      
+    margin-top: 16px;
+    }
+}
+&.correspondent_promo{
+    height: 100px;
+    width: 100%;
+ &:before {
+      content: 'Correspondent promo';
+      
+    margin-top: 16px;
+     background: $missing-modules-color;
+    }
+}
+&.specials_promo{
+    height: 100px;
+    width: 100%;
+ &:before {
+      content: 'Special Reports';
+      
+    margin-top: 16px;
+     background: $missing-modules-color;
+    }
+}
+&.explainers_group{
+ &:before {
+      content: 'Explainers';
+      
+    margin-top: 16px;
+    }
+}
+&.nations_digest{
+ &:before {
+      content: 'No Group (hard coded)';
+      
+    margin-top: 16px;
+       background: $no-group-color;
+    }
+}
+&.topic_cluster{
+ &:before {
+      content: 'Topic cluster';
+      
+    margin-top: 16px;
+    }
+}
+
+    &.other_site_promotion{
+ &:before {
+      content: 'Other site promotion';
+      
+    margin-top: 16px;
+    }
+}
+
+&.local_news_group{
+ &:before {
+      content: 'No Group (hard coded)';
+      
+    margin-top: 16px;
+     background: $no-group-color;
+    }
+}
+
+&.weather_uk{
+    height: 100px;
+    width: 100%;
+ &:before {
+      content: 'Weather';
+      
+    margin-top: 16px;
+     background: $missing-modules-color;
+    }
+}
+
+&.live-event-2{
+    height: 100px;
+    width: 100%;
+ &:before {
+      content: 'Live event 2';
+      
+    margin-top: 16px;
+     background: $missing-modules-color;
+    }
+}    
+&.live-event-3{
+    height: 200px;
+    width: 100%;
+ &:before {
+      content: 'Live event 3';
+      
+    margin-top: 0px;
+     background: $missing-modules-color;
+    }
+}
+&.mpu_slot{
+    margin-top: 16px;
+ &:before {
+      content: 'MPU slot';
+      
+    margin-top: 0px;
+     background: $ads-color;
+    }
+    
+    .middle, MPU{
+        margin-top: 0;
+    }
+}
+
+&.mpu_slot_leaderboard{
+    margin-top: 0px;
+    width: 100%;
+ &:before {
+      content:  url("data:image/svg+xml;utf8,<svg width='305' height='33' viewBox='0 0 305 33' xmlns='http://www.w3.org/2000/svg' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'><title>128</title><desc>Created with Sketch.</desc><g sketch:type='MSArtboardGroup' fill='none'><path fill='#030303' sketch:type='MSShapeGroup' d='M0 0h305v36h-305z'/><path d='M60.828 7.727h3.609v14.168h8.555v3.105h-12.164v-17.273zm27.434 3.059h-9.141v3.668h8.391v3h-8.391v4.441h9.563v3.105h-13.09v-17.273h12.668v3.059zm7.957 7.688h4.383l-2.156-6.797-2.227 6.797zm.223-10.746h4.078l6.117 17.273h-3.914l-1.113-3.551h-6.363l-1.195 3.551h-3.773l6.164-17.273zm15.891 3v11.273h3.328c1.703 0 2.891-.84 3.563-2.52.367-.922.551-2.02.551-3.293 0-1.758-.275-3.107-.826-4.049-.551-.941-1.646-1.412-3.287-1.412h-3.328zm6.609-2.625c1.211.398 2.191 1.129 2.941 2.191.602.859 1.012 1.789 1.23 2.789.219 1 .328 1.953.328 2.859 0 2.297-.461 4.242-1.383 5.836-1.25 2.148-3.18 3.223-5.789 3.223h-7.441v-17.273h7.441c1.07.016 1.961.141 2.672.375zm19.992 2.684h-9.141v3.668h8.391v3h-8.391v4.441h9.563v3.105h-13.09v-17.273h12.668v3.059zm6.844-.059v4.641h4.09c.813 0 1.422-.094 1.828-.281.719-.328 1.078-.977 1.078-1.945 0-1.047-.348-1.75-1.043-2.109-.391-.203-.977-.305-1.758-.305h-4.195zm7.74-2.555c.652.273 1.205.676 1.658 1.207.375.438.672.922.891 1.453.219.531.328 1.137.328 1.816 0 .82-.207 1.627-.621 2.42-.414.793-1.098 1.354-2.051 1.682.797.32 1.361.775 1.693 1.365.332.59.498 1.49.498 2.701v1.16c0 .789.031 1.324.094 1.605.094.445.312.773.656.984v.434h-3.973c-.109-.383-.188-.691-.234-.926-.094-.484-.145-.98-.152-1.488l-.023-1.605c-.016-1.102-.217-1.836-.604-2.203-.387-.367-1.111-.551-2.174-.551h-3.727v6.773h-3.527v-17.273h8.473c1.211.023 2.143.172 2.795.445zm9.486 2.555v3.809h4.242c.758 0 1.373-.143 1.846-.428.473-.285.709-.791.709-1.518 0-.805-.312-1.336-.938-1.594-.539-.18-1.227-.27-2.063-.27h-3.797zm0 6.668v4.605h4.242c.758 0 1.348-.102 1.77-.305.766-.375 1.148-1.094 1.148-2.156 0-.898-.371-1.516-1.113-1.852-.414-.188-.996-.285-1.746-.293h-4.301zm9.445-7.828c.531.734.797 1.613.797 2.637 0 1.055-.266 1.902-.797 2.543-.297.359-.734.687-1.313.984.883.32 1.549.828 1.998 1.523.449.695.674 1.539.674 2.531 0 1.023-.258 1.941-.773 2.754-.328.539-.738.992-1.23 1.359-.555.422-1.209.711-1.963.867-.754.156-1.572.234-2.455.234h-7.828v-17.273h8.391c2.117.031 3.617.645 4.5 1.84zm15.428 11.273c.84-1.055 1.26-2.555 1.26-4.5 0-1.938-.42-3.436-1.26-4.494-.84-1.059-1.975-1.588-3.404-1.588-1.43 0-2.57.527-3.422 1.582-.852 1.055-1.277 2.555-1.277 4.5 0 1.945.426 3.445 1.277 4.5.852 1.055 1.992 1.582 3.422 1.582 1.43 0 2.564-.527 3.404-1.582zm2.256 2.625c-1.305 1.344-3.191 2.016-5.66 2.016-2.469 0-4.355-.672-5.66-2.016-1.75-1.648-2.625-4.023-2.625-7.125 0-3.164.875-5.539 2.625-7.125 1.305-1.344 3.191-2.016 5.66-2.016 2.469 0 4.355.672 5.66 2.016 1.742 1.586 2.613 3.961 2.613 7.125 0 3.102-.871 5.477-2.613 7.125zm10.09-4.992h4.383l-2.156-6.797-2.227 6.797zm.223-10.746h4.078l6.117 17.273h-3.914l-1.113-3.551h-6.363l-1.195 3.551h-3.773l6.164-17.273zm15.996 3v4.641h4.09c.813 0 1.422-.094 1.828-.281.719-.328 1.078-.977 1.078-1.945 0-1.047-.348-1.75-1.043-2.109-.391-.203-.977-.305-1.758-.305h-4.195zm7.74-2.555c.652.273 1.205.676 1.658 1.207.375.438.672.922.891 1.453.219.531.328 1.137.328 1.816 0 .82-.207 1.627-.621 2.42-.414.793-1.098 1.354-2.051 1.682.797.32 1.361.775 1.693 1.365.332.59.498 1.49.498 2.701v1.16c0 .789.031 1.324.094 1.605.094.445.312.773.656.984v.434h-3.973c-.109-.383-.188-.691-.234-.926-.094-.484-.145-.98-.152-1.488l-.023-1.605c-.016-1.102-.217-1.836-.604-2.203-.387-.367-1.111-.551-2.174-.551h-3.727v6.773h-3.527v-17.273h8.473c1.211.023 2.143.172 2.795.445zm9.486 2.555v11.273h3.328c1.703 0 2.891-.84 3.563-2.52.367-.922.551-2.02.551-3.293 0-1.758-.275-3.107-.826-4.049-.551-.941-1.646-1.412-3.287-1.412h-3.328zm6.609-2.625c1.211.398 2.191 1.129 2.941 2.191.602.859 1.012 1.789 1.23 2.789.219 1 .328 1.953.328 2.859 0 2.297-.461 4.242-1.383 5.836-1.25 2.148-3.18 3.223-5.789 3.223h-7.441v-17.273h7.441c1.07.016 1.961.141 2.672.375z' fill='#fff' sketch:type='MSShapeGroup'/></g></svg>");
+    margin-top: 0px;
+     background: $ads-color;
+    }
+    
+    .middle, MPU{
+        margin-top: 0;
+    }
+}
+
+&.adsense_slot{
+     margin-top: 16px;
+       display: inline-block;
+ &:before {
+      content: 'Google adsense';
+      left: 0;
+    margin-top: 0px;
+     background: $ads-color;
+    }
+     .bbccom_adsense_slot{
+        margin-top: 0;
+         padding-top: 0;
+        
+    }
+}
+   
+&.watch_listen{
+ &:before {
+      content: 'Watch/Listen';
+      
+    margin-top: 8px;
+    }
+}
+&.live_tv_and_radio {
+    width: 100%;
+    min-height: 90px;
+ &:before {
+      content: 'Live TV and Radio';
+      
+    margin-top: 16px;
+    }
+}
+&.market_data-group{
+ &:before {
+      content: 'No Group (hard coded)';
+      
+    margin-top: 16px;
+     background: $no-group-color;
+    }
+    .market-data{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+&.most_popular-group{
+ &:before {
+      content: 'No Group (hard coded)';
+      
+    margin-top: 0px;
+     background: $no-group-color;
+    }
+}
+&.mostpopular{
+  margin-top: 0px;
+  padding-top: 0px;
+    }
+
+&.elsewhere_hyperpuff{
+     margin-top: 16px;
+    
+ &:before {
+      content: 'Hyperpuff';
+      left: 0;
+   
+    }
+    .elsewhere{
+    margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+&.verticals_group{
+     display: block;
+ &:before {
+      content: 'No Group (hard coded)';
+      
+    margin-top: 16px;
+     background: $no-group-color;
+    }
+}
+
+    &.in_pictures_group{
+        display: block;       
+ &:before {
+      content: 'Picture Galleries';
+    margin-top: 0px;
+    }
+}
+        &.digest_group{
+        display: block;
+        
+ &:before {
+    content: 'No Group (hard coded)';
+      
+    margin-top: 0px;
+     background: $no-group-color;
+    }
+}
+}

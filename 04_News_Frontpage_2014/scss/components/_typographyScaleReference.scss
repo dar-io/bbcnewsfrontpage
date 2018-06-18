@@ -1,0 +1,647 @@
+
+ %type-name{
+     .type-name{
+         &.strong{
+             font-weight: 700;
+             letter-spacing: inherit;
+                }
+          &.bold{
+             font-weight: 700;
+             letter-spacing: inherit;
+                }
+         &.regular{
+             font-weight: 400;
+             letter-spacing: normal;
+         }
+         &.normal{
+             font-weight: 400;
+             letter-spacing: normal;
+         }
+     }
+ }
+
+%double-trafalgar-A{
+     @include font-settings(
+        $double-trafalgar-font-size-A,
+        $double-trafalgar-line-height-A,
+        $double-trafalgar-letter-spacing-A
+         );
+     
+}
+%double-trafalgar-B{
+     @include font-settings(
+        $double-trafalgar-font-size-B,
+        $double-trafalgar-line-height-B,
+        $double-trafalgar-letter-spacing-B
+         );
+    
+}
+%double-trafalgar-C{
+     @include font-settings(
+        $double-trafalgar-font-size-C,
+        $double-trafalgar-line-height-C,
+        $double-trafalgar-letter-spacing-C
+         );
+    
+}
+%double-trafalgar-D{
+     @include font-settings(
+        $double-trafalgar-font-size-D,
+        $double-trafalgar-line-height-D,
+        $double-trafalgar-letter-spacing-D
+         );
+    
+}
+
+
+
+%trafalgar-A{
+    @include font-settings($trafalgar-font-size-A, $trafalgar-line-height-A, $trafalgar-letter-spacing-A);
+    
+}
+%trafalgar-B{
+    @include font-settings($trafalgar-font-size-B, $trafalgar-line-height-B, $trafalgar-letter-spacing-B);
+    
+}
+%trafalgar-C{
+    @include font-settings($trafalgar-font-size-C, $trafalgar-line-height-C, $trafalgar-letter-spacing-C);
+    
+}
+%trafalgar-D{
+    @include font-settings($trafalgar-font-size-D, $trafalgar-line-height-D, $trafalgar-letter-spacing-D);
+    
+}
+
+
+%double-pica-A{
+    @include font-settings($double-pica-font-size-A, $double-pica-line-height-A, $double-pica-letter-spacing-A);
+    
+}
+%double-pica-B{
+    @include font-settings($double-pica-font-size-B, $double-pica-line-height-B, $double-pica-letter-spacing-B);
+    
+}
+%double-pica-C{
+    @include font-settings($double-pica-font-size-C, $double-pica-line-height-C, $double-pica-letter-spacing-C);
+    
+}
+%double-pica-D{
+    @include font-settings($double-pica-font-size-D, $double-pica-line-height-D, $double-pica-letter-spacing-D);
+    
+}
+
+
+
+%great-primer-A{
+    @include font-settings(
+        $great-primer-font-size-A,
+        $great-primer-line-height-A,
+        $great-primer-letter-spacing-A
+        );
+    
+}
+%great-primer-B{
+    @include font-settings(
+        $great-primer-font-size-B,
+        $great-primer-line-height-B,
+        $great-primer-letter-spacing-B
+        );
+    
+}
+%great-primer-C{
+    @include font-settings(
+        $great-primer-font-size-C,
+        $great-primer-line-height-C,
+        $great-primer-letter-spacing-C
+        );
+    
+}
+%great-primer-D{
+    @include font-settings(
+        $great-primer-font-size-D,
+        $great-primer-line-height-D,
+        $great-primer-letter-spacing-D
+        );
+    
+}
+
+
+
+
+%pica-gel-A{
+    @include font-settings(
+        $pica-gel-font-size-A,
+        $pica-gel-line-height-A,
+        $pica-gel-letter-spacing-A
+        );
+    
+}
+
+%pica-gel-B{
+    @include font-settings(
+        $pica-gel-font-size-B,
+        $pica-gel-line-height-B,
+        $pica-gel-letter-spacing-B
+        );
+    
+}
+
+%pica-gel-C{
+    @include font-settings(
+        $pica-gel-font-size-C,
+        $pica-gel-line-height-C,
+        $pica-gel-letter-spacing-C
+        );
+    
+}
+
+%pica-gel-D{
+    @include font-settings(
+        $pica-gel-font-size-D,
+        $pica-gel-line-height-D,
+        $pica-gel-letter-spacing-D
+        );
+    
+}
+
+
+
+%pica-A{
+    @include font-settings(
+        $agate-font-size-A,
+        $agate-line-height-A,
+        $agate-letter-spacing-A
+        );
+    
+}
+
+%pica-B{
+    @include font-settings(
+        $agate-font-size-B,
+        $agate-line-height-B,
+        $agate-letter-spacing-B
+        );
+    
+}
+
+%pica-C{
+    @include font-settings(
+        $agate-font-size-C,
+        $agate-line-height-C,
+        $agate-letter-spacing-C
+        );
+    
+}
+
+%pica-D{
+    @include font-settings(
+        $agate-font-size-D,
+        $agate-line-height-D,
+        $agate-letter-spacing-D
+        );
+    
+}
+
+
+%long-primer-A{
+    @include font-settings(
+        $long-primer-font-size-A,
+        $long-primer-line-height-A,
+        $long-primer-letter-spacing-A
+        );
+    
+}
+
+%long-primer-B{
+    @include font-settings(
+        $long-primer-font-size-B,
+        $long-primer-line-height-B,
+        $long-primer-letter-spacing-B
+        );
+    
+}
+
+%long-primer-C{
+    @include font-settings(
+        $long-primer-font-size-C,
+        $long-primer-line-height-C,
+        $long-primer-letter-spacing-C
+        );
+    
+}
+
+%long-primer-D{
+    @include font-settings(
+        $long-primer-font-size-D,
+        $long-primer-line-height-D,
+        $long-primer-letter-spacing-D
+        );
+    
+}
+
+
+%brevier-A{
+    @include font-settings( 
+        $brevier-font-size-A,
+        $brevier-line-height-A, 
+        $brevier-letter-spacing-A
+        );
+    
+}
+
+%brevier-B{
+    @include font-settings(
+        $brevier-font-size-B,
+        $brevier-line-height-B, 
+        $brevier-letter-spacing-B
+        );
+    
+}
+
+%brevier-C{
+    @include font-settings(
+        $brevier-font-size-C,
+        $brevier-line-height-C, 
+        $brevier-letter-spacing-C
+        );
+    
+}
+
+%brevier-D{
+    @include font-settings(
+        $brevier-font-size-D,
+        $brevier-line-height-D, 
+        $brevier-letter-spacing-D
+        );
+    
+}
+
+
+
+%minion-A{
+    @include font-settings(12px, 16px, inherit);
+    
+}
+
+%minion-B{
+    @include font-settings(12px, 16px, inherit);
+    
+}
+
+%minion-C{
+    @include font-settings(13px, 16px, inherit);
+    
+}
+
+%minion-D{
+    @include font-settings(12px, 16px, inherit);
+    
+}
+
+
+
+%paragon-A{
+    @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    
+    
+}
+
+%paragon-B{
+    @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    
+}
+
+%paragon-C{
+    @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    
+}
+
+%paragon-D{
+    @include font-settings($paragon-font-size, $paragon-line-height, $paragon-letter-spacing);
+    
+}
+
+
+
+%english-A{
+    @include font-settings(15px, 19px, inherit);
+}
+
+%english-B{
+    @include font-settings(15px, 19px, inherit);
+}
+
+%english-C{
+    @include font-settings(15px, 19px, inherit);
+}
+
+%english-D{
+    @include font-settings(15px, 19px, inherit);
+    
+}
+
+
+
+////////////////NEW STYLES
+
+%english-A{
+    @include font-settings($english-font-size-A, $english-line-height-A, $english-letter-spacing-A);
+    
+}
+
+%english-B{
+    @include font-settings($english-font-size-B, $english-line-height-B, $english-letter-spacing-B);
+    
+}
+
+%english-C{
+    @include font-settings($english-font-size-C, $english-line-height-C, $english-letter-spacing-C);
+    
+}
+
+%english-D{
+    @include font-settings($english-font-size-D, $english-line-height-D, $english-letter-spacing-D);
+    
+}
+
+
+%brilliant-A{
+      @include font-settings($brilliant-font-size, $brilliant-line-height, $brilliant-letter-spacing);
+}
+
+%brilliant-B{
+      @include font-settings($brilliant-font-size, $brilliant-line-height, $brilliant-letter-spacing);
+}
+
+%brilliant-C{
+      @include font-settings($brilliant-font-size, $brilliant-line-height, $brilliant-letter-spacing);
+}
+
+%brilliant-D{
+      @include font-settings($brilliant-font-size, $brilliant-line-height, $brilliant-letter-spacing);
+}
+
+
+%group-A{
+    .double-trafalgar{ 
+        @extend %double-trafalgar-A;
+        @extend %type-name; 
+    }
+    .trafalgar{ 
+        @extend %trafalgar-A;
+        @extend %type-name;
+    }
+    .double-pica{ 
+        @extend %double-pica-A;
+        @extend %type-name;
+    }
+    .great-primer{ 
+        @extend %great-primer-A;
+        @extend %type-name;
+    }
+    
+    .long-primer{ 
+        @extend %long-primer-A;
+        @extend %type-name;
+    }
+    
+    .pica{ 
+        @extend %pica-A;
+        @extend %type-name;
+    }
+    
+    .pica-gel{ 
+        @extend %pica-gel-A;
+        @extend %type-name;
+    }
+    
+    .brevier{ 
+        @extend %brevier-A;
+        @extend %type-name;
+    }
+    .minion{ 
+        @extend %minion-A;
+        @extend %type-name;
+    }
+    ////NEW STYLES
+    .paragon{ 
+        @extend %paragon-A;
+        @extend %type-name;
+    }
+    .english{ 
+        @extend %english-A;
+        @extend %type-name;
+    }
+    .agate{ 
+        @extend %agate;
+        @extend %type-name;
+    }
+    .brilliant{ 
+    @extend %brilliant-A;
+        @extend %type-name;
+    }
+}
+
+%group-B{
+    .double-trafalgar{ 
+        @extend %double-trafalgar-B;
+        @extend %type-name;
+    }
+    .trafalgar{ 
+        @extend %trafalgar-B;
+        @extend %type-name;
+    }
+    .double-pica{ 
+        @extend %double-pica-B;
+        @extend %type-name;
+    }
+    .great-primer{ 
+        @extend %great-primer-B;
+        @extend %type-name;
+    }
+    .long-primer{ 
+        @extend %long-primer-B;
+        @extend %type-name;
+    }
+    .pica{ 
+        @extend %pica-B;
+        @extend %type-name;
+    }
+    .pica-gel{ 
+        @extend %pica-gel-B;
+        @extend %type-name;
+    }
+    .brevier{ 
+        @extend %brevier-B;
+        @extend %type-name;
+    }
+    .minion{ 
+        @extend %minion-B;
+        @extend %type-name;
+    }
+    
+      ////NEW STYLES
+    .paragon{ 
+        @extend %paragon-B;
+        @extend %type-name;
+    }
+    .english{ 
+        @extend %english-B;
+        @extend %type-name;
+    }
+    .agate{ 
+        @extend %agate;
+        @extend %type-name;
+    }
+    .brilliant{ 
+    @extend %brilliant-B;
+        @extend %type-name;
+    }
+}
+
+%group-C{
+    .double-trafalgar{ 
+        @extend %double-trafalgar-C;
+        @extend %type-name;
+    }
+    .trafalgar{ 
+        @extend %trafalgar-C;
+        @extend %type-name;
+    }
+    .double-pica{ 
+        @extend %double-pica-C;
+        @extend %type-name;
+    }
+    .great-primer{ 
+        @extend %great-primer-C;
+        @extend %type-name;
+    }
+    .long-primer{ 
+        @extend %long-primer-C;
+        @extend %type-name;
+    }
+    .pica{ 
+        @extend %pica-C;
+        @extend %type-name;
+    }
+    .pica-gel{ 
+        @extend %pica-gel-C;
+        @extend %type-name;
+    }
+    .brevier{ 
+        @extend %brevier-C;
+        @extend %type-name;
+    }
+    .minion{ 
+        @extend %minion-C;
+        @extend %type-name;
+    }
+    
+      ////NEW STYLES
+    .paragon{ 
+        @extend %paragon-C;
+        @extend %type-name;
+    }
+    .english{ 
+        @extend %english-C;
+        @extend %type-name;
+    }
+    .agate{ 
+        @extend %agate;
+        @extend %type-name;
+    }
+    .brilliant{ 
+    @extend %brilliant-C;
+        @extend %type-name;
+    }
+}
+
+%group-D{
+    .double-trafalgar{ 
+        @extend %double-trafalgar-D;
+        @extend %type-name;
+    }
+    .trafalgar{ 
+        @extend %trafalgar-D;
+        @extend %type-name;
+        
+    }
+    .double-pica{ 
+        @extend %double-pica-D;@extend %type-name;
+    }
+    .great-primer{ 
+        @extend %great-primer-D;@extend %type-name;
+    }
+    .long-primer{ 
+        @extend %long-primer-D;@extend %type-name;
+    }
+    .pica{ 
+        @extend %pica-D;@extend %type-name;
+    }
+    .pica-gel{ 
+        @extend %pica-gel-D;@extend %type-name;
+    }
+    .brevier{ 
+        @extend %brevier-D;@extend %type-name;
+    }
+    .minion{ 
+        @extend %minion-D;@extend %type-name;
+    }
+    
+    ////NEW STYLES
+    .paragon{ 
+        @extend %paragon-D;@extend %type-name;
+    }
+    .english{ 
+        @extend %english-D;@extend %type-name;
+    }
+    .agate{ 
+        @extend %agate;@extend %type-name;
+    }
+    .brilliant{ 
+    @extend %brilliant-D;@extend %type-name;
+    }
+}
+
+
+.group-a{
+    @extend %group-A
+}
+
+
+.group-b{
+    @extend %group-B
+}
+
+.group-c{
+    @extend %group-C
+}
+
+
+.group-d{
+    @extend %group-D
+}
+
+
+
+// News Styles
+//////////////////////////////|
+
+
+
+
+
+
+.group-a{
+@extend %group-A;
+}
+
+.group-b{
+@extend %group-B;
+}
+.group-c{
+@extend %group-C;
+}
+.group-d{
+@extend %group-D;
+}

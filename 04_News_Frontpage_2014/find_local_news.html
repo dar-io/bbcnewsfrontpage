@@ -1,0 +1,288 @@
+<style>
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, input, textarea, button, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+    body{
+font-family: Helmet,Freesans,Helvetica,Arial,sans-serif !important;
+}
+ol, ul {
+  list-style: none; 
+}
+.nations-container{
+  margin: 0 8px;
+}
+.nation {
+  font-size: 18px;
+  line-height: 22px;
+  color: #666;
+  padding: 9px 8px;
+  background-color: #E4E4E4;
+  font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+.region{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 32px 8px 16px 8px;
+    color: #404040;
+}
+.level-2:first-child .region{
+  padding: 24px 8px 16px 8px;  
+}
+.level-3{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 11px 8px;
+    border-top: 1px solid #E6E6E6;
+    color: #606060;
+    }
+.level-3:hover{
+    background-color: #333635;
+    color: #fff;
+}
+.level-3:last-child{
+ border-bottom: 1px solid #E6E6E6;
+}
+.open .nation:after{
+transform: rotate(-90deg);
+}
+.close .nation:after{
+transform: rotate(90deg);
+}
+.close .region_container{
+display: none;
+}
+.open .region_container{
+display: block;
+}
+.nation:after{
+content: '';
+background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'viewBox='0 0 23 32'><path d='M0 26.651l15.588-10.536-15.588-10.778v-5.337l23.41 16.102-23.41 15.898z'></path></svg>");
+    height:16px;
+    width:16px;
+    background-size: 16px 16px;
+    color: #000;
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+      
+    
+}
+    
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+</style>
+ <ul class="nations-container">
+  <li class="level-1 open">
+      <h2 class="nation">England</h2>
+       <ul class="region_container">
+            <li class="level-2">
+               
+                <h2 class="region">North West England</h2>
+                 <ul>
+                <li class="level-3"><a href="">Cumbria</a></li>
+                <li class="level-3"><a href="">Lancashire</a></li>
+                <li class="level-3"><a href="">Liverpool</a></li>
+                <li class="level-3"><a href="">Manchester</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">North East England</h2>
+                <ul>
+                <li class="level-3"><a href="">Tees</a></li>
+                <li class="level-3"><a href="">Tyne & Wear</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">Yorkshire &amp; Lincolnshire</h2>
+                <ul>
+                <li class="level-3"><a href="">Humberside</a></li>
+                <li class="level-3"><a href="">Leeds & West Yorkshire</a></li>
+                <li class="level-3"><a href="">Lincolnshire</a></li>
+                <li class="level-3"><a href="">Sheffield & South Yorkshire</a></li>
+                <li class="level-3"><a href="">York & North Yorkshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">West Midlands</h2>
+                <ul>
+                <li class="level-3"><a href="">Birmingham & Black Country</a></li>
+                <li class="level-3"><a href="">Coventry & Warwickshire</a></li>
+                <li class="level-3"><a href="">Hereford & Worcester</a></li>
+                <li class="level-3"><a href="">Shropshire</a></li>
+                <li class="level-3"><a href="">Stoke & Staffordshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">East Midlands</h2>
+                <ul>
+                <li class="level-3"><a href="">Derby</a></li>
+                <li class="level-3"><a href="">Leicester</a></li>
+                <li class="level-3"><a href="">Northampton</a></li>
+                <li class="level-3"><a href="">Nottingham</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">West &amp; South West</h2>
+                <ul>
+                <li class="level-3"><a href="">Bristol</a></li>
+                <li class="level-3"><a href="">Cornwall</a></li>
+                <li class="level-3"><a href="">Devon</a></li>
+                <li class="level-3"><a href="">Gloucestershire</a></li>
+                <li class="level-3"><a href="">Somerset</a></li>
+                <li class="level-3"><a href="">Wiltshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">East</h2>
+                <ul>
+                <li class="level-3"><a href="">Beds, Herts & Bucks</a></li>
+                <li class="level-3"><a href="">Cambridgeshire</a></li>
+                <li class="level-3"><a href="">Essex</a></li>
+                <li class="level-3"><a href="">Norfolk</a></li>
+                <li class="level-3"><a href="">Suffolk</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">South</h2>
+                <ul>
+                <li class="level-3"><a href="">Berkshire</a></li>
+                <li class="level-3"><a href="">Dorset</a></li>
+                <li class="level-3"><a href="">Hampshire & Isle of Wight</a></li>
+                <li class="level-3"><a href="">Oxford</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">London &amp; South East</h2>
+                <ul>
+                <li class="level-3"><a href="">Kent</a></li>
+                <li class="level-3"><a href="">London</a></li>
+                <li class="level-3"><a href="">Surrey</a></li>
+                <li class="level-3"><a href="">Sussex</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">Isle of Man &amp; Channel Islands</h2>
+                <ul>
+                <li class="level-3"><a href="">Isle of Man/Ellan Vannin</a></li>
+                <li class="level-3"><a href="">Jersey</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+ <ul class="nations-container">
+  <li class="level-1 open">
+      <h2 class="nation">England</h2>
+       <ul class="region_container">
+            <li class="level-2">
+               
+                <h2 class="region">North West England</h2>
+                 <ul>
+                <li class="level-3"><a href="">Cumbria</a></li>
+                <li class="level-3"><a href="">Lancashire</a></li>
+                <li class="level-3"><a href="">Liverpool</a></li>
+                <li class="level-3"><a href="">Manchester</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">North East England</h2>
+                <ul>
+                <li class="level-3"><a href="">Tees</a></li>
+                <li class="level-3"><a href="">Tyne & Wear</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">Yorkshire &amp; Lincolnshire</h2>
+                <ul>
+                <li class="level-3"><a href="">Humberside</a></li>
+                <li class="level-3"><a href="">Leeds & West Yorkshire</a></li>
+                <li class="level-3"><a href="">Lincolnshire</a></li>
+                <li class="level-3"><a href="">Sheffield & South Yorkshire</a></li>
+                <li class="level-3"><a href="">York & North Yorkshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">West Midlands</h2>
+                <ul>
+                <li class="level-3"><a href="">Birmingham & Black Country</a></li>
+                <li class="level-3"><a href="">Coventry & Warwickshire</a></li>
+                <li class="level-3"><a href="">Hereford & Worcester</a></li>
+                <li class="level-3"><a href="">Shropshire</a></li>
+                <li class="level-3"><a href="">Stoke & Staffordshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">East Midlands</h2>
+                <ul>
+                <li class="level-3"><a href="">Derby</a></li>
+                <li class="level-3"><a href="">Leicester</a></li>
+                <li class="level-3"><a href="">Northampton</a></li>
+                <li class="level-3"><a href="">Nottingham</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">West &amp; South West</h2>
+                <ul>
+                <li class="level-3"><a href="">Bristol</a></li>
+                <li class="level-3"><a href="">Cornwall</a></li>
+                <li class="level-3"><a href="">Devon</a></li>
+                <li class="level-3"><a href="">Gloucestershire</a></li>
+                <li class="level-3"><a href="">Somerset</a></li>
+                <li class="level-3"><a href="">Wiltshire</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">East</h2>
+                <ul>
+                <li class="level-3"><a href="">Beds, Herts & Bucks</a></li>
+                <li class="level-3"><a href="">Cambridgeshire</a></li>
+                <li class="level-3"><a href="">Essex</a></li>
+                <li class="level-3"><a href="">Norfolk</a></li>
+                <li class="level-3"><a href="">Suffolk</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">South</h2>
+                <ul>
+                <li class="level-3"><a href="">Berkshire</a></li>
+                <li class="level-3"><a href="">Dorset</a></li>
+                <li class="level-3"><a href="">Hampshire & Isle of Wight</a></li>
+                <li class="level-3"><a href="">Oxford</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">London &amp; South East</h2>
+                <ul>
+                <li class="level-3"><a href="">Kent</a></li>
+                <li class="level-3"><a href="">London</a></li>
+                <li class="level-3"><a href="">Surrey</a></li>
+                <li class="level-3"><a href="">Sussex</a></li>
+                </ul>
+            </li>
+            <li class="level-2">
+                <h2 class="region">Isle of Man &amp; Channel Islands</h2>
+                <ul>
+                <li class="level-3"><a href="">Isle of Man/Ellan Vannin</a></li>
+                <li class="level-3"><a href="">Jersey</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>

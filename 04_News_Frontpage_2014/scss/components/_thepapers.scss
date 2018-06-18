@@ -1,0 +1,43 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+@import "foundation/components/global";
+
+
+
+.thepapers {
+ 
+    @extend %element;
+    h2{
+        @extend %great-primer;
+        font-weight: 700;
+    }
+    
+    p{
+        @extend %long-primer;
+        color: $summary-color; 
+        @extend %proton;
+        display: table;
+        &:before {
+            content: "";
+            display: block;
+            border-bottom: 1px solid transparent;
+            min-width: 194px;
+        }
+    }
+    .responsive-image{
+        @extend %image-margin-right;
+             @include respond-to(B) { 
+            margin-bottom: 8px;
+                }  
+            } 
+    @include respond-to(B) { 
+ 
+            }  
+    @include respond-to(C) {   
+        
+            }
+    @include respond-to(D) {
+    
+        }
+}
