@@ -1,0 +1,173 @@
+///*------------------------------------*\
+//    # iodine USED FOR TOP STORIES
+//\*------------------------------------*/
+
+.iodine__item{
+
+  position: relative;
+  @include mq($from:gel-bp-m) {
+    .on-now{
+      min-height: 224px;
+    }
+    .promo{
+      .has-metadata &{
+          min-height: 224px !important;
+      }
+    }
+
+  }
+}
+
+.iodine--box{
+  @include mq($from: 'gel-bp-m') {
+  margin-bottom: -16px;
+  }
+}
+
+
+ .iodine__item--0{
+      @include promo--lead;
+   .promo{
+     min-height: inherit;
+   }
+
+
+   @include mq($from:gel-bp-m, $until:gel-bp-l) {
+
+     .promo__media{
+       float: left;
+       padding-left: 0;
+       padding-right: 4px;
+
+     }
+     .promo__body{
+       padding-right: 0;
+       padding-left: 12px;
+     }
+   }
+   @include mq($from:gel-bp-l) {
+   .promo__media{
+     width: 100% !important;
+     padding-left: 0;
+   }
+   .promo__body{
+     width: 100%;
+     padding-right: 0;
+   }
+  }
+  @include mq($from:gel-bp-l, $until:gel-bp-xxl) {
+    .promo__body{
+      margin-bottom: 0;
+      padding-top: 8px;
+    }
+  }
+  @include mq($from:gel-bp-xxl) {
+    .promo__media{
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: $gel-spacing-unit;
+    }
+  }
+ }
+
+ ///*------------------------------------*\
+ //    # IODINE HERO PROMO FLOAT RIGHT
+ //\*------------------------------------*/
+
+.iodine--hero-right{
+  @include mq($from:gel-bp-m) {
+  direction: ltr;
+  .promo{direction: initial;}
+  }
+  .iodine__item{
+    @include mq($from:gel-bp-l) {
+      &:first-child{
+        order: 3;
+      }
+      &:nth-child(2){
+        order: 1;
+      }
+      &:nth-child(3){
+        order: 2;
+      }
+      &:nth-child(4){
+        order: 3;
+      }
+      &:nth-child(5){
+        order: 4;
+      }
+      &:nth-child(6){
+        order: 5;
+      }
+      &:nth-child(7){
+        order: 6;
+      }
+    }
+  }
+  .iodine__item--0{
+    .promo__summary{
+      @include gel-typography('long-primer');
+    }
+    @include mq($from:gel-bp-xxl) {
+     float: right;
+   }
+   }
+  .iodine__item{
+    @include mq($from:gel-bp-l) {
+      &:nth-last-child(-n+2){
+
+      }
+
+      &:nth-child(n+4):nth-child(-n+5){
+
+      }
+    }
+  }
+}
+
+///*------------------------------------*\
+//    # IODINE HERO PROMO FLOAT LEFT
+//\*------------------------------------*/
+
+.iodine--hero-left{
+ .iodine__item--0{
+    float: left;
+
+       @include mq($from:gel-bp-m, $until:gel-bp-l) {
+
+           @include promo--lead;
+
+
+         .promo__media{
+           float: right;
+           padding-left: 0px;
+           padding-right: 0;
+
+         }
+         .promo__body{
+           padding-right: 16px;
+           padding-left: 0;
+         }
+       }
+
+  }
+ .iodine__item{
+   @include mq($from:gel-bp-l) {
+     &:nth-last-child(-n+2){
+       float: none;
+     }
+
+     &:nth-child(n+4):nth-child(-n+5){
+       float: none;
+     }
+   }
+ }
+}
+
+.bg-oat{
+  .iodine__item{
+    @include mq($from:gel-bp-xs, $until:gel-bp-m) {
+    margin-bottom: $gel-spacing-unit;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<a name="{{anchor}}"></a>
+<section class="ad-native--wrap gs-u-clearfix {{classes}} {{#if info-header}}has-info-header{{/if}}">
+  <!-- 5 items group -->
+
+  <div class="gel-wrap">
+
+  <div class="gel-layout">
+
+    <div class="gel-layout__item">
+      <div class="ad-native--box">
+        <div class="info-header">{{info-header}}</div>
+        <div class="gel-layout {{flex-classes}}">
+          {{#each promo-items}}
+          <div class="gel-layout__item ad-native__item ad-native__item--{{@index}} {{classes}}">
+
+            {{ molecule "promo"}}
+
+          </div>
+          {{/each}}
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+</section>

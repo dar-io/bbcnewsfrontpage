@@ -1,0 +1,91 @@
+{
+	"flex-classes": "layout--flex@m  layout--flex@l layout--flex@xxl ",
+	"subheader": "Birmingham & Black Country",
+	"see-all": "See All",
+	"icon": "map",
+
+	"promo-items": [
+		{
+			"classes": "at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-media label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/C2A9/production/_90533894_008164263.jpg",
+				"headline": "Archers producer Smethurst dies",
+				"summary": "",
+				"url": "",
+				"label-text": "",
+				"media-duration": "0:24",
+				"icon": "",
+				"metadata": {
+					"timestamp": "14m"
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/142D4/production/_90544628_adamjones.jpg",
+				"headline": "Man charged over teen cyclist death",
+				"summary": "",
+				"url": "#promo-link",
+				"label-text": "",
+				"media-duration": "3:19",
+				"icon": "",
+				"metadata": {
+					"timestamp": "1h"
+				}
+			}
+		},
+		{
+			"classes": "",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/B556/production/_90522464_birminghamnewstreetconcoursezubat.jpg",
+				"headline": "Pokemon Go near train tracks 'concern'",
+				"summary": "",
+				"url": "#promo-link",
+				"label-text": "",
+				"media-duration": "0:48",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "43m"
+				}
+			}
+		}
+	],
+	"promo-groupings": [
+		{
+			"classes": "",
+			"promo": {
+				"classes": " promo--standard promo--has-media label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/images/ic/208x117/p042n0wg.jpg",
+				"headline": "Lorry wrecked and lanes shut in M6 fire",
+				"summary": "",
+				"url": "",
+				"label-text": "",
+				"media-duration": "1:30",
+				"icon": "",
+				"metadata": {
+					"timestamp": "3h"
+				}
+			}
+		},
+		{
+			"classes": "",
+			"promo": {
+				"classes": " promo--standard promo--has-media label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/news/660/cpsprodpb/3F0E/production/_90524161_mediaitem90521980.jpg",
+				"headline": "Man 'murdered wife in Elvis act row'",
+				"summary": "",
+				"url": "",
+				"label-text": "",
+				"media-duration": "3:10",
+				"icon": "",
+				"metadata": {
+					"timestamp": "1d"
+				}
+			}
+		}
+	]
+}

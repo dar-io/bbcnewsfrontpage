@@ -1,0 +1,119 @@
+.metadata {
+  display: block;
+  // white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+  @include nav;
+  margin-bottom: 0;
+
+  li {
+      vertical-align: middle;
+      [class*="promo--feature"] &{
+        margin-top: 0;
+      }
+
+   @include gel-typography('brevier');
+
+    text-transform: inherit;
+    position: relative;
+    margin-right: 6px;
+    padding-right: 6px;
+    margin-top: 7px;
+    &:after{
+      content: "";
+      display: block;
+      position: absolute;
+      border-right: 1px solid $keyline-color;
+      top: 2px;
+      right: -1px;
+      height: 77%;
+    }
+    &:last-child {
+      &:after{
+      border-right: none;
+      }
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
+  a {}
+  .icon {
+    margin-right: 3px;
+  }
+}
+
+.gs-o-live-status__text:after{
+  content: none;
+}
+  .metadata__time {
+    color: $rhino;
+    -webkit-font-smoothing: antialiased;
+
+    .icon svg {
+      fill: $rhino;
+    }
+  }
+  .metadata__section {
+    color: $link;
+    display: inline;
+    span{
+      display: inline;
+    }
+    .section-name-trunc{
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      &:after {
+        content: attr(title);
+      }
+
+    }
+     a{
+
+       color: $link;
+       @include mq($from:320px, $until:340px) {
+        max-width: 98px;
+       }
+       @include mq($from:341px, $until:380px) {
+        max-width: 124px;
+       }
+       @include mq($from:gel-bp-m, $until:760px) {
+        max-width: 124px;
+       }
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       vertical-align: middle;
+    }
+  }
+
+  .metadata__date{
+
+
+    &:after{
+      display: none !important;
+      margin-left: 0 !important;
+    }
+  }
+  .metadata__comments {
+    .icon svg {
+       @include gel-typography('minion');
+       top: 1px;
+       position: relative;
+    }
+  }
+
+  abbr[title] {
+    text-decoration: none;
+    border-bottom: none ;
+}
+[title~="SPORT"] {
+  font-weight: bold;
+}
+[title~="NEWSBEAT"] {
+  font-weight: bold;
+  color: $newsbeat;
+}

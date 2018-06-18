@@ -1,0 +1,22 @@
+{
+	"flex-classes": "layout--flex@s layout--flex@m  layout--flex@l layout--flex@xxl single",
+	"subheader": " ",
+	"anchor":"oneItem",
+	"promo-items": [
+		{
+			"classes": " gel-12/1@m ",
+			"promo": {
+				"classes": " promo--horizontal@l promo--horizontal@xxl promo--has-media label--breaking icon--small",
+				"background-image": "https://ichef.bbci.co.uk/wwfeatures/wm/live/624_351/images/live/p0/2q/p6/p02qp604.jpg",
+				"headline": "Bright, young and living abroad",
+				"summary": "Why more young people are being lured abroad",
+				"url": "http://www.bbc.com/capital/sponsored/story/20150429-bright-young-and-living-abroad",
+				"label-text": "",
+				"media-duration": "",
+				"sponsorship": {
+					"image": "assets/images/hsbc_logo.png"
+				}
+			}
+		}
+	]
+}

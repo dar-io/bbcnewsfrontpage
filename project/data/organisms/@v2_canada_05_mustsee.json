@@ -1,0 +1,162 @@
+{
+ 	"subheader": "Must See",
+
+	"stripenav-items": [
+
+	],
+
+	"promo-items": [
+		{
+			"classes": "double-spacing--vertical@s spacing--vertical@m spacing--vertical@l gel-1/1@xs gel-1/1@m gel-2/4@l gel-2/5@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--lead promo--has-media promo--has-image-4by3 label--breaking icon--large ",
+				"image": "",
+        "background-image": "https://c.files.bbci.co.uk/15AD2/production/_94768788_7.jpg",
+				"headline": "In pictures: Saving Zanzibar’s heritage",
+				"summary": "",
+				"url": "http://www.bbc.com/news/in-pictures-39030786",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "image",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+    {
+      "classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "on_now_heading": "On Now",
+      "on_now": [
+        {
+        "promo": {
+          "on_now_heading": "How to Watch",
+          "on_now_channel": "BBC World News TV",
+          "url": "http://www.bbc.co.uk/news/world_radio_and_tv",
+          "on_now_summary": "",
+          "classes": "",
+        "programme-data": "",
+        "air_date": "",
+        "icon": "tv",
+        "live-media": ""
+        }
+      },
+      {
+      "promo": {
+      "on_now_heading": "Listen live",
+      "on_now_channel": "BBC World Service Radio",
+      "url": "http://www.bbc.co.uk/radio/player/bbc_world_service",
+      "on_now_summary": "",
+      "programme-data": "",
+      "air_date": "",
+      "icon": "audio",
+      "live-media": ""
+      }
+    }
+    ]
+    },
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": " promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/BE3C/production/_94900784_p04vh4s9.jpg",
+				"headline": "Police tackle bat-wielding man",
+				"summary": "",
+				"url": "http://www.test.bbc.com/news/av/world-us-canada-39136245",
+				"label-text": "",
+				"media-duration": "1:00",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/world/europe",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": " promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/2859/production/_94892301_bd64abbc-2b57-4883-bee1-ad61da233311.jpg",
+				"headline": "Mum's battle against sugar goes viral",
+				"summary": "",
+				"url": "http://www.bbc.com/news/world-europe-39127037",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/in_pictures",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": " promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/BD23/production/_94891484_p04vfgnk.jpg",
+				"headline": "'Trump has given us hope'",
+				"summary": "",
+				"url": "http://www.test.bbc.com/news/av/world-39130059",
+				"label-text": "",
+				"media-duration": "0:46",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/4771/production/_94898281_p04vgdxd.jpg",
+				"headline": "Why was Kim Jong-nam killed?",
+				"summary": "",
+				"url": "http://www.test.bbc.com/news/av/world-asia-39131012",
+				"label-text": "",
+				"media-duration": "2:58",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": " spacing--vertical@m spacing--vertical@l gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl ",
+      "promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/BE3C/production/_94900784_p04vh4s9.jpg",
+				"headline": "'This is what poverty in the US looks like'",
+				"summary": "",
+				"url": "http://www.test.bbc.com/news/av/world-us-canada-39122283",
+				"label-text": "",
+				"media-duration": "4:17",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+          "url": "http://www.bbc.com/news/world/latin_america",
+					"comments": ""
+				}
+			}
+		}
+	]
+}

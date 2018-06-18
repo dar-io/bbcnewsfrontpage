@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>BBC News Front page</title>
+    <meta name="description" content="BBC News Front page" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  {{> "html_header" }}
+    {{organism "orb_head" }}
+
+
+  </head>
+  <body class="b-pw-1280 headline_top gel-typography-default">
+
+    {{ organism "orb_header" }}
+    {{ organism "news_navigation" }}
+
+
+
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_promo_test_opt3_3" classes="theme--oat sans-serif" subheader="Reporters & Features Opt 2"}}
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_promo_test_opt3" classes="theme--oat" subheader="Reporters & Features Opt 2 (Large feature promo)"}}
+
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_promo_test_opt1_1" classes="theme--oat"  subheader="Reporters & Features Opt 1 (Headline bottom)"}}
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_promo_test_opt1_2" classes="theme--oat"  subheader="Reporters & Features Opt 1 (Headline middle)"}}
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_promo_test_opt1_3" classes="theme--oat"  subheader="Reporters & Features Opt 3 (the reporter)"}}
+
+<!--[5]  In Depth        --> {{ organism "hydrogen" "slice_indepth_top_stories_october"   subheader="Top stories Reporters & Features Opt 3 (the reporter)"}}
+  {{organism "orb_footer" "orb_footer"}}
+
+
+    <!--[ ]  JS Footer       --> {{> "html_footer_js" }}
+        <script src="bundle.js"></script>
+
+  </body>
+</html>

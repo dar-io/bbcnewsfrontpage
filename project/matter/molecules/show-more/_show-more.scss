@@ -1,0 +1,43 @@
+// _show-more.scss
+//
+@include mq($from:gel-bp-m) {
+  .showmore{
+    display: none;
+  }
+}
+
+@include mq($from:gel-bp-xs, $until:gel-bp-m) {
+  .show-more-hidden\@xs{
+  display: none !important;
+  visibility: hidden;
+  &.visible{
+    display: inherit !important;
+    visibility: visible;
+  }
+  }
+}
+
+
+.showmore{
+  .show-more-button{
+    width: 75%;
+    background-color: #fff;
+    color: #252525;
+    vertical-align: middle;
+    position: relative;
+    overflow: visible;
+    display: block;
+    margin: 0 auto;
+    padding-top: .563rem;
+    padding-right: 8px;
+    padding-bottom: .563rem;
+    padding-left: 8px;
+    text-align: center;
+    border: 1px solid $keyline-color;
+  }
+}
+
+.vxp-mostpop__show-more{
+  margin-top: $gel-spacing-unit;
+  padding-left: 8px;
+}

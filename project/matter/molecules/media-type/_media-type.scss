@@ -1,0 +1,203 @@
+.promo--feature_brand{
+  .media-type{
+    position: relative;
+    display: none ;
+  }
+}
+
+
+.media-type{
+// Icon sizes
+  background-color: #fff;
+  padding: 6px $gel-spacing-unit $gel-spacing-unit / 2;
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+ .media-type__duration{
+  padding-left: $gel-spacing-unit / 2;
+    vertical-align: middle;
+ }
+.icon--xsmall &{
+   svg {
+    height: 12px;
+    width:  12px;
+   }
+  }
+  &.icon--small {
+    background-color: red;
+    padding: $gel-spacing-unit;
+   svg {
+    height: 16px;
+    width: 16px;
+   }
+  }
+  .icon--medium &{
+    padding: $gel-alt-spacing-unit $gel-spacing-unit * 2 $gel-spacing-unit / 2;
+
+    .media-type__duration{
+      display: block;
+      padding-left:0;
+      text-align: center;
+    }
+   svg {
+    padding: 4px;
+    height: 40px;
+    width: 40px;
+   }
+  }
+
+  .icon--small &{
+    padding: 8px $gel-spacing-unit $gel-spacing-unit / 2;
+
+    .media-type__duration{
+      display: inline-block;
+      padding-left:4px;
+      text-align: center;
+      vertical-align: bottom;
+    }
+   svg {
+
+    height: 16px;
+    width: 16px;
+
+   }
+  }
+
+
+
+  .icon--xlarge &{
+
+  padding: 18px 13px 12px 19px;
+  @include mq($from: 'gel-bp-m') {
+    margin-left: 4px;
+  }
+  background-color: rgba(0, 0, 0, 0.7);
+
+    .media-type__duration{
+      display: block;
+      padding-left:0;
+      text-align: center;
+    }
+   svg {
+    height: 32px;
+    width: 32px;
+    fill: #ffffff;
+   }
+  }
+}
+
+.icon--xlarge .promo__media{
+  z-index: 999;
+}
+.promo__media:hover .media-type{
+  background-color: $postbox;
+}
+
+// Link Styles
+.media-island {
+position: relative;
+}
+.media-island__image,
+.media-island__proportioner {
+width: 100%;
+max-width: 160px;
+height: auto;
+vertical-align: bottom;
+
+}
+.media-island__proportioner {
+position: static;
+}
+.media-island__image {
+position: absolute;
+top: 0;
+left: 0;
+}
+.media-island__icon {
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.media-island__duration {
+position: absolute;
+bottom: 0;
+left: 24px;
+
+}
+// Just an idea to help positioning? Problem is when it changes position at different breakpoints
+.media-island__icon--bl {
+bottom: 0;
+left: 0;
+@include mq($from: 'gel-bp-xs') {
+  padding: 9px 12px 6px;
+}
+.promo--card &{
+    @include mq($from: 'gel-bp-xs') {
+      padding: 10px 12px $gel-alt-spacing-unit;
+    }
+
+    @include mq($from: 'gel-bp-m') {
+    padding: $gel-alt-spacing-unit 16px 8px $gel-spacing-unit * 2;
+    }
+  }
+}
+
+.media-island__icon--br {
+bottom: 0;
+right: 0;
+padding-left: 8px;
+.promo--card &{
+  padding-left: inherit;
+}
+}
+.media-island__icon--tl {
+top: 0;
+left: 0;
+padding-left: inherit;
+}
+.media-island__icon--tr {
+top: 0;
+right: 0;
+padding-left: inherit;
+}
+.media-island__icon--cl {
+top: 50%;
+left: 0;
+padding-left: inherit;
+}
+.media-island__icon--cr {
+top: 50%;
+right: 0;
+padding-left: inherit;
+}
+
+
+.icon--large {
+  .promo--feature_brand .media-island__icon--bl{
+    display: none;
+  }
+  .media-island__icon--bl{
+      height: 64px;
+      width: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    .media-type__duration{
+      display: block;
+      padding-left:0;
+      text-align: center;
+    }
+
+   .icon, svg {
+    height: 24px;
+    width: 24px;
+
+   }
+ }
+}
+
+.icon--play-situ{
+
+}

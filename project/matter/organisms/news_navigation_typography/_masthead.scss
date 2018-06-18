@@ -1,0 +1,91 @@
+
+.masthead--sport {
+  background-color: $sport;
+}
+
+  .masthead__inner {}
+    .masthead__logo {
+      display: block;
+      padding-top: 18px;
+      padding-bottom: 14px;
+      width: 120px;
+
+      img {
+        width: inherit;
+      }
+    }
+
+
+// PRIMARY NAV.
+//
+
+.primary-nav {
+  background-color: $sport;
+  border-top: 1px solid #C6AF36;
+  display: none;
+
+  @include mq($from: gel-bp-m) {
+    display: block;
+  }
+}
+  .primary-nav__items {
+    @include clearfix;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+    .primary-nav__item {
+      float: left;
+
+      &:first-child {
+
+        span { border-left: none; }
+      }
+
+      span {
+        border-left: 1px solid #C6AF36;
+        display: block;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      a {
+        display: block;
+        height: 32px;
+
+      }
+    }
+    .primary-nav__item--active {
+
+      a {
+        border-bottom: 4px solid #000;
+      }
+    }
+
+    // NAV ITEM SHOW/HIDE
+    //
+
+    @include mq-add-breakpoint(primary-nav-athletics, 679px);
+    @include mq-add-breakpoint(primary-nav-golf, 601px);
+
+    .primary-nav__item--0 {}
+    .primary-nav__item--1 {}
+    .primary-nav__item--2 {}
+    .primary-nav__item--3 {}
+    .primary-nav__item--4 {}
+    .primary-nav__item--5 {}
+    .primary-nav__item--6 {}
+    .primary-nav__item--7 {
+      display: none;
+
+      @include mq($from: primary-nav-golf) {
+        display: block;
+      }
+    }
+    .primary-nav__item--8 {
+      display: none;
+
+      @include mq($from: primary-nav-athletics) {
+        display: block;
+      }
+    }

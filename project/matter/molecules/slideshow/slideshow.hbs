@@ -1,0 +1,21 @@
+{{! slideshow.hbs }}
+
+<!-- click to bring the slideshow in and out of fullscreen mode -->
+
+    <div class="slideshow gel-responsive-image gel-responsive-image--16by9 {{image-classes}}">
+
+      {{#each slideshow-images}}
+        {{#if image}}
+          <div class="slide {{slide-class}}">
+            <img class="image" src="{{image}}" alt="" height="" width="" />
+          </div>
+         {{/if}}
+         {{#if background-image}}
+
+           <div class="slide {{slide-class}} gel-responsive-image gel-responsive-image--16by9"   style="background-image: url({{background-image}});">
+           
+         </div>
+         {{/if}}
+      {{/each}}
+
+    </div>

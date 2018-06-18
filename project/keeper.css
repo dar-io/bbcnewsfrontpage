@@ -1,0 +1,51 @@
+/* Style rules for GateKeeper
+   http://www.HTMLisEasy.com/keeper/
+*****************************************/
+
+
+/* this is the table that encloses the form
+-------------------------------------------------*/
+#keeperblock {
+   color:#000000;
+   background-color:#ffffff;
+   border:double 3px #dddddd;
+   font:normal 12px arial;
+}
+
+
+/* username & password input text boxes
+-------------------------------------------------*/
+#keeperblock #ku,#kp {
+   border:solid 1px #999999;
+   font:normal 12px verdana;
+   width:100px;
+}
+
+
+/* cell that contains the text "save password"
+-------------------------------------------------*/
+#keeperblock #ksp{
+   font:normal 11px arial;
+}
+
+
+/* sign-in button
+-------------------------------------------------*/
+#keeperblock #kb{
+   font:bold 11px arial;
+   color:#0000cc;
+   background-color:#eeeeee;
+   border:outset 2px #eeeeee;
+}
+
+/* div that contains the noscript blurb
+-------------------------------------------------*/
+#keeperblock #kns{
+   display:inline;
+   color:#ff0000;
+   background-color:#ffff66;
+   font:normal 11px tahoma,sans-serif;
+}
+
+
+/**  END OF FILE  *************/

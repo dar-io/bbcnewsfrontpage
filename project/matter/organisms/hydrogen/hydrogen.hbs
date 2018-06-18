@@ -1,0 +1,47 @@
+<section class="hydrogen--wrap gs-u-clearfix {{classes}}">
+
+  <div class="gel-wrap">
+    {{ molecule "stripenav" }}
+
+  <div class="gel-layout layout--flex@xxl">
+
+    <div class="gel-layout__item gel-1/1@l gel-4/5@xxl">
+      <div class="hydrogen--box {{keyline-classes}}">
+        <div class="gel-layout gel-layout--flex">
+          {{#each promo-items}}
+          <div class="gel-layout__item hydrogen__item hydrogen__item--{{@index}} {{classes}}">
+
+            {{ molecule "promo"}}
+
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <!--///–––––––––––––––––––––––––––––––––*\
+    //    # RIVER
+    //\*––––––––––––––––––––––––––––––––––––*/-->
+    <div class="gel-layout__item gel-1/1@l gel-1/5@xxl layout--flex@xxl {{river-classes}}">
+      <div class="hydrogen__river gs-u-mt-@xxl gs-u-mb-@xxl layout--flex@xxl">
+        <div class="gel-layout gel-layout--flex">
+
+
+           {{#each promo-river-items}}
+          <div class="gel-layout__item hydrogen__item--river river__item--{{@index}} {{classes}} ">
+
+
+
+              {{ molecule "promo"}}
+
+          </div>
+          {{/each}}
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- END 5 items group -->
+</section>

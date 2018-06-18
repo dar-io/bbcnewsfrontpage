@@ -1,0 +1,84 @@
+///*------------------------------------*\
+//    # NITROGEN USED FOR TOP STORIES
+//\*------------------------------------*/
+.nav-top.news+.nitrogen--wrap {
+  @include mq($from:gel-bp-m) {
+    margin-top: 16px;
+  }
+}
+
+.leaderboard--wrap+.nitrogen--wrap {
+  @include mq($from:gel-bp-m) {
+    margin-top: 16px;
+  }
+}
+
+
+
+.nitrogen__item{
+
+  @include mq($from:gel-bp-m) {
+  .promo--standard {
+      min-height: 295px;
+  }
+ }
+  @include mq($from:gel-bp-l, $until:gel-bp-xxl) {
+    &:nth-last-child(-n+3) {
+      float: left;
+    }
+    .promo--standard {
+        min-height: 320px;
+    }
+  }
+}
+
+
+
+
+///*------------------------------------*\
+//    # RIVER DISPLAYS HEADLINES ONLY
+//\*------------------------------------*/
+
+.nitrogen__river{
+    .nitrogen__item--river{
+      min-height: 86px;
+     }
+     &.at-line-t-until\@l:before{
+       left: 0;
+     }
+     @include mq($from:gel-bp-xs, $until:gel-bp-m) {
+       &> div .nitrogen__item--river:last-child{
+         margin-bottom: 0;
+         padding-bottom: 0;
+         &:after{
+           content: none;
+         }
+       }
+     }
+     @include mq($from:gel-bp-m, $until:gel-bp-l) {
+       padding-top: 16px;
+
+     }
+     @include mq($from:gel-bp-l, $until:gel-bp-xxl) {
+       padding-top: 12px;
+       margin-bottom: -16px;
+     }
+     @include mq($from:gel-bp-m) {
+       .promo__media{
+         display: none;
+       }
+     }
+
+    @include mq($from:gel-bp-xxl) {
+      padding-top: 16px;
+      margin-top: 8px;
+    }
+
+
+}
+
+.nitrogen--box{
+  @include mq($from:gel-bp-m) {
+    margin-bottom: -16px;
+  }
+}

@@ -1,0 +1,178 @@
+{
+	"promo-items": [
+		{
+			"classes": "promo--media-edge-to-edge gel-1/1@xs gel-1/1@m gel-3/4@l gel-3/4@xxl spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"maxim": "max_headline_top",
+				"classes": " promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom has-live-alsos",
+				"background-image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/71B2/production/_89960192_epa_tributes.jpg",
+				"headline": "Orlando gunman 'had grudge in his heart'",
+				"summary": "The father of the gunman who killed 50 people in an Orlando gay club says his son had a \"grudge in his heart\".",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+
+				"metadata": {
+					"timestamp": "1m",
+					"live-status": "",
+					"section": "US & Canada",
+					"comments": ""
+				},
+				"live_promo": {
+					"classes": "promo--has-image-16by9 label--breaking icon--large",
+					"live-label": "LIVE",
+					"headline": " Orlando nightclub shooting",
+					"summary": "",
+					"url": "#promo-link",
+					"keypoint": [
+						{
+						"headline": "Forty-nine people killed in attack on gay nightclub",
+						"timestamp": "12m"
+					},
+						{
+						"headline": "Suspect took hostages and died in gunfight with Swat officers",
+						"timestamp": "22m"
+						}
+					]
+				},
+				"see-also":[
+					{
+					"classes": "idx-video index",
+					"headline": "Gunman's father's grief",
+					"url": "#"
+					},
+					{
+					"classes": "cheveron index",
+					"headline": "Killer's ex-wife speaks out",
+					"url": "#"
+				},
+					{
+					"classes": "cheveron index",
+					"headline": "Who was Omar Mateen?",
+					"url": "#"
+					},
+					{
+					"classes": "cheveron index",
+					"headline": "US gun companies see share price rise",
+					"url": "#"
+					},
+						{
+						"classes": "cheveron index",
+						"headline": "Orlando shooting: Full report",
+						"url": "#"
+						},
+						{
+						"classes": "idx-audio index",
+						"headline": "Eyewitness accounts in Orlando shooting",
+						"url": "#"
+						}
+			  ]
+			}
+		}
+	],
+	"cluster":{
+		"flex-classes": " spacing--vertical@s layout--flex@m  layout--flex@l layout--flex@xxl ",
+		"promo-items": [
+			{
+				"classes": "at-line-b-until@s",
+				"promo": {
+					"classes": "promo--standard promo--horizontal@xs promo--has-media label--breaking icon--small",
+					"background-image": "https://ichef-1.bbci.co.uk/news/624/cpsprodpb/14B50/production/_89961848_seddiquemateen3.jpg",
+					"headline": "Gunman's father's Afghan nationalist TV programme",
+					"summary": "",
+					"url": "",
+					"label-text": "",
+					"media-duration": "01:02",
+					"icon": "video",
+					"metadata": {
+						"timestamp": "",
+						"live-status": "",
+						"section": "",
+						"comments": ""
+					}
+				}
+			},
+			{
+				"classes": "at-line-b-until@s",
+				"promo": {
+					"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking",
+					"image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/6E57/production/_89974282_imranyousuf.jpg",
+					"headline": "The Orlando bouncer who saved dozens",
+					"summary": "",
+					"url": "#promo-link",
+					"label-text": "",
+					"media-duration": "00:00",
+					"icon": "video",
+					"metadata": {
+						"timestamp": "",
+						"live-status": "",
+						"section": "",
+						"comments": ""
+					}
+				}
+			},
+			{
+				"classes": "",
+				"promo": {
+					"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+					"image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/056B/production/_89978310_89978309.jpg",
+					"headline": "Orlando survivor: 'I'm next, I'm dead'",
+					"summary": "",
+					"url": "#promo-link",
+					"label-text": "",
+					"media-duration": "00:00",
+					"icon": "video",
+					"metadata": {
+						"timestamp": "",
+						"live-status": "",
+						"section": "",
+						"comments": ""
+					}
+				}
+			}
+		],
+		"promo-groupings": [
+			{
+				"classes": "",
+				"promo": {
+					"classes": "promo--horizontal@xs promo--standard promo--has-media label--breaking icon--small",
+					"background-image": "https://ichef.bbci.co.uk/news/660/cpsprodpb/FC7C/production/_89963646_ivoryandjackmcneal.jpg",
+					"headline": "‘People are getting killed. Call me now’",
+					"summary": "",
+					"url": "",
+					"label-text": "",
+					"media-duration": "00:00",
+					"icon": "",
+					"metadata": {
+						"timestamp": "",
+						"live-status": "",
+						"section": "",
+						"comments": ""
+					}
+				}
+			},
+			{
+				"classes": "",
+				"promo": {
+					"classes": "promo--horizontal@xs promo--standard promo--has-media label--breaking icon--small",
+					"background-image": "https://ichef.bbci.co.uk/images/ic/320x180/p039014p.jpg",
+					"headline": "Why are Americans so obsessed with guns?",
+					"summary": "",
+					"url": "",
+					"label-text": "",
+					"media-duration": "00:00",
+					"icon": "",
+					"metadata": {
+						"timestamp": "",
+						"live-status": "",
+						"section": "",
+						"comments": ""
+					}
+				}
+			}
+		]
+	}
+
+
+}

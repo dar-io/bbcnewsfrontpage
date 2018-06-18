@@ -1,0 +1,172 @@
+.has-ads{
+  display: inline-block;
+  float: right;
+}
+
+.ad-slot-label{
+  @include gel-typography('minion');
+  font-weight: bold;
+
+  float: right;
+  a{
+  color: #505050;
+  }
+}
+
+.advert,.ad_slot_two,.ad_slot_three{
+  width:300px;
+  margin: 0 auto;
+}
+
+
+@include mq($from:'gel-bp-xs') {
+  .ad_slot_two{
+
+    display: inherit;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    .mpu--image{
+    //  background-image: url(../assets/adverts/leaderboard.jpg);
+     padding-bottom: 250px;
+     &:after{
+       content: 'Middle Ad Slot';
+       display: none;
+     }
+     &:before{
+       content: 'From 320 to 600px  - MPU 300x250 only';
+       display: none;
+     }
+   }
+  }
+}
+
+@include mq($from:'gel-bp-m') {
+  .ad_slot_two {
+    display: inherit;
+    margin-bottom: 0px;
+    margin-top: 0;
+    .mpu--image{
+    //  background-image: url(../assets/adverts/leaderboard.jpg);
+     padding-bottom: 600px;
+     &:after{
+       content: 'Middle Ad Slot';
+     }
+     &:before{
+       content: 'MPU 300x250 or HPU 300x600';
+     }
+   }
+  }
+}
+
+@include mq($from:'gel-bp-xs') {
+  .ad_slot_two.mid-page-unit{
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .mid-page-unit{
+    display: inherit;
+
+    .mpu--image{
+    //  background-image: url(../assets/adverts/leaderboard.jpg);
+     padding-bottom: 250px;
+     &:after{
+       content: 'IAB MPU (300x250)';
+     }
+     &:before{
+       content: 'From 320 to 600px  - MPU 300x250 only';
+     }
+   }
+  }
+}
+
+@include mq($from:'gel-bp-m') {
+  .ad_slot_two.mid-page-unit{
+    margin-bottom: 32px;
+    margin-top: 0;
+  }
+  .mid-page-unit{
+
+    .mpu--image{
+     &:before{
+       content: 'Either a (300x600) or (300x250 ad unit)';
+     }
+   }
+  }
+}
+
+@include mq($from:'gel-bp-xs') {
+  .half-page-unit {
+    display: inherit;
+
+    .mpu--image{
+    //  background-image: url(../assets/adverts/leaderboard.jpg);
+     padding-bottom: 250px;
+     &:after{
+       content: 'IAB MPU (300x250)';
+     }
+     &:before{
+       content: 'From 320 to 600px  - MPU 300x250 only';
+     }
+   }
+ }
+}
+@include mq($from:600px) {
+  .half-page-unit {
+    display: inherit;
+
+    .mpu--image{
+    //  background-image: url(../assets/adverts/leaderboard.jpg);
+     padding-bottom: 600px;
+
+     &:after{
+       content: 'IAB Half page (300x600)';
+     }
+     &:before{
+       content: 'Either a (300x600) or (300x250 ad unit)';
+     }
+   }
+  }
+}
+
+
+.mpu--image{
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 250px;
+  width: 300px;
+  background-color: #efefef;
+  // background-image: url(../assets/adverts/leaderboard.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  &:after{
+    text-align: center;
+    display:block;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: #fff;
+    text-shadow: 1px 1px #0a7da0;
+    transform: translate(-50%, -50%);
+    margin: 0;
+     width: 100%;
+  }
+  &:before{
+    text-align: center;
+    display:block;
+    position: absolute;
+    bottom:8px;
+    left: 50%;
+    color: #fff;
+    text-shadow: 1px 1px #0a7da0;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 12px;
+    width: 100%;
+  }
+
+}

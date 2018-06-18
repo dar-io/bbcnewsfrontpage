@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="57px" height="34px" viewBox="0 0 57 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-core</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-core">
+            <g id="gel-icon-alarm" transform="translate(2.000000, 0.000000)" fill="#000000">
+                <g id="alarm-Layer_2">
+                    <path d="M16,18.4 L16,12 L14,12 L14,19.6 L20.6,23.4 L21.6,21.6 L16,18.4 Z" id="Shape"></path>
+                    <path d="M28.2,10 C29.9,7.1 28.9,3.5 26,1.8 C23.1,0.1 19.5,1.1 17.8,4 L28.2,10 L28.2,10 Z" id="Shape"></path>
+                    <path d="M1.8,10 C0.1,7.1 1.1,3.5 4,1.8 C6.9,0.1 10.5,1.1 12.2,4 L1.8,10 L1.8,10 Z" id="Shape"></path>
+                    <path d="M28,18.5 C28,11.3 22.2,5 15,5 C7.8,5 2,11.3 2,18.5 C2,21.9 3.3,25.2 5.4,27.5 L3,30 L5.8,32.9 L8.5,30.2 C10.4,31.3 12.6,31.9 15,31.9 C17.3,31.9 19.5,31.3 21.5,30.2 L24.2,32.9 L27,30.1 L24.6,27.4 C26.7,25.2 28,21.9 28,18.5 L28,18.5 Z M5.5,19 C5.5,16.5 6.5,13.8 8.3,12 C10.1,10.2 12.5,9 15,9 C20.2,9 24.5,13.5 24.5,18.8 C24.5,24.1 20.2,28.4 15,28.4 C9.8,28.4 5.5,24.2 5.5,19 L5.5,19 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-alert" transform="translate(1.000000, 3.000000)" fill="#000000">
+                <path d="M16,0 L0,28 L32,28 L16,0 L16,0 Z M18,25 L14,25 L14,21 L18,21 L18,25 L18,25 Z M14,19 L14,9 L18,9 L18,19 L14,19 L14,19 Z" id="alert-Layer_2"></path>
+            </g>
+            <g id="gel-icon-back-to-start" transform="translate(3.000000, 1.000000)" fill="#000000">
+                <g id="back-to-start-Layer_2">
+                    <path d="M0,0 L0,32 L3,32 L3,0 L0,0 Z" id="Shape"></path>
+                    <path d="M28,0 L3,16 L28,32 L28,24 L14.7,16 L28,8 L28,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-calendar" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="calendar-Layer_2">
+                    <path d="M24,13 L28,13 L28,17 L24,17 L24,13 Z" id="Shape"></path>
+                    <path d="M22,0 L24,0 L24,5 L22,5 L22,0 Z" id="Shape"></path>
+                    <path d="M8,0 L10,0 L10,5 L8,5 L8,0 Z" id="Shape"></path>
+                    <path d="M19,13 L23,13 L23,17 L19,17 L19,13 Z" id="Shape"></path>
+                    <path d="M14,13 L18,13 L18,17 L14,17 L14,13 Z" id="Shape"></path>
+                    <path d="M9,13 L13,13 L13,17 L9,17 L9,13 Z" id="Shape"></path>
+                    <path d="M24,18 L28,18 L28,22 L24,22 L24,18 Z" id="Shape"></path>
+                    <path d="M19,18 L23,18 L23,22 L19,22 L19,18 Z" id="Shape"></path>
+                    <path d="M14,18 L18,18 L18,22 L14,22 L14,18 Z" id="Shape"></path>
+                    <path d="M9,18 L13,18 L13,22 L9,22 L9,18 Z" id="Shape"></path>
+                    <path d="M4,18 L8,18 L8,22 L4,22 L4,18 Z" id="Shape"></path>
+                    <path d="M19,23 L23,23 L23,27 L19,27 L19,23 Z" id="Shape"></path>
+                    <path d="M14,23 L18,23 L18,27 L14,27 L14,23 Z" id="Shape"></path>
+                    <path d="M9,23 L13,23 L13,27 L9,27 L9,23 Z" id="Shape"></path>
+                    <path d="M4,23 L8,23 L8,27 L4,27 L4,23 Z" id="Shape"></path>
+                    <path d="M2,9 L32,9 L32,2 L25,2 L25,6 L21,6 L21,2 L11,2 L11,6 L7,6 L7,2 L0,2 L0,9 L2,9 Z" id="Shape"></path>
+                    <path d="M30,11 L30,30 L2,30 L2,11 L0,11 L0,32 L32,32 L32,11 L30,11 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-chapters" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="chapters-Layer_2">
+                    <path d="M8,0 L32,0 L32,8 L8,8 L8,0 Z" id="Shape"></path>
+                    <path d="M16,12 L32,12 L32,20 L16,20 L16,12 Z" id="Shape"></path>
+                    <path d="M8,24 L32,24 L32,32 L8,32 L8,24 Z" id="Shape"></path>
+                    <path d="M0,23 L12,16 L0,9 L0,23 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-countdown" transform="translate(3.000000, 1.000000)" fill="#000000">
+                <g id="countdown-Layer_2">
+                    <path d="M14.4,18.4 L14.4,12 L12.4,12 L12.4,19.6 L19,23.4 L20,21.6 L14.4,18.4 Z" id="Shape"></path>
+                    <path d="M22.982,4.875 L27.224,9.117 L24.396,11.947 L20.153,7.703 L22.982,4.875 Z" id="Shape"></path>
+                    <path d="M13,6 C5.8,6 0,11.8 0,19 C0,26.2 5.8,32 13,32 C20.2,32 26,26.2 26,19 C26,11.8 20.2,6 13,6 L13,6 Z M13,28.5 C7.8,28.5 3.5,24.2 3.5,19 C3.5,13.8 7.8,9.5 13,9.5 C18.2,9.5 22.5,13.8 22.5,19 C22.5,24.2 18.2,28.5 13,28.5 L13,28.5 Z" id="Shape"></path>
+                    <path d="M13,6 C14.7,6 16,4.7 16,3 C16,1.3 14.7,0 13,0 C11.3,0 10,1.3 10,3 C10,4.7 11.3,6 13,6 L13,6 Z M13,1 C14.1,1 15,1.9 15,3 C15,4.1 14.1,5 13,5 C11.9,5 11,4.1 11,3 C11,1.9 11.9,1 13,1 L13,1 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-degraded" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M30,0 L21,0 L23,2 L30,2 L30,30 L2,30 L2,2 L9.2,2 L17.8,10.6 L9.4,19 L17.2,28.5 L17.2,19 L25.4,10.9 L14.5,0 L0,0 L0,32 L32,32 L32,0 L30,0 Z" id="degraded-Layer_2"></path>
+            </g>
+            <g id="gel-icon-down" transform="translate(1.000000, 4.000000)" fill="#000000">
+                <path d="M16,26 L32,0 L24.8,0 L16,15.3 L7.2,0 L0,0 L16,26 Z" id="down-Layer_2"></path>
+            </g>
+            <g id="gel-icon-download" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="download-Layer_2">
+                    <path d="M28.2,12.2 L19,21.4 L19,0 L13,0 L13,21.4 L3.8,12.2 L0,16 L14,30 L2,30 L2,24 L0,24 L0,32 L16,32 L32,16 L28.2,12.2 Z" id="Shape"></path>
+                    <path d="M30,30 L22,30 L20,32 L32,32 L32,24 L30,24 L30,30 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-duration" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="duration-Layer_2">
+                    <path d="M17,15.4 L17,6 L15,6 L15,16.6 L23.8,21.7 L24.8,19.9 L17,15.4 Z" id="Shape"></path>
+                    <path d="M16,4 C22.6,4 28,9.4 28,16 C28,22.6 22.6,28 16,28 C9.4,28 4,22.6 4,16 C4,9.4 9.4,4 16,4 L16,4 Z M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 L16,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-email" transform="translate(1.000000, 4.000000)" fill="#000000">
+                <path d="M16,16.4 L32,1.4 L32,0 L0,0 L0,26 L32,26 L32,5 L28,9 L28,22 L4,22 L4,5.2 L16,16.4 L16,16.4 Z M16,13.6 L5.8,4 L26.2,4 L16,13.6 L16,13.6 Z" id="email-Layer_2"></path>
+            </g>
+            <g id="gel-icon-embed-off-grid" transform="translate(1.000000, 4.000000)" fill="#000000">
+                <g id="embed-off-grid-Layer_2">
+                    <path d="M11,26 L11,19 L6,13 L11,7 L11,0 L0,13 L11,26 Z" id="Shape"></path>
+                    <path d="M25,0 L25,7 L30,13 L25,19 L25,26 L36,13 L25,0 Z" id="Shape"></path>
+                    <path d="M13,22 L15,22 L23,4 L21,4 L13,22 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-embed-on-grid" transform="translate(1.000000, 6.000000)" fill="#000000">
+                <g id="embed-on-grid-Layer_2">
+                    <path d="M10,22 L10,16 L5.5,11 L10,6 L10,0 L0,11 L10,22 Z" id="Shape"></path>
+                    <path d="M22,0 L22,6 L26.5,11 L22,16 L22,22 L32,11 L22,0 Z" id="Shape"></path>
+                    <path d="M12,19 L14,19 L20,3 L18,3 L12,19 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-embed" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="embed-Layer_2">
+                    <path d="M10,6.2 L10,0 L0,10 L10,20 L10,13.8 L6.2,10 L10,6.2 Z" id="Shape"></path>
+                    <path d="M22,13.8 L22,20 L32,10 L22,0 L22,6.2 L25.8,10 L22,13.8 Z" id="Shape"></path>
+                    <path d="M11.403,13.183 L19.183,5.405 L20.596,6.819 L12.818,14.596 L11.403,13.183 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-expires" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="expires-Layer_2">
+                    <path d="M16,0 C15.7,0 15.3,0 15,0.1 L15,4.1 C15.3,4 15.7,4 16,4 C22.6,4 28,9.4 28,16 C28,22.6 22.6,28 16,28 C9.4,28 4,22.6 4,16 L0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 L16,0 Z" id="Shape"></path>
+                    <path d="M23.8,21.7 L24.8,19.9 L17,15.4 L17,6 L15,6 L15,16.6 L23.8,21.7 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-export" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M6,0 L6,22.5 L0,28.5 L3.5,32 L22,13.5 L22,21 L27,21 L27,5 L11,5 L11,10 L18.5,10 L8,20.5 L8,2 L30,2 L30,24 L15.8,24 L13.8,26 L32,26 L32,0 L6,0 Z" id="export-Layer_2"></path>
+            </g>
+            <g id="gel-icon-external-link" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M12,0 L12,5 L23.5,5 L18.5,10 L0,10 L0,32 L22,32 L22,17.5 L20,19.5 L20,30 L2,30 L2,12 L16.5,12 L8.7,19.7 L12.3,23.3 L27,8.5 L27,20 L32,20 L32,0 L12,0 Z" id="external-link-Layer_2"></path>
+            </g>
+            <g id="gel-icon-grid" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="grid-Layer_2">
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Shape"></path>
+                    <path d="M0,12 L8,12 L8,20 L0,20 L0,12 Z" id="Shape"></path>
+                    <path d="M0,24 L8,24 L8,32 L0,32 L0,24 Z" id="Shape"></path>
+                    <path d="M12,0 L20,0 L20,8 L12,8 L12,0 Z" id="Shape"></path>
+                    <path d="M12,12 L20,12 L20,20 L12,20 L12,12 Z" id="Shape"></path>
+                    <path d="M12,24 L20,24 L20,32 L12,32 L12,24 Z" id="Shape"></path>
+                    <path d="M24,0 L32,0 L32,8 L24,8 L24,0 Z" id="Shape"></path>
+                    <path d="M24,12 L32,12 L32,20 L24,20 L24,12 Z" id="Shape"></path>
+                    <path d="M24,24 L32,24 L32,32 L24,32 L24,24 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-help" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 L16,0 Z M18,26 L14,26 L14,22 L18,22 L18,26 L18,26 Z M20.6,16 C19.4,16.9 18,17.6 18,19.2 L18,20 L14,20 L14,19 C14,16.6 15.4,15.6 16.5,14.7 C17.6,13.9 19,13.2 19,11.8 C19,10.1 17.6,9.4 16.2,9.4 C14.2,9.4 12.5,11 12.5,13 L9,13 C9.1,9 12.1,6.2 16,6.2 C21.1,6.2 23.3,9.3 23.3,11.4 C23.3,14.1 21.8,15.1 20.6,16 L20.6,16 Z" id="help-Layer_2"></path>
+            </g>
+            <g id="gel-icon-home" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="home-Layer_2">
+                    <path d="M16,5.4 L4,17.4 L4,31.9 L13,31.9 L13,22 L19,22 L19,31.9 L28,31.9 L28,17.4 L16,5.4 L16,5.4 Z" id="Shape"></path>
+                    <path d="M28,12 L28,4 L24,4 L24,8 L17.4,1.4 L16,0 L14.6,1.4 L0,16 L0,18.8 L16,2.8 L32,18.8 L32,16 L28,12 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-info" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 L16,0 Z M18,25 L14,25 L14,13 L18,13 L18,25 L18,25 Z M18,11 L14,11 L14,7 L18,7 L18,11 L18,11 Z" id="info-Layer_2"></path>
+            </g>
+            <g id="gel-icon-launch-application" transform="translate(1.000000, 5.000000)" fill="#000000">
+                <g id="launch-application-Layer_2">
+                    <path d="M10,22 L2,22 L2,16 L4,16 L4,14 L0,14 L0,24 L12,24 L12,18 L10,18 L10,22 Z" id="Shape"></path>
+                    <path d="M22,22 L30,22 L30,16 L28,16 L28,14 L32,14 L32,24 L20,24 L20,18 L22,18 L22,22 Z" id="Shape"></path>
+                    <path d="M6,16 L26,16 L26,0 L6,0 L6,16 L6,16 Z M22,12 L10,12 L10,4 L22,4 L22,12 L22,12 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-link" fill="#000000">
+                <g id="link-Layer_2">
+                    <path d="M19.5,5.6 L17.8,3.9 C14,0 7.7,0 3.9,3.9 C-3.33066907e-16,7.7 -3.33066907e-16,14 3.9,17.8 L7.3,21.2 C11.1,25 17.4,25 21.2,21.2 L17.7,17.7 C15.8,19.6 12.7,19.6 10.7,17.7 L7.3,14.3 C5.4,12.4 5.4,9.3 7.3,7.3 C9.2,5.4 12.3,5.4 14.3,7.3 L16,9 L19.5,5.6 L19.5,5.6 Z" id="Shape"></path>
+                    <path d="M14.4,28.4 L16.1,30.1 C19.9,33.9 26.2,33.9 30,30.1 C33.8,26.3 34,20.1 30.1,16.3 L26.6,12.8 C22.9,9 16.6,9 12.8,12.8 L16.3,16.3 C18.2,14.4 21.3,14.4 23.3,16.3 L26.7,19.7 C28.6,21.6 28.6,24.7 26.7,26.7 C24.8,28.6 21.7,28.6 19.7,26.7 L18,25 L14.4,28.4 L14.4,28.4 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-list-thumb" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="list-thumb-Layer_2">
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Shape"></path>
+                    <path d="M0,12 L8,12 L8,20 L0,20 L0,12 Z" id="Shape"></path>
+                    <path d="M0,24 L8,24 L8,32 L0,32 L0,24 Z" id="Shape"></path>
+                    <path d="M11,0 L11,8 L32,8 L32,0 L11,0 Z" id="Shape"></path>
+                    <path d="M11,17 L11,20 L32,20 L32,12 L11,12 L11,17 Z" id="Shape"></path>
+                    <path d="M11,29 L11,32 L32,32 L32,24 L11,24 L11,29 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-list" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="list-Layer_2">
+                    <path d="M0,0 L0,8 L32,8 L32,0 L0,0 Z" id="Shape"></path>
+                    <path d="M0,17 L0,20 L32,20 L32,12 L0,12 L0,17 Z" id="Shape"></path>
+                    <path d="M0,29 L0,32 L32,32 L32,24 L0,24 L0,29 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-loading" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M29.8,8 L26.3,10 C27.3,11.8 27.9,13.8 27.9,16 C27.9,22.6 22.5,28 15.9,28 C9.3,28 4,22.6 4,16 C4,9.4 9.4,4 16,4 L16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,13.1 31.2,10.4 29.8,8 L29.8,8 Z" id="loading-Layer_2"></path>
+            </g>
+            <g id="gel-icon-location" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 L16,0 Z M18,27.8 L18,23 L14,23 L14,27.8 C9,27 5,23 4.2,18 L9,18 L9,14 L4.2,14 C5,9 9,5 14,4.2 L14,9 L18,9 L18,4.2 C23,5 27,9 27.8,14 L23,14 L23,18 L27.8,18 C27,23 23,27 18,27.8 L18,27.8 Z" id="location-Layer_2"></path>
+            </g>
+            <g id="gel-icon-lock" transform="translate(4.000000, 1.000000)" fill="#000000">
+                <path d="M22,13.9 L22,8.3 C22,3.7 17.9,0 13,0 C8.1,0 4,3.7 4,8.3 L4,13.9 L0,13.9 L0,31.9 L26,31.9 L26,13.9 L22,13.9 L22,13.9 Z M9,8.3 C9,6.3 10.8,4.6 13,4.6 C15.2,4.6 17,6.2 17,8.3 L17,13.9 L9,13.9 L9,8.3 L9,8.3 Z" id="lock-Layer_2"></path>
+            </g>
+            <g id="gel-icon-more-horizontal" transform="translate(1.000000, 13.000000)" fill="#000000">
+                <g id="more-horizontal-Layer_2">
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Shape"></path>
+                    <path d="M12,0 L20,0 L20,8 L12,8 L12,0 Z" id="Shape"></path>
+                    <path d="M24,0 L32,0 L32,8 L24,8 L24,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-more-vertical" transform="translate(13.000000, 1.000000)" fill="#000000">
+                <g id="more-vertical-Layer_2">
+                    <path d="M0,0 L8,0 L8,8 L0,8 L0,0 Z" id="Shape"></path>
+                    <path d="M0,12 L8,12 L8,20 L0,20 L0,12 Z" id="Shape"></path>
+                    <path d="M0,24 L8,24 L8,32 L0,32 L0,24 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-new" transform="translate(1.000000, 1.000000)">
+                <g id="new-Layer_2">
+                    <path d="M0,0 L56,0 L56,32 L0,32 L0,0 Z" id="Shape" fill="#000000"></path>
+                    <path d="M4,7.9 L8.3,7.9 L13.9,17.7 L13.9,7.9 L17.8,7.9 L17.8,23.9 L13.5,23.9 L8,13.9 L8,23.9 L4,23.9 L4,7.9 L4,7.9 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M20.2,7.9 L31.6,7.9 L31.6,11.2 L24.4,11.2 L24.4,14 L30.9,14 L30.9,17.2 L24.4,17.2 L24.4,20.2 L31.8,20.2 L31.8,23.8 L20.2,23.8 L20.2,7.9 L20.2,7.9 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M48.5,23.9 L44.7,23.9 L42.7,12.9 L40.7,23.9 L36.8,23.9 L32.9,7.9 L36.7,7.9 L38.8,19.6 L40.9,7.9 L44.5,7.9 L46.6,19.6 L48.7,7.9 L52.5,7.9 L48.5,23.9 L48.5,23.9 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="gel-icon-next" transform="translate(4.000000, 1.000000)" fill="#000000">
+                <path d="M26,16 L0,0 L0,7.2 L14.6,16 L0,24.8 L0,32 L26,16 Z" id="next-Layer_2"></path>
+            </g>
+            <g id="gel-icon-no" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M32,3.5 L28.5,0 L16,12.5 L3.5,0 L0,3.5 L12.5,16 L0,28.5 L3.5,32 L16,19.5 L28.5,32 L32,28.5 L19.5,16 L32,3.5 Z" id="no-Layer_2"></path>
+            </g>
+            <g id="gel-icon-previous" transform="translate(4.000000, 1.000000)" fill="#000000">
+                <path d="M0,16 L26,32 L26,24.8 L11.4,16 L26,7.2 L26,0 L0,16 Z" id="previous-Layer_2"></path>
+            </g>
+            <g id="gel-icon-print" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M26,12 L26,5 L21,0 L6,0 L6,12 L0,12 L0,24.1 L5.9,30 L6,30 L6,32 L26,32 L26,30 L26.1,30 L32,24.1 L32,12 L26,12 L26,12 Z M8,12 L8,2 L20.2,2 L24,5.8 L24,18 L8,18 L8,12 L8,12 Z M8,30 L8,25 L24,25 L24,30 L8,30 L8,30 Z" id="print-Layer_2"></path>
+            </g>
+            <g id="gel-icon-quote" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="quote-Layer_2">
+                    <path d="M0,17 L0,32 L15,32 L15,17 L7,17 C7.2,11.1 9.4,8.2 15,7.1 L15,0 C6.7,1.2 0.2,8.3 0,17 L0,17 Z" id="Shape"></path>
+                    <path d="M32,7.1 L32,0 C23.7,1.2 17.2,8.3 17,17 L17,32 L32,32 L32,17 L24,17 C24.2,11.1 26.4,8.2 32,7.1 L32,7.1 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-refresh" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="refresh-Layer_2">
+                    <path d="M32,0 L20,0 L20,12 L24,12 L24,7.1 C26.4,9.3 28,12.5 28,16 C28,22.6 22.6,28 16,28 L16,32 C24.8,32 32,24.8 32,16 C32,11.2 29.9,6.9 26.6,4 L32,4 L32,0 L32,0 Z" id="Shape"></path>
+                    <path d="M8,24.9 C5.6,22.7 4,19.5 4,16 C4,9.4 9.4,4 16,4 L16,0 C7.2,0 0,7.2 0,16 C0,20.8 2.1,25.1 5.4,28 L0,28 L0,32 L12,32 L12,20 L8,20 L8,24.9 L8,24.9 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-search" transform="translate(0.000000, 1.000000)" fill="#000000">
+                <path d="M33,28.5 L24.8,20.3 C28.2,15.2 27.7,8.3 23.2,3.9 C20.7,1.3 17.3,0 14,0 C10.7,0 7.3,1.3 4.8,3.8 C-0.3,8.9 -0.3,17.1 4.8,22.2 C7.3,24.7 10.7,26 14,26 C16.5,26 19.1,25.3 21.3,23.8 L29.5,32 L33,28.5 L33,28.5 Z M7.6,19.4 C5.9,17.7 5,15.4 5,13 C5,10.6 5.9,8.3 7.6,6.6 C9.3,4.9 11.6,4 14,4 C16.4,4 18.7,4.9 20.4,6.6 C23.9,10.1 23.9,15.8 20.4,19.3 C18.7,21 16.4,21.9 14,21.9 C11.6,21.9 9.3,21.1 7.6,19.4 L7.6,19.4 Z" id="search-Layer_2"></path>
+            </g>
+            <g id="gel-icon-settings" fill="#000000">
+                <path d="M32.7,20.7 L29.1,19.2 C29.4,17.7 29.4,16.2 29.1,14.7 L32.7,13.2 C33,13.1 33.1,12.8 33,12.5 L31.4,8.7 C31.3,8.4 31,8.3 30.7,8.4 L27.1,10 C26.2,8.7 25.2,7.7 23.9,6.8 L25.4,3.2 C25.5,2.9 25.4,2.6 25.1,2.5 L21.4,1 C21.1,0.9 20.8,1 20.7,1.3 L19.2,4.9 C17.7,4.6 16.2,4.6 14.7,4.9 L13.2,1.3 C13.1,1 12.8,0.9 12.5,1 L8.8,2.6 C8.6,2.7 8.4,3 8.5,3.3 L10,6.9 C8.8,7.7 7.7,8.8 6.9,10 L3.3,8.5 C3,8.4 2.7,8.6 2.6,8.8 L1,12.6 C0.9,12.9 1,13.2 1.3,13.3 L4.9,14.8 C4.6,16.3 4.6,17.8 4.9,19.3 L1.3,20.8 C1,20.9 0.9,21.2 1,21.5 L2.6,25.3 C2.7,25.6 3,25.7 3.3,25.6 L6.9,24 C7.8,25.3 8.8,26.3 10.1,27.2 L8.6,30.8 C8.5,31.1 8.6,31.4 8.9,31.5 L12.7,33.1 C13,33.2 13.3,33.1 13.4,32.8 L14.9,29.2 C16.4,29.5 17.9,29.5 19.4,29.2 L20.9,32.8 C21,33.1 21.3,33.2 21.6,33.1 L25.4,31.5 C25.7,31.4 25.8,31.1 25.7,30.8 L24,27.1 C25.3,26.2 26.3,25.2 27.2,23.9 L30.8,25.4 C31.1,25.5 31.4,25.4 31.5,25.1 L33.1,21.3 C33.1,21.1 32.9,20.8 32.7,20.7 L32.7,20.7 Z M18.5,20.7 C16.5,21.5 14.1,20.6 13.3,18.5 C12.5,16.5 13.4,14.1 15.5,13.3 C17.5,12.5 19.9,13.4 20.7,15.5 C21.5,17.5 20.6,19.9 18.5,20.7 L18.5,20.7 Z" id="settings-Layer_2"></path>
+            </g>
+            <g id="gel-icon-to-bottom" transform="translate(1.000000, 2.000000)" fill="#000000">
+                <g id="to-bottom-Layer_2">
+                    <path d="M0,25.9 L32,25.9 L32,28.9 L0,28.9 L0,25.9 Z" id="Shape"></path>
+                    <path d="M16,25.9 L0,0.9 L8.2,0.9 L16,14.1 L23.8,0.9 L32,0.9 L16,25.9 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-to-top" transform="translate(1.000000, 2.000000)" fill="#000000">
+                <g id="to-top-Layer_2">
+                    <path d="M0,0.9 L32,0.9 L32,3.9 L0,3.9 L0,0.9 Z" id="Shape"></path>
+                    <path d="M16,3.9 L32,28.9 L23.8,28.9 L16,15.6 L8.2,28.9 L0,28.9 L16,3.9 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-toggle-horizontal" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="toggle-horizontal-Layer_2">
+                    <path d="M25,16 L0,32 L0,24 L13,16 L0,8.2 L0,0 L25,16 Z" id="Shape"></path>
+                    <path d="M21,0 L21,2 L30,2 L30,30 L21,30 L21,32 L32,32 L32,0 L21,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-unlock" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M23,0 C18,0 14,4.1 14,9 L14,14 L0,14 L0,32 L23,32 L23,14 L19,14 L19,9 C19,6.8 20.8,5 23,5 C25.2,5 27,6.8 27,9 L27,14 L32,14 L32,9 C32,4.1 28,0 23,0 L23,0 Z" id="unlock-Layer_2"></path>
+            </g>
+            <g id="gel-icon-up" transform="translate(1.000000, 4.000000)" fill="#000000">
+                <path d="M16,0 L0,26 L7.2,26 L16,10.7 L24.8,26 L32,26 L16,0 Z" id="up-Layer_2"></path>
+            </g>
+            <g id="gel-icon-vocab" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <g id="vocab-Layer_2">
+                    <path d="M0,0 L0,18 L12.7,18 L13.9,20 L16.4,24 L18.9,20 L20.1,18 L32,18 L32,0 L0,0 L0,0 Z M22,14 L4,14 L4,10 L22,10 L22,14 L22,14 Z M28,8 L4,8 L4,4 L28,4 L28,8 L28,8 Z" id="Shape"></path>
+                    <path d="M0,26 L32,26 L32,32 L0,32 L0,26 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-yes" transform="translate(1.000000, 4.000000)" fill="#000000">
+                <path d="M12.8,25.9 L31.8,3.3 L28,0.1 L12.2,18.9 L3.2,11.4 L0,15.2 L12.8,25.9 Z" id="yes-Layer_2"></path>
+            </g>
+            <g id="gel-icon-zoom-in" transform="translate(0.000000, 1.000000)" fill="#000000">
+                <g id="zoom-in-Layer_2">
+                    <path d="M16,20 L12,20 L12,15 L7,15 L7,11 L12,11 L12,6 L16,6 L16,11 L21,11 L21,15 L16,15 L16,20 L16,20 Z" id="Shape"></path>
+                    <path d="M33,28.5 L24.8,20.3 C28.2,15.2 27.7,8.3 23.2,3.9 C20.7,1.3 17.3,0 14,0 C10.7,0 7.3,1.3 4.8,3.8 C-0.3,8.9 -0.3,17.1 4.8,22.2 C7.3,24.7 10.7,26 14,26 C16.5,26 19.1,25.3 21.3,23.8 L29.5,32 L33,28.5 L33,28.5 Z M7.6,19.4 C5.9,17.7 5,15.4 5,13 C5,10.6 5.9,8.3 7.6,6.6 C9.3,4.9 11.6,4 14,4 C16.4,4 18.7,4.9 20.4,6.6 C23.9,10.1 23.9,15.8 20.4,19.3 C18.7,21 16.4,21.9 14,21.9 C11.6,22 9.3,21.1 7.6,19.4 L7.6,19.4 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="gel-icon-zoom-out" transform="translate(0.000000, 1.000000)" fill="#000000">
+                <g id="zoom-out-Layer_2">
+                    <path d="M7,15 L7,11 L21,11 L21,15 L7,15 L7,15 Z" id="Shape"></path>
+                    <path d="M33,28.5 L24.8,20.3 C28.2,15.2 27.7,8.3 23.2,3.9 C20.7,1.3 17.3,0 14,0 C10.7,0 7.3,1.3 4.8,3.8 C-0.3,8.9 -0.3,17.1 4.8,22.2 C7.3,24.7 10.7,26 14,26 C16.5,26 19.1,25.3 21.3,23.8 L29.5,32 L33,28.5 L33,28.5 Z M7.6,19.4 C5.9,17.7 5,15.4 5,13 C5,10.6 5.9,8.3 7.6,6.6 C9.3,4.9 11.6,4 14,4 C16.4,4 18.7,4.9 20.4,6.6 C23.9,10.1 23.9,15.8 20.4,19.3 C18.7,21 16.4,21.9 14,21.9 C11.6,22 9.3,21.1 7.6,19.4 L7.6,19.4 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="icon-add" transform="translate(1.000000, 1.000000)" fill="#000000">
+                <path d="M32,13 L19,13 L19,0 L13,0 L13,13 L0,13 L0,19 L13,19 L13,32 L19,32 L19,19 L32,19 L32,13 L32,13 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

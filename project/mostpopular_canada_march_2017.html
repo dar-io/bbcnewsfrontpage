@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>BBC News Front page (International)</title>
+    <meta name="description" content="International Front page" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+      {{> "html_header" }}
+    {{organism "orb_head" }}
+
+<!-- add this class to body for default gel font size gel-typography-default -->
+
+  </head>
+  <body class="b-pw-1280 headline_top  gel-typography-default">
+
+    <!-- Include 'orb_header' from our Matter -->
+<!--[ ] ORB             --> {{ organism "orb_header" }}
+<!--[ ] Nav             --> {{ organism "news_navigation_international" }}
+
+<!--[10] Most Read      --> {{ organism "most_popular" "@canada_09_most_popular" classes="has-advert"}}
+{{ organism "most_popular" "@canada_06_most_watched" }}
+
+<!--[ ]  Footer        --> {{organism "orb_footer" "orb_footer"}}
+
+<!--[ ]  JS Footer       --> {{> "html_footer_js" }}
+    <script src="bundle.js"></script>
+  </body>
+</html>

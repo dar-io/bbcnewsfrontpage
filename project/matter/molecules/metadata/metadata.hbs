@@ -1,0 +1,57 @@
+
+<ul class="metadata {{metadata-classes}}">
+
+  {{#if live-media}}
+
+  <li>
+  <ul class="metadata__list">
+    <li class="live-media {{icon}}">
+     <span class="gs-o-live-status__text">{{live-media}}</span>
+    </li>
+    <li class="metadata__time">
+      {{air_date}}
+    </li>
+    {{#if date}}
+      <li class="metadata__date">
+        <span>{{date}}</span>
+      </li>
+    {{/if}}
+  </ul>
+  </li>
+{{/if}}
+
+
+
+{{#if timestamp}}
+    <li class="metadata__time">
+      {{ atom "icon" classes="icon--type" set="core" icon="durationLight"}} {{timestamp}}
+    </li>
+{{else}}
+  {{#if live-status}}
+
+     <li class="live-status">
+      {{ atom "live-status"}}
+    </li>
+    {{/if}}
+{{/if}}
+
+{{#if on-next}}
+<li class="metadata__time">
+{{ atom "live-status" }}  <span class="on-now--metadata">{{on-next}}</span>
+</li>
+{{/if}}
+
+{{#if section}}
+  <li class="metadata__section">
+    
+    <span><a class="title-link" href="{{url}}">{{section}}</a></span>
+  </li>
+{{/if}}
+{{#if comments}}
+    <li class="metadata__comments">
+        {{ atom "icon" classes="icon--type" set="social" icon="comments"}} <span class="metadata__comments--count">{{comments}}</span>
+    </li>
+ {{/if}}
+</ul>
+
+<!-- href="{{section-url}}" -->

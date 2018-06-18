@@ -1,0 +1,11 @@
+@mixin branch {
+
+  &::before {
+    background-color: $news;
+    content: '';
+    display: block;
+    margin-bottom: 3px; // + 1 = 4
+    height: 1px;
+    width: 40px;
+  }
+}

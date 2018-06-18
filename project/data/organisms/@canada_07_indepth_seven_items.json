@@ -1,0 +1,131 @@
+{
+ 	"subheader": "Full Story",
+  "see-all": "",
+
+	"stripenav-items": [
+	],
+
+	"promo-items": [
+		{
+			"classes": "double-spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/1@m gel-2/4@l gel-2/5@xxl at-line-b-until@s",
+      "promo": {
+        "classes": "promo--lead promo--has-media promo--has-image-4by3 label--breaking icon--large",
+        "image": "https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/144E/production/_94889150_769344aa-9be1-4b13-aa4c-baa00958035c.jpg",
+        "headline": "Why some German politicians want Erdogan banned",
+        "summary": "",
+        "url": "http://www.bbc.com/news/world-europe-39125215",
+        "label-text": "",
+        "media-duration": "",
+        "icon": "",
+        "metadata": {
+          "timestamp": "",
+          "live-status": "",
+          "section": "",
+          "comments": ""
+        }
+      }
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+        "classes": "centered-text promo--standard promo--feature__standard--opt1 promo--has-image-16by9 label--breaking icon--small",
+        "feature-background-image": "https://ichef.bbci.co.uk/news/624/cpsprodpb/ABCD/production/_94718934_p04t8c8p.jpg",
+        "headline": "'We see you': Black poets challenge Trump",
+        "summary": "",
+        "url": "http://www.test.bbc.com/news/av//world-us-canada-38986348",
+        "label-text": "",
+        "media-duration": "1:00",
+        "icon": "video"
+      }
+		},
+    {
+			"classes": "reporters-std-opt2 oat spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large promo--card ",
+				"image": "",
+				"headline": "Trump goes to war with 'un-American' leakers",
+				"summary": "",
+				"url": "http://www.bbc.com/news/world-us-canada-38996527",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"contributor-avatar-src":  "assets/people/anthonyzurcher.png",
+				"contributor-name": "Anthony Zurcher",
+				"contributor-title": "North America reporter",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+    {
+      "classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+        "classes": "centered-text promo--standard promo--feature__standard--opt1 promo--has-image-16by9 label--breaking icon--small",
+        "feature-background-image": "https://ichef-1.bbci.co.uk/news/660/cpsprodpb/8976/production/_94709153_kurt_getty.jpg",
+        "headline": "Six reasons why we still love Kurt Cobain",
+        "summary": "",
+        "url": "http://www.bbc.com/news/entertainment-arts-39005630",
+        "label-text": "",
+        "media-duration": "",
+        "icon": ""
+      }
+    },
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking",
+				"image": "https://ichef-1.bbci.co.uk/news/660/cpsprodpb/16036/production/_93266109_estill.jpg",
+				"headline": "The Canadian businessman who sponsored 200 refugees",
+				"summary One Canadian businessman bankrolled an entire town's resettlement effort.": "",
+				"url": "http://www.bbc.co.uk/news/world-us-canada-38473532",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl at-line-b-until@s",
+      "promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/news/660/cpsprodpb/2481/production/_93054390_indeximage.jpg",
+				"headline": "Canada's Project Naming: Identifying the unidentified",
+				"summary How one project is helping identify unnamed Indigenous Canadians in archive images.": "",
+				"url": "http://www.bbc.com/news/world-us-canada-38333692",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/5@xxl ",
+      "promo": {
+        "classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking",
+        "image": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/16272/production/_93883709_hi037611998.jpg",
+        "headline": "Quebec mosque shooting: 'We are from this country'",
+        "summary Muslims in Quebec grapple with the aftermath of a shooting as the community rallies around them.": "",
+        "url": "http://www.bbc.com/news/world-us-canada-38806123",
+        "metadata": {
+          "timestamp": "",
+          "live-status": "",
+          "section": "",
+          "comments": ""
+        }
+      }
+		}
+	]
+}

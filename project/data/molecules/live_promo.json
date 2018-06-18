@@ -1,0 +1,22 @@
+{
+	"live_promo": {
+		"classes": "promo--has-image-16by9 label--breaking icon--large",
+		"headline": "Orlando nightclub shooting",
+		"summary": "Particle beams have now travelled in both directions, inside parallel pipes, at a whisker below the speed of light.",
+		"url": "#promo-link",
+		"keypoint": [
+			{
+			"headline": "Obama: We must focus on countering extremism",
+			"timestamp": "1m"
+			},
+			{
+			"headline": "Crowdfunding for victims' families passes $1.5m",
+			"timestamp": "3m"
+			},
+			{
+			"headline": "Update from hospital treating patients in Orlando",
+			"timestamp": "14m"
+			}
+		]
+	}
+}

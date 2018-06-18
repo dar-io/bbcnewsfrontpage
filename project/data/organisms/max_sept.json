@@ -1,0 +1,63 @@
+{
+	"promo-items": [
+		{
+			"classes": "promo--media-edge-to-edge gel-1/1@xs gel-1/1@m gel-3/4@l gel-3/4@xxl spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"maxim": "max_headline_top",
+				"classes": " promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom has-live-alsos",
+				"background-image": "http://c.files.bbci.co.uk/15F7D/production/_90918998_italypescaranewepa25aug16.jpg",
+				"headline": "Aftershocks hamper Italy quake rescuers",
+				"summary": "Hundreds of aftershocks rock areas of central Italy devastated by an earthquake.",
+				"url": "",
+				"label-text": "BREAKING",
+				"media-duration": "",
+				"icon": "",
+				"metadata": {
+					"timestamp": "1m",
+					"live-status": "",
+					"section": "US & Canada",
+					"comments": ""
+				},
+				"dynamic_promo": {
+					"headline-live-label": "LIVE",
+					"headline": " Updates as rescuers search for survivors"
+
+				},
+				"see-also":[
+					{
+					"classes": "cheveron index",
+					"headline": " At the scene: Ruined village",
+					"url": "#"
+					},
+					{
+					"classes": "idx-video index",
+					"headline": "Drone footage of destroyed town",
+					"url": "#"
+				},
+					{
+					"classes": "cheveron index",
+					"headline": " Britons 'affected' by quake",
+					"url": "#"
+					},
+					{
+					"classes": "cheveron index",
+					"headline": "Survivors' tales",
+					"url": "#"
+					},
+						{
+						"classes": "idx-video index",
+						"headline": "Girl, 10, pulled alive from Italy rubble",
+						"url": "#"
+						},
+						{
+						"classes": "idx-video index",
+						"headline": "Moment of aftershock caught on film",
+						"url": "#"
+						}
+			  ]
+			}
+		}
+	]
+
+
+}

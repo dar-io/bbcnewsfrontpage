@@ -1,0 +1,52 @@
+// SETTINGS
+// - Global variables, config switches.
+
+// TOOLS
+// - Default mixins and functions.
+@import 'mixins';
+@import 'vendor/gel-sass-tools/sass-tools';
+@import 'vendor/mq';
+
+
+// GENERIC
+// - Ground-zero styles, (Normalize.css, reset, box-sizing)
+@import 'vendor/normalize';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+// BASE
+// - Unclassed HTML elements (type selectors).
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+// OBJECTS
+// - Cosmentic-free design patterns.
+
+
+// COMPONENTS
+// - Designed components, chunks of UI.
+
+
+// TRUMPS
+// - Helpers and overrides.
+@import 'vendor/gel-typography/typography';
+@import 'vendor/gel-grid/grid';
+@import 'matter';

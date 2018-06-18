@@ -1,0 +1,155 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*
+Variables
+*/
+$color-white: #fff;
+$color-dark: #444;
+$color-gray: #333;
+$color-bg: #eee;
+$color-active: $postbox;
+$gutter: 20px;
+$small: "only screen and (min-width: 650px)";
+$svgBlur: url("#blur");
+
+/*
+Animations
+*/
+@keyframes slide {
+  from {
+    top: 0;
+  }
+  to {
+    top: 50%;
+  }
+}
+
+
+
+body {
+
+  &.is-blurred {
+    overflow: hidden;
+    position: relative;
+    .cc-window {
+      display: none;
+      visibility: hidden;
+    }
+    &:before{
+        background-image: linear-gradient(90deg,rgba(165, 19, 107, 0.9),rgba(202, 13, 13, 0.8),rgba(185, 6, 6, 0.9),rgba(138, 2, 71, 0.85));
+
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      content: '';
+      display: block;
+      z-index: 999;
+    }
+    .wrapper {
+      filter: $svgBlur; /* SVG filters for browser support. */
+      filter: blur(4px); /* works in chrome */
+      -webkit-transition : -webkit-filter 250ms linear;
+      pointer-events: none;
+      user-select: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+.modal {
+
+  display: none;
+  position: fixed;
+  top: 40%;
+  width: 100%;
+  height: auto;
+  margin-top: -150px;
+  background-color: #ffe007;
+  border-radius: 3px;
+  z-index: 999;
+  box-shadow: 0 1px 18px 0 #690000;
+
+	@media #{$small} {
+		left: 50%;
+		margin-left: -260px;
+		max-width: 520px;
+	}
+
+  &.is-active {
+    display: block;
+    animation: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) slide; // a small animation for the modal
+  }
+  .inner {
+    position: relative;
+    padding: 16px;
+  }
+
+}
+.modal__header {
+	border-bottom: 1px solid #dc9a38;
+  .inner{
+    padding-bottom: 0;
+  }
+}
+
+
+.pure-form fieldset {
+    margin: 0;
+    padding: .35em 0 .75em;
+    border: 0;
+}
+.pure-form input[type=text],.pure-form input[type=password]{
+  padding: .5em .6em;
+border: 1px solid #ccc;
+box-shadow: inset 0 1px 3px #ddd;
+border-radius: 4px;
+vertical-align: middle;
+box-sizing: border-box;
+margin: .25em 0;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.pure-button-primary {
+    background-color: #0078e7;
+    color: #fff;
+}
+.pure-button {
+  display: inline-block;
+  zoom: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: inherit;
+  font-size: 18px;
+  padding: .5em 1em;
+  color: #444;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid #999;
+  border: transparent;
+  background-color: #bb0101;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.pure-form .pure-checkbox, .pure-form .pure-radio {
+    margin: .5em 0;
+    display: block;
+}

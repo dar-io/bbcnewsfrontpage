@@ -1,0 +1,83 @@
+/*------------------------------------*\
+    #THEME SPACING
+\*------------------------------------*/
+// *{
+//   transition: background 0.2s ease, color 0.2s ease,;
+// }
+
+[class*="theme-"]{
+}
+
+.hydrogen--wrap, .iron--wrap, .silver--wrap{
+    &.theme--oat{
+      margin-top: 0 !important;
+    }
+    &[class*="theme--light"]{
+      margin-top: $spacing-vertical-small * 8;
+      padding-bottom: $gel-spacing-unit * 4;
+      .stripenav {
+        @include mq($from:gel-bp-xs, $until:gel-bp-m) {
+          margin-top: $gel-spacing-unit * 2;
+          padding-bottom: $gel-alt-spacing-unit;
+        }
+
+        @include mq($from:gel-bp-m, $until:gel-bp-l) {
+          margin-top: $spacing-vertical-medium;
+          padding-bottom: $gel-alt-spacing-unit;
+        }
+        @include mq($from:gel-bp-l, $until:gel-bp-xxl) {
+          margin-top: $gel-spacing-unit * 6;
+          padding-bottom:$gel-alt-spacing-unit;
+        }
+        @include mq($from:gel-bp-xxl) {
+          margin-top: $gel-spacing-unit * 4;
+          padding-bottom: $gel-alt-spacing-unit;
+        }
+      }
+
+    }
+}
+
+
+
+/*------------------------------------*\
+    #SPORT THEME
+\*------------------------------------*/
+
+.theme--sport{
+  .gs-o-live-status__text {
+    color: $live-color-sport;
+  }
+  .gs-o-live-status__icon svg {
+    fill: $live-color-sport;
+  }
+}
+
+
+
+
+/*------------------------------------*\
+    #REGULAR TYPOGRAPHY THEMES
+\*------------------------------------*/
+
+.theme--regular-typography{
+  .silver__item:first-child .promo__headline, .iodine__item--0 .promo__headline, .promo__headline{
+    font-weight: 400;
+  }
+ .hydrogen--wrap{
+    .promo__headline{
+      font-weight: 700;
+    }
+    &.theme--light{
+      .promo__headline{
+        font-weight: 400;
+      }
+    }
+  }
+  .mostpop__list-item-headline.gel-pica-bold{
+    font-weight: 400;
+  }
+  .silver__item:first-child .promo__headline,.iodine__item--0 .promo__headline{
+    letter-spacing: normal;
+  }
+}

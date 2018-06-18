@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>BBC News Front page</title>
+    <meta name="description" content="Top Stories with Max" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    {{> "html_header" }}
+    {{organism "orb_head" }}
+
+
+
+
+  </head>
+  <body class="b-pw-1280 headline_top gel-typography-default on-now--opt_1">
+
+    <!-- Include 'orb_header' from our Matter -->
+    <!--[ ]  ORB             --> {{ organism "orb_header" }}
+
+    <!--[ ]  NAV             --> {{ organism "news_navigation" }}
+    <!--[ ]  Pseudo-nav      --> {{ organism "pseudo-nav" classes="has-maxim"}}
+    <!--[0]  MAX             --> {{organism "max" "max_sept" classes="theme--light" }}
+    <!--[0]  MAX             --> {{organism "fp_october" }}
+
+
+
+    <!--[ ]  ORB Footer      --> {{ organism "orb_footer" "orb_footer"}}
+    <!--[ ]  JS Footer       --> {{> "html_footer_js" }}
+            <script src="bundle.js"></script>
+  </body>
+</html>

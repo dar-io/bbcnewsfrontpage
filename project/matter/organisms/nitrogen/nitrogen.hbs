@@ -1,0 +1,56 @@
+
+
+
+<section class="nitrogen--wrap gs-u-clearfix gs-u-mt+ {{classes}}">
+  <!-- 5 items group -->
+  <div class="gel-wrap">
+    {{ molecule "stripenav" }}
+  <div class="gel-layout">
+
+    <div class="gel-layout__item">
+      <div class="nitrogen--box">
+        <div class="gel-layout">
+          {{#each promo-items}}
+          <div class="gel-layout__item nitrogen__item nitrogen__item--{{@index}} {{classes}}">
+
+            {{ molecule "promo"}}
+
+            {{#advert}}
+            {{ "molecule" "advert_slot_two"}}
+            {{/advert}}
+
+          </div>
+          {{/each}}
+
+          <!--///–––––––––––––––––––––––––––––––––*\
+          //    # RIVER
+          //\*––––––––––––––––––––––––––––––––––––*/-->
+
+          <div class="gel-layout__item gel-1/1@m gel-1/2@l gel-1/1@xxl ">
+            <div class="nitrogen__river gs-u-mt-@xxl gs-u-mb-@xxl at-line-t-until@m at-line-t-until@l at-line-t-until@xxl">
+              <div class="gel-layout gel-layout--flex">
+                <!-- Headline 01 -->
+                 {{#each promo-river-items}}
+                <div class="{{classes}} gel-layout__item nitrogen__item--river river__item--{{@index}} gel-1/3@m gel-1/2@l gel-1/5@xxl">
+
+                  {{ molecule "promo"}}
+
+                </div>
+                {{/each}}
+
+
+                </div>
+              </div>
+            </div>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+    </div>
+
+  </div>
+</section>

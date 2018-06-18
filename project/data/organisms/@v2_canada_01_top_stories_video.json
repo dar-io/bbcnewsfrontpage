@@ -1,0 +1,346 @@
+{
+	"promo-items": [
+		{
+			"classes": "gel-1/1@xs gel-1/1@m gel-8/12@l gel-9/16@xxl at-line-b-until@s double-spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": " promo--lead promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom ",
+				"background-image": "",
+				"video-id": "playvideo_hype_container",
+				"video": "assets/play-video.hyperesources/playvideo_hype_generated_script.js?87912",
+				"headline-live-label": "",
+				"headline": "New Greek debt crisis upsets Euro",
+				"summary": "EU faces looming crisis as the IMF warns Greek debts are on and 'explosive' path.",
+				"url": "http://www.bbc.com/news/world-europe-33345219",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "",
+					"section": "Europe",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				},
+				"see-also":[
+					{
+					"classes": "index bullets cheveron",
+					"headline": " What we know so far",
+					"url": "http://www.bbc.com/news/world-europe-31128356"
+					},
+					{
+					"classes": "index idx-video",
+					"headline": " New bailout talks?",
+					"url": "http://www.bbc.com/news/business-36114491"
+					},
+					{
+					"classes": "index idx-audio",
+					"headline": "Debt restructuring scenario",
+					"url": "http://www.bbc.com/news/world-europe-33456182"
+					}
+				]
+			}
+		},
+		{
+			"classes": "has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@m v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/250x300.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/A59E/production/_94789324_mediaitem94789323.jpg",
+				"headline": "Malaysia ends visa-free entry for N Koreans",
+				"summary": "The change for \"security reasons\" comes as Malaysia hunts N Koreans over Kim Jong-nam's killing.",
+				"url": "http://www.bbc.com/news/world-asia-39137501",
+				"label-text": "",
+				"media-duration": "2:09",
+				"icon": "",
+				"metadata": {
+					"timestamp": "3h",
+					"live-status": "",
+					"section": "Asia",
+					"url": "http://www.bbc.com/news/world/asia",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@m v-u-hidden@l",
+			"advert": {
+				"image": "assets/adverts/250x300.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking ",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/10C06/production/_94641686_829dd10b-e798-4997-90d7-e2126167585a.jpg",
+				"headline-live-label": "LIVE",
+				"headline": " How Michael Flynn's resignation unfolded",
+				"summary": "Why Donald Trump's national security adviser quit over his contacts with Russia.",
+				"url": "http://www.bbc.com/news/world-us-canada-38966119",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@m v-u-hidden@l v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/250x300.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/3073/production/_93930421_snapchatreuters.jpg",
+				"headline-live-label": "",
+				"headline": "Lossmaking Snapchat 'worth $24bn'",
+				"summary": "The firm behind the Snapchat raises $3.4bn in one of the biggest tech share sales in years, Reuters reports.",
+				"url": "http://www.bbc.com/news/business-39135278",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "",
+				"metadata": {
+					"timestamp": "47h",
+					"live-status": "",
+					"section": "Business",
+					"url": "http://www.bbc.com/news/business",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "has-ads gel-1/1@xs gel-2/3@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@l v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/250x300.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-1/4@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/3C8C/production/_94900551_p04vhln8.jpg",
+				"headline-live-label": "",
+				"headline": "Health spas for babies - they do exist",
+				"summary": "Going to a beauty spa is a treat for most people - except in Indonesia, where some babies are taken for a massage every week.",
+				"url": "http://www.test.bbc.com/news/av/business-39102219",
+				"label-text": "",
+				"media-duration": "1:32",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "",
+					"section": "Business",
+					"url": "http://www.bbc.com/news/business",
+					"comments": ""
+				}
+			}
+		},
+
+		{
+			"classes": "  spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-1/4@l gel-3/16@xxl promo--card",
+
+			"promo": {
+				"info-header": "Land Rover",
+				"classes": "aliceblue editorial-advert promo--horizontal@xs promo--standard promo--has-image-16by9 label--breaking icon--small",
+				"image": "assets/images/range-rover-ad.png",
+				"headline": "New Range Rover Sport",
+				"summary": "The most dynamic Land Rover yet. Agile and...",
+				"url": "http://www.landrover.co.uk/vehicles/range-rover-sport/index.html",
+				"label-text": "",
+				"media-duration": "2:28",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Visit Site",
+					"url": "http://www.landrover.co.uk/vehicles/range-rover-sport/index.html",
+					"comments": ""
+				}
+			}
+		}
+	],
+	"promo-headlines": [
+
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/803D/production/_94892823_p04vfc1x.jpg",
+				"headline-live-label": "",
+				"headline": "Virtual rockets shoot drones from sky",
+				"url": "http://www.test.bbc.com/news/av/technology-39126035",
+				"icon": "video",
+				"media-duration": "1:24",
+				"metadata": {
+					"timestamp": "3h",
+					"live-status": "",
+					"section": "Technology",
+					"url": "http://www.bbc.com/news/technology",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/27EC/production/_94902201_mediaitem94902199.jpg",
+				"headline": "Ministers seek to overturn Brexit defeat",
+				"url": "http://www.bbc.com/news/uk-politics-39136739",
+				"metadata": {
+					"timestamp": "4h",
+					"live-status": "",
+					"section": "UK Politics",
+					"url": "http://www.bbc.com/news/politics",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/60EE/production/_93641842_noormateen.jpg",
+				"headline": "Outrage as Orlando gunman's wife freed",
+				"url": "http://www.bbc.com/news/world-us-canada-39134949",
+				"metadata": {
+					"timestamp": "24h",
+					"live-status": "LIVE",
+					"section": "US & Canada",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_10a spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/3E1A/production/_94889851_anchiornis11.jpg",
+				"headline": "'Best ever' view of dinosaur revealed",
+				"url": "http://www.bbc.com/news/science-environment-39126987",
+				"metadata": {
+					"timestamp": "11h",
+					"live-status": "LIVE",
+					"section": "Science & Environment",
+					"url": "http://www.bbc.com/news/science_and_environment",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_11a at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/120B6/production/_94901937_screenshot2017-03-02at00.40.31.png",
+				"headline": "Humans help cook up mineral bounty",
+				"url": "http://www.bbc.com/news/science-environment-39133897",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "LIVE",
+					"section": "Science & Environment",
+					"url": "http://www.bbc.com/news/science_and_environment",
+					"comments": ""
+				}
+			}
+		}
+	],
+	"promo-river-items": [
+
+		{
+			"classes": "story_teleport_10b  spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/3E1A/production/_94889851_anchiornis11.jpg",
+				"headline": "'Best ever' view of dinosaur revealed",
+				"url": "http://www.bbc.com/news/science-environment-39126987",
+				"metadata": {
+					"timestamp": "12h",
+					"live-status": "LIVE",
+					"section": "Science & Environment",
+					"url": "http://www.bbc.com/news/science_and_environment",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_11b at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/1836A/production/_94887199_gettyimages-646461572.jpg",
+				"headline": "Trump speech meets ‘knee-high bar’",
+				"url": "http://www.bbc.com/news/world-us-canada-39124349",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "LIVE",
+					"section": "US & Canada",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/B355/production/_94890954_p04vfd2q.jpg",
+				"headline": "Navy widow weeps as Trump pays tribute",
+				"url": "http://www.test.bbc.com/news/av/world-us-canada-39123679",
+				"icon": "video",
+				"media-duration": "1:21",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "US & Canada",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		}
+		,
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/E4C9/production/_94896585_ap_17060514542066.jpg",
+				"headline": "Tornadoes kill three across US Midwest",
+				"url": "http://www.bbc.com/news/world-us-canada-39123264",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "LIVE",
+					"section": "US & Canada",
+					"url": "http://www.bbc.com/news/world/us_and_canada",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/480/cpsprodpb/17992/production/_94885669_family.jpg",
+				"headline": "Mystery of the vanished French family ",
+				"url": "http://www.bbc.com/news/world-europe-39122315",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "LIVE",
+					"section": "Europe",
+					"url": "http://www.bbc.com/news/world/europe",
+					"comments": ""
+				}
+			}
+		}
+	]
+}

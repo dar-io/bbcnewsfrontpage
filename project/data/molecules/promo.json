@@ -1,0 +1,62 @@
+{
+	"promo": {
+		"classes": "promo--has-image-16by9 label--breaking icon--large",
+		"image": "",
+		"background-image": "assets/images/placeholder.gif",
+		"headline-live-label": "LIVE",
+		"headline": "Large Hadron Collider restarts after two-year rebuild",
+		"summary": "Particle beams have now travelled in both directions, inside parallel pipes, at a whisker below the speed of light.",
+		"url": "#promo-link",
+		"label-text": "BREAKING",
+		"media-duration": "00:00",
+		"icon": "audio",
+		"metadata": {
+			"timestamp": "11m",
+			"live-status": "LIVE",
+			"section": "Europe",
+			"comments": "999"
+	  },
+		"live_promo": {
+			"classes": "promo--has-image-16by9 label--breaking icon--large",
+			"live-status": "",
+			"headline": "",
+			"summary": "",
+			"url": "#promo-link",
+			"metadata": {
+				"timestamp": "",
+				"live-status": "",
+				"section": "",
+				"comments": ""
+			},
+			"keypoint": [
+				{
+				"headline": "Forty-nine people killed in attack on gay nightclub",
+				"timestamp": "12m"
+				},
+				{
+				"headline": "Suspect took hostages and died in gunfight with Swat officers",
+				"timestamp": "22m"
+				}
+			]
+		},
+		"contributor-avatar-src":  "assets/people/john-simpson.png",
+		"contributor-name": "",
+		"contributor-title": "Science editor",
+
+			"see-also": [
+				{
+					"set": "media",
+					"icon": "video",
+					"headline": "Large Hadron Collider turns on 'data tap'",
+					"url": "#see-also"
+				},
+				{
+					"set": "media",
+					"icon": "video",
+					"headline": "Large Hadron Collider turns on 'data tap'",
+					"url": "#see-also"
+				}
+			]
+
+	}
+}

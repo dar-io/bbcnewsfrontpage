@@ -1,0 +1,14 @@
+.slideshow{
+  position: relative;
+}
+.slide{
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1.3s ease-in-out;
+  width: 100%;
+}
+
+.active{
+  opacity: 1;
+}

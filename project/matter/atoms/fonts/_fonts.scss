@@ -1,0 +1,5 @@
+@mixin bold   { font-weight: bold; }
+@mixin italic { font-style: italic; }
+
+@mixin ff-arial   { font-family: Helmet, Freesans, Helvetica, Arial, sans-serif; }
+@mixin ff-georgia { font-family: Georgia, serif; }

@@ -1,0 +1,57 @@
+{
+	"promo-items": [
+		{
+			"classes": "promo--media-edge-to-edge gel-1/1@xs gel-1/1@m gel-3/4@l gel-3/4@xxl double-spacing--vertical@s  spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"maxim": {},
+			"promo": {
+				"maxim": "max_headline_top",
+				"classes": " promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom ",
+				"background-image": "http://c.files.bbci.co.uk/FB54/production/_90604346_mediaitem90604344.jpg",
+				"headline": "US launches air strikes on IS in Libya",
+				"summary": "The US carries out air strikes in Libya on positions of so-called Islamic State at the request of the.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "10m",
+					"live-status": "",
+					"section": "Africa",
+					"comments": ""
+				},
+				"see-also":[
+					{
+					"classes": "cheveron index ",
+					"headline": "The Libyans gaining ground on IS",
+					"url": "#"
+					},
+					{
+					"classes": "cheveron index ",
+					"headline": "Quentin Sommerville: Gaining ground in Sirte",
+					"url": "#"
+				},
+					{
+					"classes": "cheveron index",
+					"headline": "Challenges for UK leaving the EU",
+					"url": "#"
+					},
+					{
+					"classes": "cheveron index",
+					"headline": "Easton: Not united Kingdom",
+					"url": "#"
+					},
+						{
+						"classes": "cheveron index",
+						"headline": "PM: UK needs a new leader",
+						"url": "#"
+						},
+						{
+						"classes": "cheveron index",
+						"headline": "MPs' Corbyn no confidence motion",
+						"url": "#"
+						}
+			  ]
+			}
+		}
+	]
+	}

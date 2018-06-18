@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    #LIGHT THEME
+\*------------------------------------*/
+.theme--light{
+  background-color: $oat;
+
+  .hydrogen--box{
+    @include mq($from: 'gel-bp-m') {
+    margin-bottom: 0;
+    }
+  }
+
+  @include mq($from:gel-bp-m, $until:gel-bp-xxl) {
+    .iron__groupings .iron__item{
+      margin-bottom: 0px;
+    }
+  }
+
+
+
+  .hydrogen--box.at-line-b-until\@m {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+.stripenav .stripenav-action-btn, .subheader h2 a{
+  background-color: $oat;
+}
+
+.media-type {
+    background-color: $oat;
+}
+
+}
+
+.theme--oat{
+  background-color: #fff;
+  .promo--card, .promo--card.has-reporter{
+    background-color: $oat;
+  }
+  .hydrogen--box{
+    @include mq($from: 'gel-bp-m') {
+    margin-bottom: 0;
+    }
+  }
+
+  @include mq($from:gel-bp-m, $until:gel-bp-xxl) {
+    .iron__groupings .iron__item{
+      margin-bottom: 0px;
+    }
+  }
+
+
+
+  .hydrogen--box.at-line-b-until\@m {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+.stripenav .stripenav-action-btn, .subheader h2 a{
+  background-color: #fff;
+}
+
+.media-type {
+    background-color: $oat;
+}
+
+}

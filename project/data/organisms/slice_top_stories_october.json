@@ -1,0 +1,301 @@
+{
+	"keyline-classes": "at-line-b-until@m at-line-b-until@l",
+	"promo-items": [
+		{
+			"classes": "double-spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/1@m gel-3/4@l gel-3/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "see-also--stacked promo--media-edge-to-edge promo--lead promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom ",
+				"slideshow":{
+					"slideshow-images":[
+						{
+							"slide-class": "active",
+							"image": "https://ichef.bbci.co.uk/live-experience/cps/800/cpsprodpb/4D3D/production/_92637791_99e55smc.jpg"
+						},
+						{
+							"image": "https://ichef.bbci.co.uk/news/624/cpsprodpb/D401/production/_92637245_v8qdpeft.jpg"
+						},
+						{
+							"image": "https://ichef.bbci.co.uk/images/ic/608x342/p04hn6f8.jpg"
+						},
+						{
+							"image": "https://ichef.bbci.co.uk/images/ic/608x342/p04hmnh1.jpg"
+						}
+					]
+				},
+				"headline-live-label": "",
+				"headline": "Workers' pay growth prospects 'dreadful'",
+				"summary": "The outlook for wages is \"dreadful\" with the squeeze on pay lasting for more than 10 years, the IFS says.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "10m",
+					"live-status": "",
+					"section": "Business",
+					"comments": ""
+				},
+				"see-also":[
+					{
+					"classes": "bullets cheveron index",
+					"headline": " How much will Brexit cost?",
+					"url": "#"
+					},
+					{
+					"classes": "index idx-video",
+					"headline": "Hammond defends forecasts",
+					"url": "#"
+					},
+					{
+					"classes": "index idx-audio",
+					"headline": "Ahmed: Living standards squeeze",
+					"url": "#"
+					}
+			  ]
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/240/cpsprodpb/1F39/production/_92639970_de27-2.jpg",
+				"headline": "Football abused 'could number hundreds'",
+				"summary": "Football could face abuse claims on the scale of the Savile scandal, ex-player Paul Stewart says.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "16m",
+					"live-status": "",
+					"section": "UK",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/240/cpsprodpb/17A92/production/_92641969_mediaitem92641968.jpg",
+				"headline-live-label": "",
+				"headline": "Iraq: Attack on Shia pilgrims 'kills 80'",
+				"summary": "A truck bomb in Iraq kills nearly 80 people, many of them Shia pilgrims, a security official says.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "14m",
+					"live-status": "",
+					"section": "Middle East",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "http://c.files.bbci.co.uk/7B20/production/_91302513_merkelpostpollgetty19sep.jpg",
+				"headline-live-label": "",
+				"headline": "Merkel's CDU sees 'bitter' Berlin defeat",
+				"summary": "How six of the UK's most promising tech companies failed or were sold abroad.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "2:31",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "15m",
+					"live-status": "",
+					"section": "Europe",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large has-live-promo ",
+				"image": "",
+				"headline": "",
+				"summary": "",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"live_promo": {
+					"classes": "promo--has-image-16by9 label--breaking icon--large",
+					"live-label": "LIVE",
+					"headline": "Politics: Reaction to EU talks",
+					"summary": "",
+					"url": "#promo-link",
+					"keypoint": [
+						{
+						"headline": "David Cameron defends NHS performance",
+						"timestamp": "13m"
+					},
+					{
+						"headline": "'Jeremy Corby challenges PM over NHS",
+						"timestamp": "24m"
+					},
+					{
+						"headline": "'Time to make changes admits George Osborn",
+						"timestamp": "41m"
+					},
+							{
+							"live-updates": "85 Updates"
+							}
+					]
+				},
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "centered-text promo--standard promo--feature__standard--opt1 promo--has-image-16by9 label--breaking icon--small",
+				"feature-background-image": "assets/images/reachstars.png",
+				"headline": "'I swam for my life'",
+				"summary": "How a Syrian refugee survived to swim in the Olympics",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": ""
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl at-line-b-until@s v-u-visible@m",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "https://ichef.bbci.co.uk/images/ic/384x216/p048bwst.jpg",
+				"headline": "Australian forced off French beach over burkini",
+				"summary": "An Australian Muslim who went to France to show solidarity with French Muslims is forced to leave a beach for wearing a burkini.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "Australia",
+					"comments": ""
+				}
+			}
+		}
+	],
+	"river-classes":"",
+	"promo-river-items": [
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s v-u-hidden@m",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/images/ic/384x216/p048bwst.jpg",
+				"headline": "Australian forced off French beach over burkini",
+				"url": "#",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "LIVE",
+					"section": "Australia",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/AC96/production/_90528144_gettyimages-450376143.jpg",
+				"headline-live-label": "LIVE",
+				"headline": " Business: Factory surge boosts GDP",
+				"url": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Business",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/480x270/cpsprodpb/103DA/production/_90522566_samiasize.jpg",
+				"headline": "Pakistan police probe 'honour killing'",
+				"url": "",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "",
+					"section": "Leeds & West Yorkshire",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/4A30/production/_90529981_mediaitem90529980.jpg",
+				"headline": "Huge IS blast rocks Syrian Kurdish city",
+				"url": "",
+				"metadata": {
+					"timestamp": "19m",
+					"live-status": "LIVE",
+					"section": "Middle East",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/1329C/production/_90529487_mediaitem90528209.jpg",
+				"headline": "Dances with Wolves actor dies at 97",
+				"url": "#",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "Entertainment & Arts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl at-line-b@xxl at-line-b-until@s",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/8E97/production/_90530563_barnierimage.jpg",
+				"headline": "France's Barnier made EU's Brexit chief",
+				"url": "",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "Europe",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/3@m gel-1/4@l gel-1/1@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/17FDD/production/_91296289_mediaitem91296285.jpg",
+				"headline": "Kate Moss launches own modelling agency",
+				"url": "",
+				"metadata": {
+					"timestamp": "15m",
+					"live-status": "LIVE",
+					"section": "Business",
+					"comments": ""
+				}
+			}
+		}
+	]
+}

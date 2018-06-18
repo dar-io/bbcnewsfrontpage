@@ -1,0 +1,154 @@
+/*------------------------------------*\
+    # KEYLINE
+\*------------------------------------*/
+
+@mixin keyline-top (){ z-index: 3; position: relative; ;&:before { position: absolute;right: 0;top: 0px;left: 16px;display: block;border: 0 solid $keyline-color;border-top-width: 1px !important;content: '';}}
+@mixin keyline-right (){ z-index: 3; position: relative; &:before { position: absolute;right: -8px;top: 0;bottom: 0;left: auto;display: block;border: 0 solid $keyline-color;border-right-width: 1px !important;content: '';}}
+@mixin keyline-bottom (){ z-index: 3; position: relative; &:after { position: absolute;right: 0;top: auto;bottom: 0px;left: 0;display: block;border: 0 solid $keyline-color;border-bottom-width: 1px !important;content: '';}}
+@mixin keyline-left (){ z-index: 3; position: relative;  &:after { position: absolute;right: auto;top: -8px;bottom:0;left: 8px;display: block;border: 0 solid $keyline-color;border-left-width: 1px !important;content: '';}}
+
+
+
+
+// Which breakpoints do we want spacing classes generated for?
+//
+// @type List
+//
+$at-spacing-breakpoints: (s, m, l, xxl) !default;
+
+
+// Output the spacing classes, adding a breakpoint namespace if required
+//
+// @param {String}  $breakpoint - breakpoint namespace you want to apply
+//
+// @access          private
+//
+// @author          Shaun Bent
+//
+@mixin _output-spacing-classes($breakpoint: null) {
+    $breakpoint-suffix: '';
+
+    @if $breakpoint != null {
+        $breakpoint-suffix: \@#{$breakpoint};
+    }
+
+
+    /**
+     * Margin spacing classes
+     */
+    .at-line-t#{$breakpoint-suffix}    { @include keyline-top;  }
+    .at-line-r#{$breakpoint-suffix}    { @include keyline-right; }
+    .at-line-b#{$breakpoint-suffix}    { @include keyline-bottom; }
+    .at-line-l#{$breakpoint-suffix}    { @include keyline-left; }
+
+
+    @include mq($from:gel-bp-xs, $until:gel-bp-s) {
+      .at-line-t-until\@s{
+        @include keyline-top;
+
+        &:before{
+          left: 0px;
+          right: -8px;
+        }
+      }
+      .at-line-r-until\@s{
+        @include keyline-right;
+      }
+      .at-line-b-until\@s{
+        @include keyline-bottom;
+        &:after{
+          left: 8px;
+          right: 0px;
+        }
+      }
+      .at-line-l-until\@s{
+        @include keyline-left;
+        &:after{
+          left: 4px;
+        }
+      }
+    }
+    @include mq($from:gel-bp-s, $until:gel-bp-m) {
+      .at-line-t-until\@s{
+        @include keyline-top;
+
+        &:before{
+          left: -8px;
+          right: -16px;
+        }
+      }
+      .at-line-r-until\@s{
+        @include keyline-right;
+      }
+      .at-line-b-until\@s{
+        @include keyline-bottom;
+        &:after{
+          left: 8px;
+          right: 0px;
+        }
+      }
+      .at-line-l-until\@s{
+        @include keyline-left;
+        &:after{
+          left: 4px;
+        }
+      }
+    }
+
+    @include mq($from:gel-bp-m, $until:gel-bp-l) {
+      .at-line-t-until\@m{
+        @include keyline-top;
+      }
+      .at-line-r-until\@m{
+        @include keyline-right;
+      }
+      .at-line-b-until\@m{
+        @include keyline-bottom;
+      }
+      .at-line-l-until\@m{
+        @include keyline-left;
+      }
+    }
+    @include mq($from:gel-bp-l, $until:gel-bp-xxl) {
+      .at-line-t-until\@l{
+        @include keyline-top;
+      }
+      .at-line-r-until\@l{
+        @include keyline-right;
+      }
+      .at-line-b-until\@l{
+        @include keyline-bottom;
+      }
+      .at-line-l-until\@l{
+        @include keyline-left;
+      }
+    }
+
+    @include mq($from:gel-bp-xxl) {
+      .at-line-t-until\@xxl{
+        @include keyline-top;
+      }
+      .at-line-r-until\@xxl{
+        @include keyline-right;
+      }
+      .at-line-b-until\@xxl{
+        @include keyline-bottom;
+      }
+      .at-line-l-until\@xxl{
+        @include keyline-left;
+      }
+    }
+
+}
+
+/**
+ * Output the spacing classes and loop through the array of
+ * breakpoints output the breakpoint namespaced classes
+ */
+@include _output-spacing-classes();
+
+@each $breakpoint in $at-spacing-breakpoints {
+    @include mq($from: '#{$gel-grid-breakpoint-namespace}#{$breakpoint}') {
+        @include _output-spacing-classes($breakpoint);
+    }
+}

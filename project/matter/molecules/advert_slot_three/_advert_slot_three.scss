@@ -1,0 +1,20 @@
+@include mq($from:'gel-bp-xs') {
+  .ad_slot_three{
+
+    display: inherit;
+
+    .mpu--image{
+     background-image: url(../assets/adverts/250x300-2.png);
+     padding-bottom: 250px;
+     background-color: #fefefe;
+     &:after{
+       content: 'Bottom Ad Slot';
+       display: none;
+     }
+     &:before{
+       content: 'MPU 300x250 only';
+       display: none;
+     }
+   }
+  }
+}

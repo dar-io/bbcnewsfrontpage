@@ -1,0 +1,125 @@
+// _markets.scss
+//
+$markets-positive:#00782c;
+$markets-negative: #cc1417;
+
+.markets {
+  @include mq($from: 'gel-bp-xs') {
+  margin-bottom: -8px;
+  }
+  @include mq($from: 'gel-bp-m') {
+  margin-bottom: -16px;
+  }
+  .market-down{
+    .section-name-trunc {
+      color: $markets-negative;
+    }
+    .metadata__time{
+        color: $markets-negative;
+    }
+    .promo{
+      border-left: 2px solid $markets-negative;
+    }
+  }
+  .market-up{
+    .section-name-trunc {
+      color: $markets-positive;
+    }
+    .metadata__time{
+        color: $markets-positive;
+    }
+    .promo{
+      border-left: 2px solid $markets-positive;
+    }
+  }
+
+
+
+  .promo{
+    background-color: $oat;
+    padding: 12px;
+
+  }
+  .promo__body{
+    overflow: visible;
+    display: flex;
+  }
+  .promo__summary{
+    @include gel-typography('double-pica');
+    margin-top: 16px;
+  }
+  .metadata{
+    padding-left: 8px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex: 1 1 auto;
+    text-align: end;
+    li{
+      margin-right: 0;
+    }
+  }
+  .metadata li:after{
+    display: none;
+  }
+  .metadata__time{
+    padding-right: 0;
+    .icon{
+      display: none;
+    }
+  }
+
+  .promo--feature_brand{
+    .icon--type{
+      margin-right: 6px;
+    }
+    .icon--type, .icon--type svg{
+        height: 1.5em;
+        width: 1.5em;
+        vertical-align: text-top;
+    }
+    .icon + .promo__headline{
+      display: inline-block;
+    }
+  }
+
+
+  @include mq($from:660px, $until:gel-bp-l) {
+    align-items: center;
+
+    .promo__body{
+      flex-direction:row;
+      justify-content: flex-start;
+    }
+    .metadata__time, .metadata__section{
+      font-size: 14px;
+      margin-top: 3px;
+    }
+    .metadata{
+      padding-left: 8px;
+    }
+  }
+
+      align-items: center;
+
+      .promo__body{
+        flex-direction:row;
+        justify-content: flex-start;
+      }
+      .metadata__time, .metadata__section{
+        font-size: 14px;
+        margin-top: 3px;
+      }
+      .metadata{
+        padding-left: 8px;
+      }
+
+
+    .market--live{
+      .promo{
+        background-color: $oat;
+        padding: 12px;
+      }
+    }
+}

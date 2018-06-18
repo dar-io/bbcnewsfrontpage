@@ -1,0 +1,315 @@
+{
+	"promo-items": [
+		{
+			"classes": "gel-1/1@xs gel-1/1@m gel-8/12@l gel-9/16@xxl at-line-b-until@s double-spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": " promo--media-edge-to-edge promo--lead promo--has-media promo--has-image-4by3 label--breaking icon--large see-also--bottom ",
+				"image": "https://ichef.bbci.co.uk/images/ic/560x315/p048czl0.jpg",
+				"headline-live-label": "",
+				"headline": "New York bombing suspect identified",
+				"summary": "New York officials identify a suspect wanted for questioning over Saturday's blast in the Chelsea area.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "10m",
+					"live-status": "",
+					"section": "US & Canada",
+					"comments": ""
+				},
+				"see-also":[
+					{
+					"classes": "bullets cheveron index",
+					"headline": " What we know so far",
+					"url": "#"
+					},
+					{
+					"classes": "index idx-video",
+					"headline": "Robot detonates NJ device",
+					"url": "#"
+					},
+					{
+					"classes": "index idx-audio",
+					"headline": "New Yorkers' first thoughts",
+					"url": "#"
+					}
+			  ]
+			}
+		},
+		{
+			"classes": "has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@m v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/300x600.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/E8A7/production/_91295595_gotcastreuters.jpg",
+				"headline": "Game of Thrones breaks Emmys record",
+				"summary": "Game of Thrones breaks the record for the highest number of Emmy Awards won by any fictional series.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "16m",
+					"live-status": "",
+					"section": "Entertainment & Arts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@m v-u-hidden@l",
+			"advert": {
+				"image": "assets/adverts/300x600.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/B574/production/_91225464_beerdrinking_thinkstockphotos-100928951.jpg",
+				"headline-live-label": "",
+				"headline": "Glass of beer 'makes people sociable'",
+				"summary": "Researchers in Switzerland confirm that drinking one glass of beer can make people more sociable.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "14m",
+					"live-status": "",
+					"section": "Health",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s has-ads gel-1/1@xs gel-1/2@m gel-4/12@l gel-3/12@xxl v-u-hidden@m v-u-hidden@l v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/250x300.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-4/18@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small",
+				"image": "http://c.files.bbci.co.uk/7B20/production/_91302513_merkelpostpollgetty19sep.jpg",
+				"headline-live-label": "",
+				"headline": "Merkel's CDU sees 'bitter' Berlin defeat",
+				"summary": "How six of the UK's most promising tech companies failed or were sold abroad.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "2:31",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "15m",
+					"live-status": "",
+					"section": "Europe",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "has-ads gel-1/2@xs gel-2/3@m gel-4/12@l gel-3/12@xxl v-u-hidden@xs v-u-hidden@s v-u-hidden@l v-u-hidden@xxl",
+			"advert": {
+				"image": "assets/adverts/300x600.png"
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-1/4@l gel-3/16@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/E8A7/production/_91295595_gotcastreuters.jpg",
+				"headline": "Game of Thrones breaks Emmys record",
+				"summary": "Game of Thrones breaks the record for the highest number of Emmy Awards won by any fictional series.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "16m",
+					"live-status": "",
+					"section": "Entertainment & Arts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  at-line-b-until@s gel-1/1@xs gel-1/3@m gel-1/4@l gel-3/16@xxl",
+			"promo": {
+				"classes": "centered-text promo--standard promo--feature__standard--opt1 promo--has-image-16by9 label--breaking icon--small",
+				"feature-background-image": "assets/images/reachstars.png",
+				"headline": "'I swam for my life'",
+				"summary": "How a Syrian refugee survived to swim in the Olympics",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": ""
+			}
+		}
+	],
+	"promo-headlines": [
+
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/curationkit-ichef/384x216/cpsprodpb/AC96/production/_90528144_gettyimages-450376143.jpg",
+				"headline-live-label": "LIVE",
+				"headline": " 7) Business: Factory surge boosts GDP",
+				"url": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Business",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/13516/production/_92562197_mediaitem92562196.jpg",
+				"headline": "8) Storm Angus heads for south-east England",
+				"url": "",
+				"metadata": {
+					"timestamp": "2h",
+					"live-status": "",
+					"section": "UK",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/8120/production/_92565033_murray_epa1.jpg",
+				"headline": "9) Murray beats Raonic in Finals thriller",
+				"url": "",
+				"metadata": {
+					"timestamp": "15m",
+					"live-status": "LIVE",
+					"section": "BBC Sport",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_10a spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/2393/production/_91170190_cambridges.jpg",
+				"headline": "10) (hide for mpu) Prince wants 'simple' goals for family",
+				"url": "",
+				"metadata": {
+					"timestamp": "19m",
+					"live-status": "LIVE",
+					"section": "UK",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_11a at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/365C/production/_92561931_036472452.jpg",
+				"headline": "11) Heathrow protesters block M4 spur road",
+				"url": "#",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "London",
+					"comments": ""
+				}
+			}
+		}
+	],
+	"promo-river-items": [
+
+		{
+			"classes": "story_teleport_10b  spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/2393/production/_91170190_cambridges.jpg",
+				"headline": "10) (hide for mpu) Prince wants 'simple' goals for family",
+
+				"url": "#",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "UK",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "story_teleport_11b at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/365C/production/_92561931_036472452.jpg",
+				"headline": "11) Heathrow protesters block M4 spur road",
+				"url": "#",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "London",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/FEC0/production/_92561256_corbynsatbbc.jpg",
+				"headline": "12) Trump adopts 'fake anti-elitism' - Corbyn",
+				"url": "",
+				"metadata": {
+					"timestamp": "1h",
+					"live-status": "LIVE",
+					"section": "UK Politics",
+					"comments": ""
+				}
+			}
+		}
+		,
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/240/cpsprodpb/41FF/production/_92559861_a93af08e-c201-4f49-bc13-32afa6ead600.jpg",
+				"headline": "13) Beatles' break-up letter fetches £24,200",
+				"url": "",
+				"metadata": {
+					"timestamp": "15m",
+					"live-status": "LIVE",
+					"section": "Entertainment & Arts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "at-line-b-until@s spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large",
+				"image": "https://ichef.bbci.co.uk/live-experience/cps/400/cpsprodpb/13886/production/_92560008_mediaitem92560007.jpg",
+				"headline": "14) Row blows up over 'fart' in parliament",
+				"url": "",
+				"metadata": {
+					"timestamp": "19m",
+					"live-status": "LIVE",
+					"section": "US & Canada",
+					"comments": ""
+				}
+			}
+		}
+	]
+}

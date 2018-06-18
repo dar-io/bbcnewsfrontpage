@@ -1,0 +1,54 @@
+// - Reds
+$news:     #BB1919;
+$newsbeat: #4D2C7A;
+
+$ruby: #990000;
+$postbox: #BB1919;
+$royal: #FC412E;
+$bling: #C9A974;
+$kingfisher: #1380A1;
+$kingfisher-dark: #0e7698; //hover links
+$ebon: #222222;
+$smoke:#eeeeee;
+$smoke-dark:#DEDEDE;
+$oat: #f2efec; // Background colours
+$stone: #d5d0cd; // Keyline
+$stone-dark: #7b756f; // Visited links
+$storm: #404040;
+$rhino: #5A5A5A; // Summary copy
+$newsbeat: #4D2C7A;
+$salmon: #ffcaca;
+$aliceblue: #e4edf7;
+
+// - Greys
+$body-copy:    $storm;
+$summary-copy: $rhino;
+$keyline-color: #dbdbdb;
+
+
+$link:         $ebon;
+$link-hover:   $kingfisher-dark; //$ruby
+$visited-link: $stone-dark;
+// - Yellows
+$sport: #FFDF43;
+
+// - Live colours
+$live-color:$postbox;
+$live-accent-color: $salmon;
+$live-color-sport: #1169f6;
+
+// Contributor Name color
+$contributor-name:$kingfisher;
+
+
+// Avatar background color
+$avatar-bg-color: #E4E4E4;
+
+
+$heading-color: $stone-dark;
+// Backgrounds colours
+
+// Native ad background colour
+.aliceblue{
+  background-color: $aliceblue;
+}

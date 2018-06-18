@@ -1,0 +1,39 @@
+{
+	"flex-classes": "layout--flex@s layout--flex@m  layout--flex@l layout--flex@xxl ",
+	"subheader": " ",
+	"anchor":"twoItems",
+	"promo-items": [
+		{
+			"classes": " gel-1/2@m",
+			"promo": {
+				"classes": "promo--horizontal@xxl promo--has-media label--breaking icon--small",
+				"background-image": "https://ichef.bbci.co.uk/wwfeatures/624_351/images/live/p0/2w/17/p02w17dh.jpg",
+				"headline": "Internet of Things",
+				"summary": "Can we trust the internet of things to protect us?",
+				"url": "http://www.bbc.com/future/sponsored/story/20150702-can-we-trust-the-internet-of-things-to-protect-us",
+				"label-text": "",
+				"media-duration": "",
+				"icon": "",
+				"sponsorship": {
+					"image": "assets/images/dassault_systems.jpg"
+				}
+			}
+		},
+		{
+			"classes": " gel-1/2@m",
+			"promo": {
+				"classes": "promo--horizontal@xxl promo--has-image-16by9 label--breaking",
+				"background-image": "assets/images/inflight_food.jpg",
+				"headline": "The story of inflight food",
+				"summary": "We’ve come a long way since ‘chicken or beef?’",
+				"url": "http://www.bbc.com/travel/sponsored/story/20151112-the-story-of-inflight-food",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"sponsorship": {
+					"image": "assets/images/cathay_pacific.jpg"
+				}
+			}
+		}
+	]
+}

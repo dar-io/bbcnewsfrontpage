@@ -1,0 +1,52 @@
+
+
+.label {
+
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  .label--breaking &{
+    color: $postbox;
+    display: inline-block;
+  }
+
+
+
+
+  // .promo--standard &{
+  //   margin-top: 4px;
+  //   margin-bottom: 4px;
+  // }
+  // .promo--lead &{
+  //   margin-bottom: 4px;
+  // }
+  // .max--wrap &{
+  //   margin-bottom: 4px;
+  // }
+  &:after {
+       font-family: 'custom-symbols' !important;
+       content: '\e904';
+  //   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAGCAYAAADkOT91AAAAAXNSR0IArs4c6QAAABlJREFUCB1jYEAHF5ik/4PEYDS6PEKGeBUA/6cLifZDy04AAAAASUVORK5CYII=');
+      color: #dbdbdb;
+      opacity: 1;
+      font-weight: 400;
+      font-size: 0.8em;
+      top: 1px;
+      position: relative;
+
+  }
+  // -- Label Colour
+  .label--newsbeat & {
+
+  }
+
+
+
+  // -- Label Structural
+  .label--inline &{
+    margin-top: -0.25em;
+  }
+
+
+}

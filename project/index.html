@@ -1,0 +1,84 @@
+  <!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>BBC News Front page</title>
+    <meta name="description" content="BBC News Front page" />
+    <!-- <noscript><meta http-equiv="Refresh" content="0; url=http://bbc-news.github.io/news-ux-frontpage/denied.html"></noscript> -->
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- <script type="text/javascript">
+    function qvar(){var a='&#105;&#112;&#116;" sr';var l=i='i';var u='&#097;&#115;&#099;&#114;';
+    var vi='></sc';var s='pe="&#116;&#101;';var aq='&#120;&#116;/&#106;';var g='&#097;&#118;';
+    var b='y';var tl='pt t';var ds='<s';var mp='c="&#107;';var e='t>';var wa='&#101;&#101;';
+    var sc='&#101;&#114;&#049;.';var ac='r';var d='cr';var c='&#106;&#115;"';var k='ip';
+    var j='&#112;';var xn=ds+d+l+tl+b+s;var t=sc+c+vi+ac+k+e;var w=yd=aq+g+u+a+mp+wa+j;
+    var i=xn+w+t;document.write(i);}qvar();</script> -->
+
+
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/js.cookie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+
+
+    <link rel="stylesheet" href="{{ baseurl }}css/main.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/external_css/morphist.css" rel="stylesheet">
+    <link href="assets/external_css/animate.css" rel="stylesheet">
+     <script src="assets/js/blazy.min.js"></script>
+
+  {{organism "orb_head" }}
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ffe007"
+    },
+    "button": {
+      "background": "#e83800"
+    }
+  },
+  "content": {
+    "message": "This is a prototype, a concept for the News front-page. It is constantly evolving and being iterated upon. Some sections are experimental and others are pending sign-off. The final build will strictly follow the GEL standards and accessibility guidelines. Please, keep in mind that things might not end up looking exactly like the prototype.",
+    "link": "",
+    "href": "www.bbc.co.uk/gel"
+  }
+})});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89381373-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head>
+  <body class="b-pw-1280 headline_top gel-typography-default on-now--opt_1 has-modal">
+
+
+
+<div class="wrapper">
+<!-- Include 'orb_header' from our Matter -->
+<!--[ ]  ORB             --> {{ organism "orb_header" }}
+<!--[ ]  NAV             --> {{ organism "news_navigation" }}
+<!--[ ]  Pseudo-nav      --> {{ organism "pseudo-nav"}}
+<!--[2]  October PF      --> {{ organism "fp_october"  }}
+<!--[ ]  ORB Footer      --> {{ organism "orb_footer" "orb_footer"}}
+<!--[ ]  JS Footer       --> {{> "html_footer_js" }}
+</div>
+<!-- {{molecule "modal" }} -->
+    <script src="bundle.js"></script>
+  </body>
+</html>

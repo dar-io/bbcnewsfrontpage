@@ -1,0 +1,70 @@
+
+
+{
+  "subheader": "Most read",
+  "classes": "",
+	"mostpop-items": [
+		{
+			"rank": "1",
+			"headline": "Social Buzz: Engineer given 'entry test' at US airport",
+			"url": "http://www.bbc.com/news/blogs-trending-39127617"
+		},
+		{
+			"rank": "2",
+			"headline": "House panel agrees Russia investigation",
+			"url": "http://www.bbc.com/news/world-us-canada-39136118"
+		},
+		{
+			"rank": "3",
+			"headline": "Oscar mishap duo 'will never return'",
+			"url": "http://www.bbc.com/news/world-us-canada-39136183"
+		},
+		{
+			"rank": "4",
+			"headline": "Malaysia ends visa-free entry for N Koreans",
+			"url": "http://www.bbc.com/news/world-asia-39137501"
+		},
+		{
+			"rank": "5",
+			"headline": "'The priest refused to marry us'",
+			"url": "http://www.bbc.com/news/magazine-39003902"
+		},
+		{
+      "classes": "",
+			"rank": "6",
+			"headline": "Earliest evidence of life on Earth 'found'",
+			"url": "http://www.bbc.com/news/science-environment-39117523"
+		},
+		{
+      "classes": "",
+			"rank": "7",
+			"headline": "Australia cracks down on fast food visas",
+			"url": "http://www.bbc.com/news/world-australia-39137029"
+		},
+		{
+      "classes": "",
+			"rank": "8",
+			"headline": "Oprah for president? 'Now I'm thinking'",
+			"url": "http://www.bbc.com/news/world-us-canada-39136132"
+		},
+		{
+      "classes": "",
+			"rank": "9",
+			"headline": "Lego to produce female Nasa set",
+			"url": "http://www.bbc.com/news/world-europe-39129674"
+		},
+		{
+      "classes": "",
+			"rank": "10",
+			"headline": "Government defeated on Brexit bill",
+			"url": "http://www.bbc.com/news/uk-politics-39133400"
+		}
+
+	],
+
+    "classes": "",
+    "advert": {
+      "image": "assets/adverts/250x300-2.png"
+    }
+
+}

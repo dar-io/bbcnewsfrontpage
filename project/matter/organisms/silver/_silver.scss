@@ -1,0 +1,37 @@
+///*------------------------------------*\
+//    # SILVER
+//\*------------------------------------*/
+
+
+
+
+.silver--box{width: 100%;}
+
+ .silver__item  {
+
+  @include mq($from: 'gel-bp-m', $until:'gel-bp-l') {
+    width: gel-columns(1/3);
+  }
+  @include mq($from: 'gel-bp-l', $until:'gel-bp-xxl') {
+    width: gel-columns(1/4);
+    &:first-child{
+      width: gel-columns(2/4) !important;
+      .promo__headline{
+         @include gel-typography('paragon-bold');
+      }
+    }
+  }
+
+  @include mq($from: 'gel-bp-xxl') {
+
+    width: gel-columns(1/5);
+    &:first-child{
+      width: gel-columns(3/5) !important;
+      @include promo--lead;
+      .promo--card .promo__media{
+        padding-bottom: 0;
+      }
+    }
+
+  }
+}

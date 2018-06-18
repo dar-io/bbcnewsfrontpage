@@ -1,0 +1,145 @@
+{
+  "section": [
+    {
+      "title": "UK Edition",
+      "url":   "index.html",
+        "sectionItem": [
+          {
+            "title": "UK Front Page November",
+            "url":   "uk_fp_november.html"
+          },
+          {
+            "title": "UK Front Page October",
+            "url":   "uk_fp_october.html"
+          },
+          {
+            "title": "Maxim",
+            "url":   "max.html"
+          },
+          {
+            "title": "Maxim Plus",
+            "url":   "max-plus.html"
+          }
+        ]
+    },
+    {
+      "title": "International",
+      "url":   "international.html",
+        "sectionItem": [
+          {
+            "title": "Canada Prototype v1",
+            "url":   "index_canada_march_2017.html"
+          },
+          {
+            "title": "Canada Prototype inline video",
+            "url":   "index_canada_march_2017_video.html"
+          },
+          {
+            "title": "Canada Prototype v2",
+            "url":   "index_canada_march_2017_v2.html"
+          },
+          {
+            "title": "Canada Prototype inline video v2 ",
+            "url":   "index_canada_march_2017_video_v2.html"
+          },
+          {
+            "title": "Int'l Front page November",
+            "url":   "intl_fp_november.html"
+          },
+          {
+            "title": "Int'l Frontpage October",
+            "url":   "intl_fp_october.html"
+          },
+          {
+            "title": "Int'l Maxim",
+            "url":   "international-max.html"
+          },
+          {
+            "title": "Int'l Maxim Plus",
+            "url":   "international-max-plus.html"
+          }
+        ]
+    },
+    {
+      "title": "Slices",
+      "url":   "",
+        "sectionItem": [
+          {
+            "title": "Maxim",
+            "url":   "slice-maxim.html"
+          },
+          {
+            "title": "Obits",
+            "url":   "slice-obits.html"
+          },
+          {
+            "title": "Top Stories",
+            "url":   "slice-topstories.html"
+          },
+          {
+            "title": "Ten items",
+            "url":   "slice-ten-items.html"
+          },
+          {
+            "title": "Cluster",
+            "url":   "slice-cluster.html"
+          },
+          {
+            "title": "Cluster (with summaries)",
+            "url":   "slice-cluster-with-summaries.html"
+          },
+          {
+            "title": "Seven items",
+            "url":   "slice-seven-items.html"
+          },
+          {
+            "title": "Most Popular",
+            "url":   "slice-most-popular.html"
+          },
+          {
+            "title": "Three items",
+            "url":   "slice-three-items.html"
+          },
+    
+          {
+            "title": "New Native Advert Image ratio",
+            "url":   "slice-native-advert-new.html"
+          },
+          {
+            "title": "Markets",
+            "url":   "slice-markets.html"
+          }
+        ]
+    },
+    {
+      "title": "Design Experiments",
+      "url":   "",
+        "sectionItem": [
+          {
+            "title": "Obits",
+            "url":   "max-blue-slate.html"
+          },
+          {
+            "title": "Obits (int'l)",
+            "url":   "international-max-plus-blue-slate.html"
+          },
+          {
+            "title": "Breaking News",
+            "url":   "breaking.html"
+          },
+          {
+            "title": "Typography Demo",
+            "url":   "typography.html"
+          },
+          {
+            "title": "In Depth",
+            "url":   "slice-indepth.html"
+          },
+          {
+            "title": "New reporters/features promos",
+            "url":   "slice-indepth--new-promos.html"
+          }
+        ]
+    }
+  ]
+}

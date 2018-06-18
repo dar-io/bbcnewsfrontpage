@@ -1,0 +1,126 @@
+{{#promo}}
+<!-- {{#if info-header }}
+<span class="ad-slot-label ad-slot-label--native at-line-t-until@m at-line-t-until@l at-line-t-until@xxl"><a href="#">Advertisement</a></span>
+{{/if}} -->
+<article class="promo {{classes}} {{#if dynamic_promo}}has-live-promo {{else}} no-live-promo{{/if}} {{#if see-also}}has-alsos{{/if}} at-links-faux-block-link clearfix {{#if contributor-name}}has-reporter{{/if}} {{#if headline-live-label}}has-live{{/if}}" {{#if feature-background-image}} style="background-image: url({{feature-background-image}});" {{/if}}>
+
+{{#if maxim }}
+
+
+  <div class="promo__item {{maxim}} promo--feature_brand">
+
+   {{#feature_section}}
+     {{ molecule "metadata"}}
+   {{/feature_section}}
+   {{#headline_icon}}
+        {{ atom "icon" classes="icon--type" set="core" }}</a>
+   {{/headline_icon}}
+
+   <h3 class=" promo__headline at-links-faux-block-link__target">{{#if label-text}}{{ atom "label" label-classes="promo__label"}}{{/if}}{{#if headline-live-label}}{{ atom "live-status" }}<span class="gs-o-live-status__text">{{headline-live-label}}</span>{{/if}}<a class="title-link" href="{{url}}"><span class="title-link__title-text">{{headline}}</span></a>
+   </h3>
+ </div>
+{{/if}}
+
+  {{#slideshow}}
+    <aside class="promo__item promo__media" data-anijs="if: click, do: $removeClass pause-video, to: body; if: click, do: $toggleClass play-video, to: body;">
+      {{ molecule "slideshow"}}
+    </aside>
+  {{/slideshow}}
+
+{{#if image}}
+  <aside class="promo__item promo__media" >
+    {{ atom "image"}}
+    {{ molecule "media-type" set="media"}}
+  </aside>
+{{/if}}
+
+
+{{#if video}}
+<aside id="{{video-id}}" class="promo__item promo__media"><div class="gel-responsive-image gel-responsive-image--16by9">
+
+  <script type="text/javascript" charset="utf-8" src="{{video}}"></script>
+
+</div></aside>
+{{/if}}
+
+{{#if background-image}}
+  <aside class="promo__item promo__media" data-anijs="if: click, do: $removeClass pause-video, to: body; if: click, do: $toggleClass play-video, to: body;">
+    {{ atom "image"}}
+    {{ molecule "media-type" set="media"}}
+  </aside>
+{{/if}}
+
+
+
+{{#if on_now_heading}}
+
+<div class="promo__item promo__body">
+ <div class="promo__content">
+      <div class="heading">   <span class="on-now--icon gel-pica">{{ atom "icon" classes="icon--type" set="media"}}</span>    <span class="on-now--heading gel-pica-bold">{{on_now_heading}}</span> </div>
+
+      <h3 class="promo__headline at-links-faux-block-link__target"><a class="title-link" href="{{url}}"><span class="title-link__title-text">{{on_now_channel}}</span>
+        </a>
+      </h3>
+<p class="promo__summary">{{on_now_summary}}</p>
+
+  </div>
+  {{#metadata}}
+    {{ molecule "metadata" }}
+  {{/metadata}}
+</div>
+{{/if}}
+
+{{#if headline}}
+  <div class="promo__item promo__body">
+    <div class="promo__content">
+      {{#if info-header }}
+        <div class="info-header gel-minion"><span class="advertisement--label">Advertisement by </span><a class="title-link" href="{{url}}">{{info-header}}</a></div>
+      {{/if}}
+
+     <span class="promo--feature_brand">
+      {{#feature_section}}
+        {{ molecule "metadata"}}
+      {{/feature_section}}
+      {{#headline_icon}}
+           {{ atom "icon" classes="icon--type" set="core" }}</a>
+      {{/headline_icon}}
+
+
+      {{ molecule "media-type" set="media"}}
+
+      <h3 class="promo__headline at-links-faux-block-link__target">{{#if label-text}}{{ atom "label" label-classes="promo__label"}}{{/if}}{{#if headline-live-label}}{{ atom "live-status" }}<span class="gs-o-live-status__text">{{headline-live-label}}</span>{{/if}}<a class="title-link" href="{{url}}"><span class="title-link__title-text">{{headline}}</span>
+        </a>
+      </h3>
+      </span>
+
+      {{#if summary}}
+        <p class="promo__summary">{{summary}}</p>
+      {{/if}}
+    </div>
+
+    {{#if contributor-name}}
+      {{ molecule "contributor"}}
+    {{/if}}
+
+    {{#metadata}}
+      {{ molecule "metadata" }}
+    {{/metadata}}
+
+    {{#sponsorship}}
+      {{ molecule "sponsorship" }}
+    {{/sponsorship}}
+  <a class="at-links-faux-block-link__overlay" href="{{url}}" aria-hidden="true" tabindex="-1"></a>
+  </div>
+
+  {{/if}}
+
+  {{ molecule "live_promo" }}
+  {{#dynamic_promo}}
+  {{ molecule "dynamic_promo" }}
+  {{/dynamic_promo}}
+  {{#if see-also}}
+    {{ molecule "see_also" see-also-classes="promo__item"}}
+  {{/if}}
+
+</article>
+ {{/promo}}

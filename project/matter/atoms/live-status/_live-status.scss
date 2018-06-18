@@ -1,0 +1,84 @@
+/*------------------------------------*\
+    # LIVE STATUS
+\*------------------------------------*/
+
+.gs-o-live-status__icon{
+     color: $live-color;
+     svg {
+        fill: $live-color;
+        margin: 1px;
+        vertical-align: middle;
+    }
+}
+.gs-o-live-status {
+    display: inline-block;
+    color: $live-color;
+}
+
+.gs-o-live-status__icon {
+  vertical-align: top;
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  margin-right: 4px;
+}
+
+.gs-o-live-status__text {
+    display: inline-block;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $live-color;
+
+    &:after {
+      font-family: 'custom-symbols' !important;
+      content: '\e904';
+        // background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAGCAYAAADkOT91AAAAAXNSR0IArs4c6QAAABlJREFUCB1jYEAHF5ik/4PEYDS6PEKGeBUA/6cLifZDy04AAAAASUVORK5CYII=');
+
+        opacity: 1;
+        font-weight: 400;
+        font-size: 0.8em;
+        display: inline-block;
+        position: relative;
+        bottom: 0px;
+        left: 0.2em;
+
+        .promo--lead &{
+          height: 25px;
+          width: 4px;
+          margin-right: 6px;
+        }
+
+    }
+}
+
+.lx-c-key-points__timestamp{
+  &:after {
+    font-family: 'custom-symbols' !important;
+       content: none;
+      // background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAGCAYAAADkOT91AAAAAXNSR0IArs4c6QAAABlJREFUCB1jYEAHF5ik/4PEYDS6PEKGeBUA/6cLifZDy04AAAAASUVORK5CYII=');
+      color: #ffcaca;
+      opacity: 1;
+      font-weight: 400;
+      display: inline-block;
+      position: relative;
+      bottom: 0px;
+      left: 0px;
+    }
+}
+@-webkit-keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: .3; }
+    100% { opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: .3; }
+    100% { opacity: 1; }
+}
+
+.gs-o-live-status__icon #pulse {
+  -webkit-animation: pulse 1.7s cubic-bezier(.25, .1, .25, 1) infinite;
+          animation: pulse 1.7s cubic-bezier(.25, .1, .25, 1) infinite;
+}

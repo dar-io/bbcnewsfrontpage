@@ -1,0 +1,37 @@
+{
+  "subheader": "Most watched",
+  "classes": "most-watched",
+	"mostpop-items": [
+		{
+			"rank": "1",
+      "icon": "video",
+			"headline": "'This is what poverty in the US looks like'",
+			"url": "http://www.test.bbc.com/news/av/world-us-canada-39122283"
+		},
+		{
+			"rank": "2",
+      "icon": "video",
+			"headline": "Virtual rockets shoot drones from sky",
+			"url": "http://www.test.bbc.com/news/av/technology-39126035"
+		},
+		{
+			"rank": "3",
+      "icon": "video",
+			"headline": "Police tackle bat-wielding man",
+			"url": "http://www.test.bbc.com/news/av/world-us-canada-39034589"
+		},
+		{
+			"rank": "4",
+      "icon": "video",
+			"headline": "Thank god for my girl",
+			"url": "http://www.test.bbc.com/news/av/entertainment-arts-39099468"
+		},
+		{
+			"rank": "5",
+      "icon": "video",
+			"headline": "Limos and lifts on Saudi king's travel list",
+			"url": "http://www.test.bbc.com/news/av/world-asia-39133243"
+		}
+
+	]
+}

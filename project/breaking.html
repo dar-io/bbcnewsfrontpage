@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>BBC News Front page</title>
+    <meta name="description" content="Top Stories with Max" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  {{> "html_header" }}
+    {{organism "orb_head" }}
+
+
+
+  </head>
+  <body class="b-pw-1280 headline_top gel-typography-default">
+
+    <!-- Include 'orb_header' from our Matter -->
+    {{ organism "orb_header" }}
+        {{ atom "dropdown" }}
+              {{ organism "news_navigation" }}
+<!--[ ]  Pseudo-nav      --> {{ organism "pseudo-nav" classes="has-maxim"}}
+        {{organism "max" "breaking_max" classes="theme--light headline_top" }}
+
+        {{organism "hydrogen" "breaking" }}
+
+        {{organism "iron" "cluster_euro2016" }}
+
+        {{ organism "iodine" "iodine_must_see" classes="iodine--hero-right"}}
+
+      {{organism "most_popular" "most_watched" }}
+        {{organism "hydrogen" "features" classes="theme--light"}}
+        {{organism "most_popular" "most_popular" }}
+
+        {{organism "iron" "iron_five_items" }}
+
+        {{ organism "iodine" "sport_iodine" classes="iodine--hero-left theme--sport"}}
+        {{organism "silver" "silver_card" classes="theme--light"}}
+
+        {{organism "orb_footer" "orb_footer"}}
+
+
+        <!--[ ]  JS Footer       --> {{> "html_footer_js" }}
+            <script src="bundle.js"></script>
+  </body>
+</html>

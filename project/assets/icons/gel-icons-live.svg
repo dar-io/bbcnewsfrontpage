@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol viewBox="0 0 20 20" id="gs-icon-live-text">
+    <title>live-text</title>
+    <g id="gs-icon-live-text-Layer_2">
+      <path d="M10,2c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8S5.6,2,10,2 M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10   c5.5,0,10-4.5,10-10S15.5,0,10,0L10,0z" />
+      <g>
+        <rect x="5" y="9" width="8" height="2" />
+        <rect x="5" y="12" width="10" height="2" />
+        <rect x="5" y="6" width="10" height="2" />
+      </g>
+    </g>
+  </symbol>
+
+  <symbol viewBox="0 0 20 20" id="gs-icon-live-data">
+    <title>live-data</title>
+    <path d="M10 2c4.4 0 8 3.6 8 8s-3.6 8-8 8-8-3.6-8-8 3.6-8 8-8m0-2C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0z"/>
+    <path d="M11.2 4.1V7c1.2.5 2.1 1.6 2.1 3 0 1.8-1.4 3.2-3.2 3.2-.5 0-.9-.1-1.3-.3l-2 2c1 .6 2.1 1 3.3 1 3.3 0 6-2.7 6-6-.1-2.9-2.2-5.3-4.9-5.8M6.8 9.9c0-1.4.9-2.5 2.1-3V4.1C6.1 4.6 4 7 4 9.9c0 1.2.4 2.4 1 3.3l2-2c-.1-.4-.2-.8-.2-1.3"/>
+  </symbol>
+
+  <symbol viewBox="0 0 20 20" id="gs-icon-live-media">
+    <title>live-media</title>
+    <g id="gs-icon-live-media-Layer_2">
+    	<polygon points="7,15 15,10.1 7,5.2"/>
+    	<path d="M10,2c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8S5.6,2,10,2 M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10
+    		c5.5,0,10-4.5,10-10S15.5,0,10,0L10,0z"/>
+    </g>
+  </symbol>
+
+  <symbol viewBox="0 0 32 32" id="gel-icon-live-pulse">
+       <title>live-pulse</title>
+      <path d="M16 4c6.6 0 12 5.4 12 12s-5.4 12-12 12S4 22.6 4 16 9.4 4 16 4zm0-4C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0z"/>
+      <circle id="pulse" cx="16" cy="16" r="8.5"/>
+  </symbol>
+
+</svg>

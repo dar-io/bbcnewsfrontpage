@@ -1,0 +1,62 @@
+// Link Styles
+.media-island {
+position: relative;
+}
+.media-island__image,
+.media-island__proportioner {
+width: 100%;
+max-width: 160px;
+height: auto;
+vertical-align: bottom;
+@if $enhanced {
+max-width: 100%;
+}
+}
+.media-island__proportioner {
+position: static;
+}
+.media-island__image {
+position: absolute;
+top: 0;
+left: 0;
+}
+.media-island__icon {
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.media-island__duration {
+position: absolute;
+bottom: 0;
+left: 24px;
+@if $enhanced {
+@include mq($from: gel-bp-m) {
+left: 32px;
+}
+}
+}
+// Just an idea to help positioning? Problem is when it changes position at different breakpoints
+.media-island__icon--bl {
+bottom: 0;
+left: 0;
+}
+.media-island__icon--br {
+bottom: 0;
+right: 0;
+}
+.media-island__icon--tl {
+top: 0;
+left: 0;
+}
+.media-island__icon--tr {
+top: 0;
+right: 0;
+}
+.media-island__icon--cl {
+top: 50%;
+left: 0;
+}
+.media-island__icon--cr {
+top: 50%;
+right: 0;
+}

@@ -1,0 +1,40 @@
+{{#if subheader}}
+<div class="stripenav {{heading-classes}}">
+
+<ul>
+ <li class="subheader {{#if section-info}}has-section-info{{/if}}" > <h2 class="heading">{{#if url}}<a href="{{url}}">{{subheader}}
+  {{#if icon}}
+       {{ atom "icon" classes="icon--type" set="core" }}</a>
+  {{/if}}
+
+{{else}}
+<span>{{subheader}}
+ {{#if icon}}
+      {{ atom "icon" classes="icon--type" set="core" }}
+ {{/if}}
+ </span>
+{{/if}}
+
+</h2>
+
+
+{{#if see-all}}
+  <ul class="stripenav-action-btn">
+    <li class="see-all-btn" ><span><a href="{{url}}">{{see-all}}</span></li>
+  </ul>
+{{/if}}
+{{#if section-info}}
+    <span class="section-info">{{ atom "live-status" }}<span class="gs-o-live-status__text">LIVE</span> {{section-info}}</span>
+{{/if}}
+
+</li>
+
+ {{#each stripenav-items}}
+<li class="hide12" ><a href="#">{{section}}</a></li>
+ {{/each}}
+
+
+ </ul>
+
+</div>
+{{/if}}

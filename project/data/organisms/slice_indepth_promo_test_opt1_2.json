@@ -1,0 +1,188 @@
+{
+	"subheader": "Full Story",
+
+	"promo-items": [
+		{
+			"classes": "promo-feature_opt1 spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/1@xs gel-1/1@m gel-3/4@l gel-3/4@xxl",
+			"promo": {
+				"classes": "promo--feature centered-text promo--has-media promo--has-image-4by3 label--breaking",
+				"feature-background-image": "assets/images/reachstars.png",
+				"headline": "Reach for the stars",
+				"summary": "Hawking backs interstellar travel project",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": ""
+			}
+		},
+		{
+			"classes": "reporters-std-opt2 oat spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large promo--card ",
+				"image": "",
+				"headline": "The health of Rolls-Royce matters to the nation",
+				"summary": "If Rolls-Royce made chocolate bars, the performance of its various divisions would not be the subject of discussion at Number 10.",
+				"url": "",
+				"label-text": "On the ground",
+				"media-duration": "00:00",
+				"icon": "",
+				"contributor-avatar-src":  "assets/people/kamalahmed.png",
+				"contributor-name": "Kamal Ahmed",
+				"contributor-title": "Business editor",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Our Experts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl",
+			"promo": {
+				"classes": "promo--standard promo--feature__standard--opt1 promo--has-image-16by9 label--breaking icon--small promo--card",
+				"feature-background-image": "http://c.files.bbci.co.uk/C8D1/production/_91190415_care_calculator_superpromo_1024x562_v6.png",
+				"headline": "Cost of care",
+				"summary": "How much is care for the elderly where you live?",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": ""
+			}
+		},
+		{
+			"classes": "reporters-std-opt2 oat spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small promo--card",
+				"image": "",
+				"headline": "Syria's civilians living a 'life worse than death'",
+				"summary": "Every year, Syria's crisis demands more of the world's aid than the last.",
+				"contributor-avatar-src":  "assets/people/lysedoucet.png",
+				"contributor-name": "Lyse Doucet",
+				"contributor-title": "Chief international correspondent",
+				"url": "top-stories-russian02.html",
+				"label-text": "On the ground",
+				"media-duration": "00:00",
+				"icon": "video",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Our Experts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-1/3@m gel-1/4@l gel-1/4@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--large promo--card",
+				"image": "https://ichef.bbci.co.uk/onesport/cps/400/cpsprodpb/2541/production/_90873590_mo_farah_pa2.jpg",
+				"headline": "Just how Great were Britain in Rio?",
+				"summary": "The stats behind Great Britain's Rio 2016 Olympics.",
+				"url": "",
+				"label-text": "",
+				"media-duration": "00:00",
+				"icon": "",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "reporters-std-opt2 oat spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl gel-1/1@xs gel-2/3@m gel-1/4@l gel-1/4@xxl",
+			"promo": {
+				"classes": "promo--standard promo--horizontal@xs promo--has-image-16by9 label--breaking icon--small promo--card",
+				"image": "",
+				"headline": "G20: Questions for May over the UK's global role",
+				"summary": "Questions over UK's global role ahead of May's first summit.",
+				"url": "",
+				"label-text": "On the ground",
+				"media-duration": "00:00",
+				"icon": "",
+				"contributor-avatar-src":  "assets/people/jameslandale.png",
+				"contributor-name": "Dave Lee",
+				"contributor-title": "North America technology reporter",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Our Experts",
+					"comments": ""
+				}
+			}
+		}
+	],
+
+	"river-classes": "river--features spacing--vertical@m spacing--vertical@l",
+	"promo-river-items": [
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/2@m gel-1/4@l gel-1/1@xxl ",
+			"promo": {
+				"classes": "promo--feature__small--opt1 promo--standard promo--has-image-16by9 label--breaking icon--large promo--card",
+				"feature-background-image": "",
+				"headline": "Reach for the stars",
+				"summary": "Hawking backs interstellar travel project",
+				"url": "top-stories04.html",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/2@m gel-1/4@l gel-1/1@xxl",
+			"promo": {
+				"classes": "promo--standard promo--has-image-16by9 label--breaking icon--large promo--card",
+				"image": "",
+				"headline": "Can EU save its border-free zone?",
+				"summary": "Migration and the fight against terrorism are set to dominate the EU",
+				"url": "top-stories-russian04.html",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "reporters-small-opt2 oat spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/2@m gel-1/4@l gel-1/1@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--has-image-16by9 label--breaking icon--large promo--card",
+				"image": "",
+				"label-text": "On the ground",
+				"headline": "Looking the wrong way on EU negotiations?",
+				"url": "http://www.bbc.co.uk/news/world-asia-india-36088749",
+				"contributor-avatar-src":  "",
+				"contributor-name": "Laura Kuenssberg",
+				"contributor-title": "Political editor",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "Our experts",
+					"comments": ""
+				}
+			}
+		},
+		{
+			"classes": "double-spacing--vertical@s spacing--vertical@m spacing--vertical@l spacing--vertical@xxl  gel-1/2@m gel-1/4@l gel-1/1@xxl ",
+			"promo": {
+				"classes": "promo--standard promo--has-image-16by9 label--breaking icon--large promo--card",
+				"image": "",
+				"headline": "How will 27 marathons affect Eddie Izzard?",
+				"summary": "How hard is it to run 27 marathons in 27 days?",
+				"url": "http://www.bbc.co.uk/news/education-36081560",
+				"metadata": {
+					"timestamp": "",
+					"live-status": "",
+					"section": "",
+					"comments": ""
+				}
+			}
+		}
+	]
+}
