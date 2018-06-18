@@ -1,8 +1,0 @@
-.DS_Store
-
-
-distribute/
-node_modules/
-.publish/
-distribute/
-*-matter
